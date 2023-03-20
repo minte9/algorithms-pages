@@ -10,7 +10,8 @@
 - [Flood fill](#flood-fill)  
 - [Ackermann function](#ackermann-function)  
 
-# 
+&nbsp;  
+
 
 ## Call Stacks
 
@@ -38,7 +39,7 @@ The limit of stack size is `1000` function calls in Python.
 
 #-- stack_overflow.py --#
 
-<br/>
+&nbsp;  
 
 
 
