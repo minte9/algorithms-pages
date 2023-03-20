@@ -6,15 +6,12 @@ finishises its execution.
 def a():
     print('a()'); b()
     print('return a')
-
 def b():
     print('b()'); c()
     print('return b')
-
 def c():
     print('c()')
     print('return c')
-
 a()
 
 """
