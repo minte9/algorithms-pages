@@ -11,8 +11,6 @@
 - [Ackermann function](#ackermann-function)  
 
 
-----------------------------------------------------------------------
-
 
 ## Call Stacks
 
@@ -41,7 +39,6 @@ The limit of stack size is `1000` function calls in Python.
 #-- stack_overflow.py --#
 
 
-----------------------------------------------------------------------
 
 
 ## Base case
@@ -57,7 +54,6 @@ Reaching the base case doesn't means the end of program.
 #-- recursive_case.py ---#
 
 
-----------------------------------------------------------------------
 
 
 ## Iterative approach
@@ -75,7 +71,6 @@ The recursive approach will take f(100) million years to complete.
 #-- fibonacci_sequence.py --#
 
 
-----------------------------------------------------------------------
 
 
 ## Exponents
