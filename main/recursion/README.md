@@ -131,7 +131,7 @@ A puzzle involving a tower of stacked disks.
 
 Solve the puzzle yourself, in interactive mode.
 
-#-- tower_of_hanoy2_play.py
+#-- tower_of_hanoy2_play.py --#
 
 <br/>
 
