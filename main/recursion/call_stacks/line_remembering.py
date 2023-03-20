@@ -4,21 +4,21 @@ finishises its execution.
 """
 
 def a():
-    print('a()'); b()
-    print('return a')
+    print('a() Line 07'); b()
+    print('a() Line 08')
 def b():
-    print('b()'); c()
-    print('return b')
+    print(' b() Line 11'); c()
+    print(' b() Line 12')
 def c():
-    print('c()')
-    print('return c')
+    print('  c() Line 13')
+    print('  c() Line 14')
 a()
 
 """
-    a()
-    b()
-    c()
-    return c
-    return b
-    return a
+a() Line 07
+ b() Line 11
+  c() Line 13
+  c() Line 14
+ b() Line 12
+a() Line 08
 """
