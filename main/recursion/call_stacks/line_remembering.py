@@ -1,30 +1,28 @@
-""" Code line remembering
-All programming languages remembers which line of code 
-called the function and returns to it when the function 
+""" 
+Programming languages remembers the line of code that 
+called a function and returns to that line when the function 
 finishises its execution.
 """
 
 def a():
-    print('a() called')
-    b()
-    print('a() is returning')
+    print('a()'); b()
+    print('return a')
 
 def b():
-    print('b() called')
-    c()
-    print('b() is returning')
+    print('b()'); c()
+    print('return b')
 
 def c():
-    print('c() called')
-    print('c() is returning')
+    print('c()')
+    print('return c')
 
 a()
 
 """
-    a() called
-    b() called
-    c() called
-    c() is returning
-    b() is returning
-    a() is returning
+    a()
+    b()
+    c()
+    return c
+    return b
+    return a
 """
