@@ -72,6 +72,7 @@ For calculating factorials the iterative approach is better.
 The recursive approach will take f(100) million years to complete.
 
 #-- fibonacci_sequence.py --#
+
 <br/>
 
 
@@ -87,6 +88,7 @@ Exponents are calculated by multiplying a number by itself.
 Iterative function based on power rule from recursive approach.
 
 #-- recursive_insights.py --#
+
 <br/>
 
 
@@ -104,6 +106,7 @@ We add the head to the sum of tail array.
 To reverse a string we need to place the head behind the tail.
 
 #-- reverse_strings --#
+
 <br/>
 
 
@@ -113,6 +116,7 @@ To reverse a string we need to place the head behind the tail.
 Word or phrase spelled the same forward or backword.
 
 #-- palindrome.py --#
+
 <br/>
 
 
@@ -128,6 +132,7 @@ A puzzle involving a tower of stacked disks.
 Solve the puzzle yourself, in interactive mode.
 
 #-- tower_of_hanoy2_play.py
+
 <br/>
 
 
@@ -137,6 +142,7 @@ Solve the puzzle yourself, in interactive mode.
 Begins on one pixel and spreads until it meets a non-white pixel.
 
 #-- flood_fill.py --#
+
 <br/>
 
 
@@ -146,3 +152,5 @@ Begins on one pixel and spreads until it meets a non-white pixel.
 Known of being an example of highly recursive function.
 
 #-- ackermann_function --#
+
+<br/>
