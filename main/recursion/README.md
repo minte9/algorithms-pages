@@ -8,7 +8,8 @@
 - [Palindrome](#palindrome)
 - [Tower of hanoi](#tower-of-hanoi)  
 - [Flood fill](#flood-fill)  
-- [Ackermann function](#ackermann-function)  <br/>
+- [Ackermann function](#ackermann-function)  
+<br/>
 
 
 ## Call Stacks
