@@ -9,8 +9,8 @@
 - [Tower of hanoi](#tower-of-hanoi)  
 - [Flood fill](#flood-fill)  
 - [Ackermann function](#ackermann-function)  
-
 <br/>
+
 
 
 ## Call Stacks
@@ -38,8 +38,8 @@ The program's call stack is a `stack of frame` objects.
 The limit of stack size is `1000` function calls in Python.
 
 #-- stack_overflow.py --#
-
 <br/>
+
 
 
 ## Base case
@@ -53,7 +53,7 @@ To avoid a crash, there must be a base case.
 Reaching the base case doesn't means the end of program. 
 
 #-- recursive_case.py ---#
-
+<br/>
 
 
 
@@ -70,7 +70,7 @@ For calculating factorials the iterative approach is better.
 The recursive approach will take f(100) million years to complete.
 
 #-- fibonacci_sequence.py --#
-
+<br/>
 
 
 
@@ -85,9 +85,8 @@ Exponents are calculated by multiplying a number by itself.
 Iterative function based on power rule from recursive approach.
 
 #-- recursive_insights.py --#
+<br/>
 
-
-----------------------------------------------------------------------
 
 
 ## Head Tail
@@ -103,9 +102,8 @@ We add the head to the sum of tail array.
 To reverse a string we need to place the head behind the tail.
 
 #-- reverse_strings --#
+<br/>
 
-
-----------------------------------------------------------------------
 
 
 ## Palindrome
@@ -113,9 +111,8 @@ To reverse a string we need to place the head behind the tail.
 Word or phrase spelled the same forward or backword.
 
 #-- palindrome.py --#
+<br/>
 
-
-----------------------------------------------------------------------
 
 
 ## Tower of Hanoi
@@ -129,9 +126,8 @@ A puzzle involving a tower of stacked disks.
 Solve the puzzle yourself, in interactive mode.
 
 #-- tower_of_hanoy2_play.py
+<br/>
 
-
-----------------------------------------------------------------------
 
 
 ## Flood Fill
@@ -139,9 +135,7 @@ Solve the puzzle yourself, in interactive mode.
 Begins on one pixel and spreads until it meets a non-white pixel.
 
 #-- flood_fill.py --#
-
-
-----------------------------------------------------------------------
+<br/>
 
 
 
