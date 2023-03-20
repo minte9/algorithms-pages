@@ -31,13 +31,13 @@ https://github.com/minte9/algorithms-pages/blob/9b4a81c77a96ec597c9fc27aaa5f3622
   pp09
 The program's call stack is a `stack of frame` objects.
 
-#-- frame_objects.py --#
+https://github.com/minte9/algorithms-pages/blob/aa1930181f6afffe978c80af763cdfcf4eaa2fb1/main/recursion/call_stacks/frame_objects.py#L1-L42
 
 ### Stack overflow
   pp13
 The limit of stack size is `1000` function calls in Python.
 
-#-- stack_overflow.py --#
+https://github.com/minte9/algorithms-pages/blob/aa1930181f6afffe978c80af763cdfcf4eaa2fb1/main/recursion/call_stacks/stack_overflow.py#L1-L15
 
 <br/>
 
