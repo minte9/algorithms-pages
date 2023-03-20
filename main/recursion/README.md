@@ -17,25 +17,25 @@
 
 ### Line remember
  
-The programs `remembers` which line of code called the function. p05
+The programs `remembers` which line of code called the function. `p05`
 
 https://github.com/minte9/algorithms-pages/blob/0f5d19c77855501fc0d4219c4a49d550115f5db2/main/recursion/call_stacks/line_remembering.py#L1-L24
 
 ### LIFO
 
-To really `understand` recursion, you must first understand stacks. p06
+To really `understand` recursion, you must first understand stacks. `p06`
 
 https://github.com/minte9/algorithms-pages/blob/9b4a81c77a96ec597c9fc27aaa5f3622c5c9873f/main/recursion/call_stacks/lifo_lists.py#L1-L27
 
 ### Frame objects
 
-The program's call stack is a `stack of frame` objects. p09
+The program's call stack is a `stack of frame` objects. `p09`
 
 https://github.com/minte9/algorithms-pages/blob/aa1930181f6afffe978c80af763cdfcf4eaa2fb1/main/recursion/call_stacks/frame_objects.py#L1-L42
 
 ### Stack overflow
  
-The limit of stack size is `1000` function calls in Python. p13
+The limit of stack size is `1000` function calls in Python. `p13`
 
 https://github.com/minte9/algorithms-pages/blob/aa1930181f6afffe978c80af763cdfcf4eaa2fb1/main/recursion/call_stacks/stack_overflow.py#L1-L15
 
