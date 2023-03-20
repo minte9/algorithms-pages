@@ -17,15 +17,15 @@
 
 ### Line remember
   pp05
-The programs remembers which `line of code` called the function.
+The programs `remembers` which line of code called the function.
 
-#-- line_remembering.py --#
+https://github.com/minte9/algorithms-pages/blob/9b4a81c77a96ec597c9fc27aaa5f3622c5c9873f/main/recursion/call_stacks/line_remembering.py#L1-L30
 
 ### LIFO
   pp06
 To really `understand` recursion, you must first understand stacks.
 
-#-- lifo_lists.py --#
+https://github.com/minte9/algorithms-pages/blob/9b4a81c77a96ec597c9fc27aaa5f3622c5c9873f/main/recursion/call_stacks/lifo_lists.py#L1-L27
 
 ### Frame objects
   pp09
