@@ -16,9 +16,9 @@ a()
 
 """
 a() Line 07
- b() Line 11
-  c() Line 13
-  c() Line 14
- b() Line 12
+b() Line 11
+c() Line 13
+c() Line 14
+b() Line 12
 a() Line 08
 """
