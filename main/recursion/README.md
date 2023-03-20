@@ -10,7 +10,7 @@
 - [Flood fill](#flood-fill)  
 - [Ackermann function](#ackermann-function)  
 
-<br/>
+<pre>
 
 ## Call Stacks
 
