@@ -17,14 +17,12 @@ the recursion so confusing for beginners.
 
 def a():
    x = '10'
-   print('Frame A: x =', x)
-   b()
+   print('Frame A: x =', x); b()
    print('Frame A: x =', x)
 
 def b():
    x = '20'
-   print('Frame B: x =', x)
-   c()
+   print('Frame B: x =', x); c()
    print('Frame B: x =', x)
 
 def c():
