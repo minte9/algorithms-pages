@@ -9,7 +9,9 @@ cards = []
 cards.append('5');  print(' '.join(cards))
 cards.append('3');  print(' '.join(cards))
 cards.append('7');  print(' '.join(cards))
-cards.pop();        print(' '.join(cards))  # Look Here
+
+cards.pop() # Last in, First out
+print(' '.join(cards))
 
 """
     5
