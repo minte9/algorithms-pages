@@ -24,7 +24,7 @@ https://github.com/minte9/algorithms-pages/blob/5b306af38b361bf535fcf646fd50b4f4
 
 To really *understand* recursion, you must first understand stacks. <sub>p06</sub> 
 
-https://github.com/minte9/algorithms-pages/blob/cc080422a99a1fea3ee1ac94cb879cc98659039a/main/recursion/call_stacks/lifo_lists.py#L8-L21
+https://github.com/minte9/algorithms-pages/blob/b7a5faba9496d61140817317cf73f9b5da16171b/main/recursion/call_stacks/lifo_lists.py#L5-L16
 
 ### Frame objects
 
