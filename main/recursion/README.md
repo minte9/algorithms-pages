@@ -14,7 +14,7 @@
 
 #### Call Stacks
   [p05](./call_stacks/line_remembering.py) 
-The programs remember `which line` of code called the function.  
+Programming languages remember `which line` called the function.  
   [p06](./call_stacks/lifo_lists.py) 
 To really understand recursion, you must first `understand stacks`  
   [p09](./call_stacks/frame_objects.py) 
