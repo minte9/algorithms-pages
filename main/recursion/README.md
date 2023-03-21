@@ -42,7 +42,7 @@ https://github.com/minte9/algorithms-pages/blob/aa1930181f6afffe978c80af763cdfcf
 
 
 
-## Base case
+## Base case 
   pp13
 To avoid a crash, there must be a base case.
 
