@@ -75,8 +75,6 @@ Known of being an example of `highly recursive` function.
 
 ##
 
-<br/>
-
 ### References
 
 [![The recursive book of recursion](https://www.minte9.com/lib/images/references/book_recursion.png)](https://www.amazon.com/gp/product/B09BKL34VL)
