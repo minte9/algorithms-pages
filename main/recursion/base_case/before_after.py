@@ -1,6 +1,8 @@
 """ The code in a recursive call can be split in two partes, 
 before the recursive call and after recursive call.
-Reaching the base case doesn't necessary ends the program.
+
+Reaching the base case doesn't necessary means the end 
+of the recursive algorithm.
 """
 
 def a(n):
