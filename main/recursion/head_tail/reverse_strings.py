@@ -26,7 +26,6 @@ def irev(s):
         rs += s[m - i]
     return rs
 
-
 # Tests
 assert rrev('S') == 'S'
 assert rrev('XY') == 'YX'
