@@ -1,13 +1,9 @@
 """ Factorial 4! = 4x3x2x1
-Many computer science courses use factorial calculation 
-as a classic example of a recursive function.
 Factorials are use for example in finding permutations number.
-    
-Iterrative approch, multiplies intergers 1 to n in a loop
+Iterrative approch, multiplies intergers 1 to n in a loop,
+5 frame objects
 Recursive approach, uses neighbours 5! = 5 * 4!
-
-The recursive implementation requires 5 frame objects
-The iterrative implementation, only 1.
+only 1 frame object, better!
 """
 
 def ifactorial(n):
