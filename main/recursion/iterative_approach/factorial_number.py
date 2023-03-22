@@ -1,11 +1,11 @@
 """ Factorial 4! = 4x3x2x1
 Factorials are use for example in finding permutations number.
 
-Recursive approach, uses neighbours 5! = 5 * 4!
+Recursive, uses neighbours 5! = 5 * 4!
 5 frame objects
 
-Iterrative approch, multiplies intergers 1 to n in a loop,
-only 1 frame object, better!
+Iterrative, multiplies intergers 1 to n in a loop, 
+1 frame object, better!
 
 """
 
