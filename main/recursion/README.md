@@ -43,6 +43,7 @@ Exponents are calculated by `multiplying` a number by itself.
   [p36](./exponents/recursive_insights.py) 
 Iterative function based on `power rule` from recursive approach.  
 
+#
 
 #### Head Tail
   [p46](./head_tail/sum_numbers.py) 
