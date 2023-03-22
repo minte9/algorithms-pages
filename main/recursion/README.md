@@ -70,7 +70,7 @@ Begins on one pixel and `spreads` until it meets a non-white pixel.
 
 
 #### Ackermann Function
-  [p64](./ackermann_function/ackermann_function.py) 
+  [p64](./09_ackermann_function/ackermann_function.py) 
 Known of being an example of `highly recursive` function.  
 
 
