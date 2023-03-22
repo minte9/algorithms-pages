@@ -8,7 +8,6 @@
 - [Palindrome](#palindrome)
 - [Tower of hanoi](#tower-of-hanoi)  
 - [Flood fill](#flood-fill)  
-- [Ackermann function](#ackermann-function)  
 
 #
 
@@ -68,10 +67,6 @@ Solve the puzzle yourself, in `interactive` mode.
   [p60](./08_flood_fill/flood_fill.py) 
 Begins on one pixel and `spreads` until it meets a non-white pixel.  
 
-
-#### Ackermann Function
-  [p64](./09_ackermann_function/ackermann_function.py) 
-Known of being an example of `highly recursive` function.  
 
 
 ##
