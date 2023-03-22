@@ -8,12 +8,14 @@ Recursive approach, uses neighbours 5! = 5 * 4!
 only 1 frame object, better!
 """
 
+# Iterative
 def ifactorial(n):
     p = 1
     for i in range(1, n+1):
         p = p * i
     return p
 
+# Recursive
 def rfactorial(n): 
     if n == 1:
         return 1
