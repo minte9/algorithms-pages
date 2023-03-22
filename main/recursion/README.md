@@ -46,7 +46,7 @@ Iterative function based on `power rule` from recursive approach.
 
 #### Head Tail
   [p46](./head_tail/sum_numbers.py) 
-We `add the head` to the sum of tail array.  
+To sum numbers we `add the head` to the sum of tail array.  
   [p49](./head_tail/reverse_string.py) 
 To reverse a string we need to place the `head behind` the tail.  
 
