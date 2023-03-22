@@ -48,7 +48,7 @@ Iterative function based on `power rule` from recursive approach.
   [p46](./head_tail/sum_numbers.py) 
 To sum numbers we `add the head` to the sum of tail array.  
   [p49](./head_tail/reverse_string.py) 
-To reverse a string we need to place the `head behind` the tail.  
+To reverse a string we `place the head behind` the tail.  
 
 
 #### Palindrome
