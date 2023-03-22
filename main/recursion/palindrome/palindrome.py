@@ -1,9 +1,10 @@
-""" Palindrome
+""" Palindrome strings
+
 A palindrome is a word or phrase that is spelled the same 
 when written forward or backword (level, race car)
 Will split the string into head, middle, tail.
 
-Base case: zero- or one-character string
+Base case: zero or one-character string
 Argument passed: middle of the string
 Approach to the base: argument shrinks by two chars
 """
