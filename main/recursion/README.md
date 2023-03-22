@@ -43,7 +43,7 @@ Exponents are calculated by `multiplying` a number by itself.
   [p36](./exponents/recursive_insights.py) 
 Iterative function based on `power rule` from recursive approach.  
 
-#
+##
 
 #### Head Tail
   [p46](./head_tail/sum_numbers.py) 
@@ -67,11 +67,6 @@ Solve the puzzle yourself, in `interactive` mode.
 #### Flood Fill
   [p60](./flood_fill/flood_fill.py) 
 Begins on one pixel and `spreads` until it meets a non-white pixel.  
-
-
-#### Ackermann Function
-  [p64](./ackermann_function/ackermann_function.py) 
-Known of being an example of `highly recursive` function.  
 
 
 ##
