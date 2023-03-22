@@ -10,13 +10,13 @@ The recursive implementation requires 5 frame objects
 The iterrative implementation, only 1.
 """
 
-def ifactorial(n): # Iterrative
+def ifactorial(n):
     p = 1
     for i in range(1, n+1):
         p = p * i
     return p
 
-def rfactorial(n): # Recursive 
+def rfactorial(n): 
     if n == 1:
         return 1
     return n * rfactorial(n-1)
