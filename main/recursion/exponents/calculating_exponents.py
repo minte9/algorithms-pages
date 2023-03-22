@@ -1,6 +1,10 @@
-""" Calculating exponents
-Iterative, create a loop that repeatedly multiplies a number by itself
-Recursive, uses the power rule: a^(n) x a^(1) = a^(n+1)
+""" Calculating exponents x^n
+
+Iterative, a loop that repeatedly multiplies a number by itself
+    res = res * x
+
+Recursive, use the power rule: 
+    a^n = a^(n-1) * a^1 
 
 Recursive v2, each call cuts the problem in half: 
     a^6 = a^3 * a^3
@@ -18,8 +22,8 @@ def ipow(x, n):
 def rpow(x, n):
     if n == 0: 
         return 1 # base case
-    n = n - 1
-    return x * rpow(x, n) # recursive case
+    res = rpow(x, n-1) * x # recursive case
+    return res
 
 # Recursive (v2)
 def rpow2(x, n):
@@ -44,18 +48,22 @@ assert rpow2(3, 3) == 27
 # Limits
 import time
 
-start = time.time()
-a = ipow(3, 600)
-print("Iterative: \t", time.time() - start, 'sec') # 5.221366882324219e-05 sec
+# Iterative
+start = time.time(); a = ipow(3, 600)
+print("Iterative: \t", time.time() - start, 'sec') 
+    # 5.221366882324219e-05 sec
 
-start = time.time()
-b = pow(3, 600)
-print("Native: \t", time.time() - start, 'sec') # 3.337860107421875e-06 sec
+# Native
+start = time.time(); b = pow(3, 600)
+print("Native: \t", time.time() - start, 'sec') 
+    # 0.0000003 sec
 
-start = time.time()
-c = rpow(3, 600)
-print("Recursive: \t", time.time() - start, 'sec') # 0.0004024505615234375 sec
+# Recursive
+start = time.time(); c = rpow(3, 600)
+print("Recursive: \t", time.time() - start, 'sec') 
+    # 0.0004 sec
 
-start = time.time()
-d = rpow2(3, 600) # recursive v2
-print("Recursive_v2: \t", time.time() - start, 'sec') # 0.0003349781036376953 sec
+# Recursive (v2)
+start = time.time(); d = rpow2(3, 600)
+print("Recursive_v2: \t", time.time() - start, 'sec') 
+    # 0.0003 sec
