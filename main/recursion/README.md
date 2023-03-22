@@ -5,7 +5,7 @@
 - [Iterative approach](#iterative-approach) 
 - [Exponents](#exponents)
 - [Head tail](#head-tail) 
-- [Palindrome](#palindrome)
+- [Middle](#middle)
 - [Tower of hanoi](#tower-of-hanoi)  
 - [Flood fill](#flood-fill)  
 
