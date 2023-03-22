@@ -52,7 +52,7 @@ To sum numbers we `add the head` to the sum of tail array.
 To reverse a string we `place the head behind` the tail.  
 
 
-#### Head Middle Tail
+#### Middle
   [p52](./palindrome/palindrome.py) 
 A palindrome is a word or phrase `spelled the same` forward or backword.
 
