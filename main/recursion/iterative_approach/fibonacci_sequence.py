@@ -16,7 +16,10 @@ For fibonacci(5) the fibonacci(2) is called four times!
 def ifibonacci(n):
     a, b = 1, 1
     for i in range(1, n-1):
-        a, b = b, a + b # get the next fibonacci number
+        nextb = a + b
+        a = b
+        b = nextb
+        # a, b = b, a + b # oneline
     return b
 
 # Recursive
@@ -36,9 +39,9 @@ assert rfibonacci(7) == 13
 # Limits
 import time
 start = time.time(); n = rfibonacci(36); end = time.time()
-print(n, end-start, 'seconds') # 14930352
-    # 4.45 seconds
+print(n, end-start, 'seconds') 
+    # 14930352 / 2.6 seconds
     
 start = time.time(); n = ifibonacci(100); end = time.time()
-print(n, end-start, 'seconds') # 354224848179261915075
-    # 1.3 seconds
+print(n, end-start, 'seconds') 
+    # 354224848179261915075 / 0.000009 seconds
