@@ -1,7 +1,5 @@
-""" Base cases
-To avoid a crash, there must be a base case, where function
+""" To avoid a crash, there must be a base case, where function
 stop calling itself and just returns.
-
 All recursive function require at least on base case and 
 at least one recursive case.
 """
