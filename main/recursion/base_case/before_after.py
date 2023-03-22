@@ -1,6 +1,6 @@
-""" Recursive case
-The code in a recursive call can be split in two partes:
-the code before and the code after.
+""" The code in a recursive call can be split in two partes, 
+before the recursive call and after recursive call.
+Reaching the base case doesn't necessary ends the program.
 """
 
 def a(n):
@@ -12,15 +12,13 @@ def a(n):
     a(n-1)
     print(n, 'returning'); return
 
-a(3)
+a(2)
 
 """
-    3
     2
     1
     0
     Base case
     1 returning
     2 returning
-    3 returning
 """
