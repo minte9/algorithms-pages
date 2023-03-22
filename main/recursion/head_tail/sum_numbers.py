@@ -1,14 +1,15 @@
 """ Sum numbers in array - Head tail technique
 
-Recursive: 
+Recursive/
 We add the head to the sum of tail array.
 The trail in array is one element smaller than original.
 We'll end up calling the recursive funtion on an emtpt array.
 
-The return value of sum() is a single number value,
-that is why we can add head number and sum(tail) in recursive case.
+Important/
+We are able to head number and sum(tail) in recursive case,
+because the return value of sum() is a single number value.
 
-Iterative: 
+Iterative/
 The recursive function isn't necessary, because it never does 
 any backtracking over the data.
 """
@@ -26,7 +27,8 @@ def rsum(numbers):
         return 0
     head = numbers[0]
     tail = numbers[1:]
-    return head + rsum(tail)
+    res  = head + rsum(tail)
+    return res
 
 
 # Tests
