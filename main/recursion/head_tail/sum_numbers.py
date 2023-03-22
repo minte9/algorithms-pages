@@ -14,13 +14,6 @@ The recursive function isn't necessary, because it never does
 any backtracking over the data.
 """
 
-# Iterative
-def isum(numbers):
-    res = 0
-    for n in numbers:
-        res += n
-    return res
-
 # Recursive
 def rsum(numbers):
     if len(numbers) == 0: # base case
@@ -30,7 +23,13 @@ def rsum(numbers):
     res  = head + rsum(tail)
     return res
 
-
+# Iterative
+def isum(numbers):
+    res = 0
+    for n in numbers:
+        res += n
+    return res
+    
 # Tests
 assert rsum([1, 2, 3])  == 6
 assert rsum([1, 2, 0])  == 3

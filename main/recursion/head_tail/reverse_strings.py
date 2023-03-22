@@ -1,9 +1,10 @@
-""" Reverse strings
-Head tail technique
+""" Reverse strings - Head tail technique
 
+Clasic/
 Another classic reverse algorithm, even though the 
 iterative solution is better.
 
+Recursion/
 Base case: zero or one-character string
 Argument passed: tail of the original string, with one less char
 Argument closer to the base: array shrinks by one element
