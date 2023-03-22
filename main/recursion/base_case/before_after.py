@@ -5,13 +5,16 @@ of the recursive algorithm.
 """
 
 def a(n):
-    print(n)
-
+    print(n, '- Before')
+    
     if n == 0:
-        print('Base case'); return
+        print('Base case')
+        return
 
-    a(n-1)
-    print(n, 'returning'); return
+    a(n-1) # recursive call
+
+    print(n, '- After')
+    return
 
 a(2)
 
