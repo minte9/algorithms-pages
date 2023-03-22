@@ -1,5 +1,16 @@
 ## Algorithms - Recursion
 
+- [Call stacks](#call-stacks) 
+- [Base case](#base-case) 
+- [Iterative approach](#iterative-approach) 
+- [Exponents](#exponents)
+- [Head tail](#head-tail) 
+- [Palindrome](#palindrome)
+- [Tower of hanoi](#tower-of-hanoi)  
+- [Flood fill](#flood-fill)  
+- [Ackermann function](#ackermann-function)  
+
+#
 
 #### Call Stacks
   [p05](./01_call_stacks/line_remembering.py) 
@@ -56,6 +67,11 @@ Solve the puzzle yourself, in `interactive` mode.
 #### Flood Fill
   [p60](./08_flood_fill/flood_fill.py) 
 Begins on one pixel and `spreads` until it meets a non-white pixel.  
+
+
+#### Ackermann Function
+  [p64](./ackermann_function/ackermann_function.py) 
+Known of being an example of `highly recursive` function.  
 
 
 ##
