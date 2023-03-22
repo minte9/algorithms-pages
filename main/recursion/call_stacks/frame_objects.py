@@ -1,18 +1,9 @@
-""" Frame objects
-The program's call stacks, is a stack of frame objects.
-Frame objects contain information about a single function call.
-
+""" Frame objects contain information about a single function call.
 Frames are created and pushed onto the stack when function is called.
 When the function returns, that frame is popped off the stack.
 
 Variables are always separate variables,
 even if they have the same name as local variables in functions.
-
-Every running program has a call stack, 
-and multithreaded programs have one call stack for each thread.
-
-The fact that the call stack doesn't exist in the code makes 
-the recursion so confusing for beginners.
 """
 
 def a():
