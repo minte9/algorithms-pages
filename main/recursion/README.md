@@ -52,9 +52,9 @@ To sum numbers we `add the head` to the sum of tail array.
 To reverse a string we `place the head behind` the tail.  
 
 
-#### Palindrome
+#### Head Middle Tail
   [p52](./palindrome/palindrome.py) 
-Word or phrase `spelled the same` forward or backword.
+A palindrome is a word or phrase `spelled the same` forward or backword.
 
 
 #### Tower of Hanoi
