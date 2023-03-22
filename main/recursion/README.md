@@ -1,16 +1,5 @@
 ## Algorithms Recursion
 
-- [Call stacks](#call-stacks) 
-- [Base case](#base-case) 
-- [Iterative approach](#iterative-approach) 
-- [Exponents](#exponents)
-- [Head tail](#head-tail) 
-- [Palindrome](#palindrome)
-- [Tower of hanoi](#tower-of-hanoi)  
-- [Flood fill](#flood-fill)  
-- [Ackermann function](#ackermann-function)  
-
-#
 
 #### Call Stacks
   [p05](./call_stacks/line_remembering.py) 
