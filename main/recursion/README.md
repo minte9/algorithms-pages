@@ -7,7 +7,8 @@
 - [Head tail](#head-tail) 
 - [Middle](#middle)
 - [Tower of hanoi](#tower-of-hanoi)  
-- [Flood fill](#flood-fill)  
+- [Flood fill](#flood-fill) 
+- [Tree traversal](#tree-traversal)  
 
 #
 
