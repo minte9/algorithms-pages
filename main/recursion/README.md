@@ -27,28 +27,28 @@ Reaching the base case `doesn't means` the end of program.          [p15](./02_b
 For calculating `factorials` the iterative approach is better.      [p22](./03_iterative_approach/factorial_number.py)  
 The recursive approach will take `fibonacci(100)` million years.    [p25](./03_iterative_approach/fibonacci_sequence.py)  
 
-#### Exponents
+### Exponents
 Exponents are calculated by `multiplying` a number by itself.       [p34](./04_exponents/calculating_exponents.py)  
 Iterative function based on `power rule` from recursive approach.   [p36](./04_exponents/recursive_insights.py)   
 
-#### Head Tail
+### Head Tail
 To sum numbers we `add the head` to the sum of tail array.          [p46](./05_head_tail/sum_numbers.py)   
 To reverse a string we `place the head behind` the tail.            [p49](./05_head_tail/reverse_strings.py)   
 
-#### Middle
+### Middle
 A palindrome is a word `spelled the same` forward or backward.      [p52](./06_palindrome/palindrome.py)  
 
-#### Tower of Hanoi
+### Tower of Hanoi
 A puzzle involving a tower of `stacked disks`                       [p54](./07_tower_of_hanoi/tower_of_hanoi.py)   
 Solve the puzzle yourself, in `interactive` mode.                   [p54](./07_tower_of_hanoi/tower_of_hanoi2_play.py)   
 
-#### Flood Fill
+### Flood Fill
 Begins on one pixel and `spreads` until it meets a non-white.       [p60](./08_flood_fill/flood_fill.py)  
 
-#### Tree Traversal
+### Tree Traversal
 We can write code to `access any node` by starting from root node.  [p73](./09_tree_traversal/tree_traversal.py)  
 
-#### Maze Solve
+### Maze Solve
 A perfect maze has exactly `one path` from start to exit.           [p83](./10_maze_solve/maze_solve.py)  
 
 
