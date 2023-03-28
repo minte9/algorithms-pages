@@ -58,6 +58,6 @@ A perfect maze has exactly `one path` from start to exit.           [p83](./10_m
 ### References
 
 [The Recursive Book of Recursion (source code)](https://github.com/asweigart/the-recursive-book-of-recursion)  
-[Invent with Python, Recursion (online book)](https://inventwithpython.com/recursion/)
+[Invent with Python, Recursion (online book)](https://inventwithpython.com/recursion/)  
 
 [![The recursive book of recursion](https://www.minte9.com/lib/images/references/book_recursion.png)](https://www.amazon.com/gp/product/B09BKL34VL)
