@@ -73,7 +73,13 @@ Begins on one pixel and `spreads` until it meets a non-white pixel.
   [p73](./09_tree_traversal/tree_traversal.py) 
 We can write code to `access any node` by starting from root node.
 
+#### Maze Solve
+  [p73](./10_maze_solve/maza_solve.py) 
+A perfect maze has exactly `one path` from start to exit.
+
+
 ##
+
 
 ### References
 
