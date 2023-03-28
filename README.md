@@ -7,7 +7,7 @@ Learn and Remember - [minte9.com/algorithms](https://www.minte9.com/java/algorit
 
 ## Recursion
 
-- [Call stacks](./main/recursion/#call-stacks) 
+- [Call stacks](/minte9/algorithms-pages/tree/main/main/recursion/#call-stacks) 
 - [Base case](./main/recursion/#base-case) 
 - [Iterative approach](main/recursion/#iterative-approach) 
 - [Exponents](main/recursion/#exponents)
