@@ -11,7 +11,7 @@ Learn and Remember - [minte9.com/algorithms](https://www.minte9.com/java/algorit
 - [Base case](recursion/#base-case) 
 - [Iterative approach](recursion/#iterative-approach) 
 - [Exponents](main/recursion/#exponents)
-- [Head tail]main/recursion/(#head-tail) 
+- [Head tail](recursion/#head-tail) 
 - [Middle](main/recursion/#middle)
 - [Tower of hanoi](main/recursion/#tower-of-hanoi)  
 - [Flood fill](main/recursion/#flood-fill) 
