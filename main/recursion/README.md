@@ -52,28 +52,28 @@ To sum numbers we `add the head` to the sum of tail array.
 To reverse a string we `place the head behind` the tail.  
 
 
-### Middle
+#### Middle
   [p52](./06_palindrome/palindrome.py) 
 A palindrome is a word or phrase `spelled the same` forward or backword.
 
 
-### Tower of Hanoi
+#### Tower of Hanoi
   [p54](./07_tower_of_hanoi/tower_of_hanoi.py) 
 A puzzle involving a tower of `stacked disks`  
   [p54](./07_tower_of_hanoi/tower_of_hanoi2_play.py) 
 Solve the puzzle yourself, in `interactive` mode.
 
 
-### Flood Fill
+#### Flood Fill
   [p60](./08_flood_fill/flood_fill.py) 
 Begins on one pixel and `spreads` until it meets a non-white pixel.  
 
 
-### Tree Traversal
+#### Tree Traversal
   [p73](./09_tree_traversal/tree_traversal.py) 
 We can write code to `access any node` by starting from root node.
 
-### Maze Solve
+#### Maze Solve
   [p83](./10_maze_solve/maze_solve.py) 
 A perfect maze has exactly `one path` from start to exit.
 
