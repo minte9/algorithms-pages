@@ -44,7 +44,6 @@ Exponents are calculated by `multiplying` a number by itself.
   [p36](./04_exponents/recursive_insights.py) 
 Iterative function based on `power rule` from recursive approach.  
 
-##
 
 #### Head Tail
   [p46](./05_head_tail/sum_numbers.py) 
@@ -69,7 +68,6 @@ Solve the puzzle yourself, in `interactive` mode.
   [p60](./08_flood_fill/flood_fill.py) 
 Begins on one pixel and `spreads` until it meets a non-white pixel.  
 
-##
 
 #### Tree Traversal
   [p73](./09_tree_traversal/tree_traversal.py) 
