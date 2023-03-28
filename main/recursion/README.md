@@ -78,6 +78,6 @@ We can write code to `access any node` by starting from root node.
 ### References
 
 [The Recursive Book of Recursion (source code)](https://github.com/asweigart/the-recursive-book-of-recursion)  
-[Invent with python - Recursion](https://inventwithpython.com/recursion/)
+[Invent with python, Recursion (online book)](https://inventwithpython.com/recursion/)
 
 [![The recursive book of recursion](https://www.minte9.com/lib/images/references/book_recursion.png)](https://www.amazon.com/gp/product/B09BKL34VL)
