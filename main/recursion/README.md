@@ -68,6 +68,7 @@ Solve the puzzle yourself, in `interactive` mode.
   [p60](./08_flood_fill/flood_fill.py) 
 Begins on one pixel and `spreads` until it meets a non-white pixel.  
 
+##
 
 #### Tree Traversal
   [p73](./09_tree_traversal/tree_traversal.py) 
