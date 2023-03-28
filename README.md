@@ -7,11 +7,11 @@ Learn and Remember - [minte9.com/algorithms](https://www.minte9.com/java/algorit
 
 ## Recursion
 
-- [Call stacks](recursion/#call-stacks) 
-- [Base case](recursion/#base-case) 
-- [Iterative approach](recursion/#iterative-approach) 
+- [Call stacks](main/recursion/#call-stacks) 
+- [Base case](main/recursion/#base-case) 
+- [Iterative approach](rmain/ecursion/#iterative-approach) 
 - [Exponents](main/recursion/#exponents)
-- [Head tail](recursion/#head-tail) 
+- [Head tail](main/recursion/#head-tail) 
 - [Middle](main/recursion/#middle)
 - [Tower of hanoi](main/recursion/#tower-of-hanoi)  
 - [Flood fill](main/recursion/#flood-fill) 
