@@ -14,12 +14,10 @@
 #
 
 #### Call Stacks
-Programming languages remember `which line` called the function. [p05](./01_call_stacks/line_remembering.py) 
-To really understand recursion, you must first `understand stacks` [p06](./01_call_stacks/lifo_lists.py) 
-  [p09](./01_call_stacks/frame_objects.py) 
-The program's call stack is a stack of `frame objects`  
-  [p13](./01_call_stacks/stack_overflow.py) 
-The limit of stack size is `1000 function calls` in Python.  
+Programming languages remember `which line` called the function.    [p05](./01_call_stacks/line_remembering.py)  
+To really understand recursion, you must first `understand stacks`  [p06](./01_call_stacks/lifo_lists.py)  
+The program's call stack is a stack of `frame objects`              [p09](./01_call_stacks/frame_objects.py) 
+The limit of stack size is `1000 function calls` in Python.         [p13](./01_call_stacks/stack_overflow.py) 
 
 
 #### Base case 
