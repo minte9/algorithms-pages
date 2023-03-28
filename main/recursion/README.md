@@ -9,6 +9,7 @@
 - [Tower of hanoi](#tower-of-hanoi)  
 - [Flood fill](#flood-fill) 
 - [Tree traversal](#tree-traversal)  
+- [Mqze solve](#maze-solve)  
 
 #
 
