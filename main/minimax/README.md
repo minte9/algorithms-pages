@@ -1,15 +1,22 @@
 # Minimax algorithm
 
-This algorithm tries to maximize my score, while taking into accout that 
-you will do your best to minimize my score.
-
 ## Dummy implementation
 
-We will implement the minimax algorithm over a tree.
-The tree will have nodes that branch out, and it will have 
-leafs with fixed values.
+Maximize my score, while taking into accout that you will try to minimize my score.
 
 #-- 01_minimax_dummy.py --#
+
+Refactoring dummy implementation.
+
+#-- 01_minimax_dummy2.py --#
+
+Binary tree with arbitrary number of children.
+
+#-- 01_minimax_dummy3.py --#
+
+Comments and statements to view each step.
+
+#-- 01_minimax_dummy4.py --#
 
 
 

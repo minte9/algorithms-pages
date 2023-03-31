@@ -1,6 +1,9 @@
 """ Minimax algorithm - Dummy 1
 Binary tree, with only two choices, left and right.
 
+The tree will have nodes that branch out, and it will have 
+leafs with fixed values. 
+
 We go down the tree in order to find the best moves.
 The algoritm defined to accept a Boolean flag (which one is playing).
 
