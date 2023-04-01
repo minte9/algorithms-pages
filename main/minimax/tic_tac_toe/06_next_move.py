@@ -1,4 +1,5 @@
-""" Evaluate board intermediate state
+""" Tic Tac Toe
+Evaluate board intermediate state
 """
 
 import copy
@@ -72,9 +73,8 @@ def play(board, player=True, debug=True):
 
     if debug:
         print("Legal moves:", legal_moves) # [(0, 1), (1, 2), (2, 1)]
-        print("Legal moves scores:", scores) # [1, 0, 0]
-        print("Maxmin, key:", minmax, key) # 1 0
-        print("Move:", move) # (0, 1)
+        print("Moves scores:", scores) # [1, 0, 0]
+        print("Move:", move, "Score:", minmax) # (0, 1)
 
     print("\n", "X" if player else "O", 'move')
     i, j = move

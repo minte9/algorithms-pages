@@ -1,5 +1,5 @@
 """ Tic Tac Toe
-Check for terminal state
+Calculate board score (1 for X win / -1 for O win)
 """
 
 def score(board):

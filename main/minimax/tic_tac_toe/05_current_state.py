@@ -1,4 +1,5 @@
-""" Evaluate board intermediate state
+"""  Tic Tac Toe
+Evaluate board intermediate state
 """
 
 def get_legal_moves(board):
@@ -53,11 +54,14 @@ board = [
     ["O", " ", "O"],
 ]
 
-# Get legal moves
+
+print("Get legal moves:")
 legal_moves = get_legal_moves(board)
 print("Legal moves:", legal_moves) # [(0, 1), (1, 2), (2, 1)]
+print()
 
-# Evaluate score (X move)
+
+print("Evaluate scores:")
 players_scores = []
 for player in [True, False]:
 
@@ -69,9 +73,12 @@ for player in [True, False]:
         board[i][j] = ' ' # reset
 
     players_scores.append(scores)
-print("Players' scores", players_scores) # [[1, 0, 0], [0, 0, -1]]
 
-# Check terminal state
+print("Players' scores", players_scores) # [[1, 0, 0], [0, 0, -1]]
+print()
+
+
+print("Check if terminal state:")
 terminal_states = []
 for player in [True, False]:
 
@@ -83,4 +90,6 @@ for player in [True, False]:
         board[i][j] = ' ' # reset
 
     terminal_states.append(states)
+
 print("Terminal states:", terminal_states) # [[True, False, False], [False, False, True]]
+print()
