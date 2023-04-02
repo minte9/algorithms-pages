@@ -111,7 +111,6 @@ board = np.array([
 print("X to move")
 show(board)
 play(board, True)
-print("Iterations:", iterations)
 
 print("-----------------------------")
 board = np.array([
