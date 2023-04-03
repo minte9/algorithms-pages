@@ -1,5 +1,5 @@
 """ Minimax algorithm - Dummy 4
-Binary tree with arbitrary number of children.
+Tree with arbitrary number of children.
 With comments and statements.
 """
 

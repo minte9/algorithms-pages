@@ -18,14 +18,19 @@ def minimax(node, player, alpha=float("-inf"), beta=float("+inf")):
         sub_val = minimax(k, not player, alpha, beta)
 
         if (player):
-            v = max(sub_val, v) 
+            if sub_val > v: 
+                v = sub_val
             alpha = max(alpha, v)
         else:
-            v = min(sub_val, v) 
+            if sub_val < v:
+                v = sub_val
             beta = min(beta, v)
 
-        if (player and v >= beta ): break # prunning
-        if (not player and v <= alpha): break
+        # if (player and v >= beta ):       break # prunning
+        # if (not player and v <= alpha):   break
+
+        if alpha >= beta: # pruning condition
+            break
 
     return v
 
@@ -45,13 +50,11 @@ tree = [
 
 print('Max to play')
 move = minimax(tree, True) # [-2, 10] is ignored
-print('Max best move =', move)
-print()
+print('Max best move =', move, '\n')
 
 print('Min to play')
 move = minimax(tree, False)
-print('Min best move =', move)
-print()
+print('Min best move =', move, '\n')
 
 """
 

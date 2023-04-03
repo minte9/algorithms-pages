@@ -44,7 +44,7 @@ def show(board, move=None):
         print(" ---+---+---") if i < 2 else ""
 
 
-def minimax(board, player=True):
+def minimax(board, player=True, alpha=float('-inf'), beta=float('inf'), i=0):
     
     best_move = None 
     best_score = float("-inf") if player else float("+inf") # initialize score
@@ -58,17 +58,25 @@ def minimax(board, player=True):
             return move, evaluate_score(new_board)  
 
         # children scores
-        move_, score_ = minimax(new_board, not player) # Recursive case
+        move_, score_ = minimax(new_board, not player, alpha, beta, i+1) # Recursive case
 
         if player == True:
             if score_ > best_score:
-                best_score = score_
-                best_move = move
-
+                best_score = score_ # child best score
+                best_move = move # parent move
+            alpha = max(alpha, score_)
+            
         if player == False:
             if score_ < best_score:
                 best_score = score_
                 best_move = move
+            beta = min(beta, score_)
+
+        if alpha >= beta: # pruning condition
+            break
+
+        if 1 == 0: # debug 
+            print(" " * i, 'X' if player else 'O', 'move', best_move, best_score)
 
     return best_move, best_score
 
@@ -143,6 +151,12 @@ games = [
             [" ", " ", " "],
             [" ", " ", " "],
             ["O", " ", "X"],]), True, 1
+    ),
+    (
+        np.array([
+            [" ", " ", " "],
+            [" ", " ", " "],
+            [" ", " ", " "],]), False, 0
     ),
 ]
 

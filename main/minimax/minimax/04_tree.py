@@ -7,12 +7,17 @@ def minimax(node, player):
     if isinstance(node, int): # Base case
         return node
     
-    val, func = (float("-inf"), max) if player else (float("+inf"), min)
+    value = float("-inf") if player else float("+inf")
 
     for k in node:
-        val = func(minimax(k, not player), val) # Recursive case
+        sub_val = minimax(k, not player) # Recursive case
 
-    return val
+        if player:
+            value = max(sub_val, value) 
+        else:
+            value = min(sub_val, value) 
+
+    return value
 
 tree = [
     [
