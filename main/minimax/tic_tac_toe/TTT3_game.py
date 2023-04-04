@@ -2,7 +2,6 @@
 Color last move, dictionary refactoring
 """
 
-import sys, time
 import numpy as np
 
 def get_legal_moves(board):
@@ -33,20 +32,17 @@ def is_terminal_state(board):
     return False
 
 def show(board, move=None):
+    CYAN, GRAY, ENDC = '\033[96m', '\033[90m', '\033[0m'
     board_ = np.copy(board).tolist() 
     if move: 
         i, j = move
-        CYAN, ENDC = '\033[96m', '\033[0m'
         board_[i][j] = CYAN + board[move] + ENDC # colored move
-
-    GRAY, ENDC = '\033[90m', '\033[0m'
     k = 0
     for i in range(3):
         for j in range(3):
             k = k + 1
             if board_[i][j] == " ": 
-                board_[i][j] = GRAY + str(k) + ENDC
-
+                board_[i][j] = GRAY + str(k) + ENDC # colored number
     for i in range(3):
         print(" ", board_[i][0], "|", board_[i][1], "|", board_[i][2])
         print(" ---+---+---") if i < 2 else ""
@@ -89,9 +85,8 @@ def minimax(board, player=True, alpha=float('-inf'), beta=float('inf')):
 def human_move(board):
     while True:
         n = input("\nEnter your move: ")
-        if not n.isdigit():
+        if not n.isdigit(): 
             continue
-
         y = (int(n) - 1) // 3
         x = (int(n) - 1)  % 3
         if (y, x) in get_legal_moves(board): 
@@ -117,7 +112,6 @@ def game(board, player=True, expected=None):
         if score ==  0: print('\nDraw!\n')
         return
 
-    # time.sleep(2)
     game(board, not player) # Recursive case
 
 
