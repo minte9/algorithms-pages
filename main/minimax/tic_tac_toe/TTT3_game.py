@@ -38,7 +38,15 @@ def show(board, move=None):
         i, j = move
         CYAN, ENDC = '\033[96m', '\033[0m'
         board_[i][j] = CYAN + board[move] + ENDC # colored move
-        
+
+    GRAY, ENDC = '\033[90m', '\033[0m'
+    k = 0
+    for i in range(3):
+        for j in range(3):
+            k = k + 1
+            if board_[i][j] == " ": 
+                board_[i][j] = GRAY + str(k) + ENDC
+
     for i in range(3):
         print(" ", board_[i][0], "|", board_[i][1], "|", board_[i][2])
         print(" ---+---+---") if i < 2 else ""
@@ -81,19 +89,22 @@ def minimax(board, player=True, alpha=float('-inf'), beta=float('inf')):
 def human_move(board):
     while True:
         n = input("\nEnter your move (1-9): ")
+        if not n.isdigit():
+            continue
+        
         y = (int(n) - 1) // 3
         x = (int(n) - 1)  % 3
         if (y, x) in get_legal_moves(board): 
             return y, x
 
+
 def game(board, player=True, expected=None):
 
-    if not player: 
-        print("\nComputer move:")
-
-    if player:
+    if player == True:
         move = human_move(board)
-    else:
+
+    if player == False:
+        print("\nComputer move:")
         move, score = minimax(board, player)
 
     board[move] = 'X' if player else 'O'
@@ -106,7 +117,7 @@ def game(board, player=True, expected=None):
         if score ==  0: print('\nDraw!\n')
         return
 
-    time.sleep(1)
+    # time.sleep(2)
     game(board, not player) # Recursive case
 
 
@@ -118,18 +129,5 @@ board = np.array([
 ])
 
 print("\nTic Tac Toe\n")
-
-# Show move numbers
-GRAY, ENDC = '\033[90m', '\033[0m'
-j = 1
-for i in range(3):
-    print(" ", 
-        GRAY + str(i+j)   + ENDC, "|", 
-        GRAY + str(i+j+1) + ENDC, "|", 
-        GRAY + str(i+j+2) + ENDC
-    )
-    print(" ---+---+---") if i < 2 else ""
-    j = j + 2
-
-# Play
+show(board)
 game(board, True)
