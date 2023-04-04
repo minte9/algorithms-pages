@@ -54,16 +54,16 @@ def minimax(board, player=True, alpha=float('-inf'), beta=float('inf'), i=0):
         new_board = np.copy(board)
         new_board[move] = 'X' if player else 'O'
         
-        if is_terminal_state(new_board):  # Base case
-            return move, evaluate_score(new_board)  
+        if is_terminal_state(new_board): 
+            return move, evaluate_score(new_board) # Base case
 
-        # children scores
-        move_, score_ = minimax(new_board, not player, alpha, beta, i+1) # Recursive case
+        # Recursive case
+        move_, score_ = minimax(new_board, not player, alpha, beta, i+1)
 
         if player == True:
             if score_ > best_score:
                 best_score = score_ # child best score
-                best_move = move # parent move
+                best_move = move    # parent move
             alpha = max(alpha, score_)
             
         if player == False:
@@ -71,7 +71,7 @@ def minimax(board, player=True, alpha=float('-inf'), beta=float('inf'), i=0):
                 best_score = score_
                 best_move = move
             beta = min(beta, score_)
-
+        
         if alpha >= beta: # pruning condition
             break
 

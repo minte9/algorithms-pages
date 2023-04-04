@@ -4,6 +4,9 @@ Some parts are irellevant and don't need to be traverse.
 
 When maximising, check if value is too high when compared to beta.
 When minimising, check if value is too low when compared to alpha.
+
+When alpha is greater or equal than beta, it means that the current player 
+has found a better move in different branch.
 """
 
 def minimax(node, player, alpha=float("-inf"), beta=float("+inf")):
@@ -26,11 +29,10 @@ def minimax(node, player, alpha=float("-inf"), beta=float("+inf")):
                 v = sub_val
             beta = min(beta, v)
 
-        # if (player and v >= beta ):       break # prunning
-        # if (not player and v <= alpha):   break
+        # if (player and v >= beta) or (not player and v <= alpha): break
 
         if alpha >= beta: # pruning condition
-            break
+            break 
 
     return v
 

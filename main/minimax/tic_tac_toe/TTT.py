@@ -70,6 +70,9 @@ def minimax(board, player=True):
                 best_score = score_
                 best_move = move
 
+        if 1 == 0: # debug 
+            print(" " * i, 'X' if player else 'O', 'move', best_move, best_score)
+
     return best_move, best_score
 
 
