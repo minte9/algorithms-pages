@@ -1,5 +1,4 @@
-""" Minimax algorithm
-Color last move, dictionary refactoring
+""" Tic Tag Toe Game
 """
 
 import numpy as np
