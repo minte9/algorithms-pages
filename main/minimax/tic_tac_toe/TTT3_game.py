@@ -77,13 +77,6 @@ def minimax(board, player=True, alpha=float('-inf'), beta=float('inf')):
 
     return best_move, best_score
 
-# Define the get_human_move function
-def get_human_move(board):
-    while True:
-        move = input("Enter your move (1-9): ")
-        if move.isdigit() and int(move) in legal_moves(board):
-            return int(move)
-
 
 def human_move(board):
     while True:
