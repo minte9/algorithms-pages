@@ -57,7 +57,6 @@ def minimax(board, player=True, alpha=float('-inf'), beta=float('inf')):
     best_score = float("-inf") if player else float("+inf") # initialize score
 
     for move in get_legal_moves(board): # possible moves
-        
         new_board = np.copy(board)
         new_board[move] = 'X' if player else 'O'
         
