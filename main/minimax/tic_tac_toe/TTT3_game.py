@@ -88,10 +88,10 @@ def minimax(board, player=True, alpha=float('-inf'), beta=float('inf')):
 
 def human_move(board):
     while True:
-        n = input("\nEnter your move (1-9): ")
+        n = input("\nEnter your move: ")
         if not n.isdigit():
             continue
-        
+
         y = (int(n) - 1) // 3
         x = (int(n) - 1)  % 3
         if (y, x) in get_legal_moves(board): 
