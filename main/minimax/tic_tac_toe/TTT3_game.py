@@ -37,12 +37,15 @@ def show(board, move=None):
     if move: 
         i, j = move
         board_[i][j] = CYAN + board[move] + ENDC # colored move
-    k = 0
-    for i in range(3):
-        for j in range(3):
-            k = k + 1
-            if board_[i][j] == " ": 
-                board_[i][j] = GRAY + str(k) + ENDC # colored number
+
+    if 1 == 0: # color numbers
+        k = 0
+        for i in range(3):
+            for j in range(3):
+                k = k + 1
+                if board_[i][j] == " ": 
+                    board_[i][j] = GRAY + str(k) + ENDC # colored number
+                
     for i in range(3):
         print(" ", board_[i][0], "|", board_[i][1], "|", board_[i][2])
         print(" ---+---+---") if i < 2 else ""
@@ -84,7 +87,7 @@ def minimax(board, player=True, alpha=float('-inf'), beta=float('inf')):
 
 def human_move(board):
     while True:
-        n = input("\nEnter your move: ")
+        n = input("\nEnter your move (1-9): ")
         if not n.isdigit(): 
             continue
         y = (int(n) - 1) // 3
