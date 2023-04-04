@@ -34,11 +34,11 @@ def show(board, move=None):
     board_ = np.copy(board).tolist() 
     if move: 
         i, j = move
-        CYAN, ENDC = '\033[96m', '\033[0m'
-        board_[i][j] = CYAN + board[move] + ENDC # colored move
+        CYAN, ENDC = '\033[96m', '\033[0m' # colored move
+        board_[i][j] = CYAN + board[move] + ENDC 
 
-    if 1 == 0: # color numbers
-        GRAY, ENDC = '\033[90m', '\033[0m'
+    if 1 == 0: 
+        GRAY, ENDC = '\033[90m', '\033[0m' # color numbers
         k = 0
         for i in range(3):
             for j in range(3):
