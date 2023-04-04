@@ -97,15 +97,14 @@ def game(board, player=True, expected=None):
 
     if player == True:
         move = human_move(board)
-
-    if player == False:
+    else:
         print("\nComputer move:")
         move, score = minimax(board, player)
 
     board[move] = 'X' if player else 'O'
     show(board, move)
 
-    if is_terminal_state(board):
+    if is_terminal_state(board): # Base case
         score = evaluate_score(board)
         if score ==  1: print('\nX won!\n')
         if score == -1: print('\nO won!\n')
