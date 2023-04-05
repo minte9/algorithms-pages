@@ -81,7 +81,7 @@ def minimax(board, player=True, alpha=float('-inf'), beta=float('inf')):
                 best_move = move
             beta = min(beta, score_)
         
-        if beta <= alpha: # pruning condition
+        if beta <= alpha: # prunning condition
             break
 
     return best_move, best_score
