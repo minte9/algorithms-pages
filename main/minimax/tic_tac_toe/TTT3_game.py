@@ -38,8 +38,8 @@ def show(board, move=None):
         CYAN, ENDC = '\033[96m', '\033[0m' # colored move
         board_[i][j] = CYAN + board[move] + ENDC 
 
-    if 1 == 1: # activate colored numbers
-        GRAY, ENDC = '\033[90m', '\033[0m'
+    GRAY, ENDC = '\033[90m', '\033[0m' # coloed numbers
+    if 1 == 0: # activate colored numbers
         k = 0
         for i in range(3):
             for j in range(3):
@@ -60,7 +60,6 @@ def minimax(board, player=True, alpha=float('-inf'), beta=float('inf')):
     best_score = float("-inf") if player else float("+inf") # initialize score
 
     for move in get_legal_moves(board): # possible moves
-
         new_board = np.copy(board)
         new_board[move] = 'X' if player else 'O'
         
