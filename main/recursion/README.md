@@ -31,6 +31,8 @@ The recursive approach will take `fibonacci(100)` million years.    [p25](./03_i
 Exponents are calculated by `multiplying` a number by itself.       [p34](./04_exponents/calculating_exponents.py)  
 Iterative function based on `power rule` from recursive approach.   [p36](./04_exponents/recursive_insights.py)   
 
+##
+
 ### Head Tail
 To sum numbers we `add the head` to the sum of tail array.          [p46](./05_head_tail/sum_numbers.py)   
 To reverse a string we `place the head behind` the tail.            [p49](./05_head_tail/reverse_strings.py)   
@@ -50,6 +52,16 @@ We can write code to `access any node` by starting from root node.  [p73](./09_t
 
 ### Maze Solve
 A perfect maze has exactly `one path` from start to exit.           [p83](./10_maze_solve/maze_solve.py)  
+
+##
+
+### Binary search
+
+We repeatedly determing which half of the list the item is in.      [p93](./11_divide_conquer/binary_search.py)
+
+### Quicksort
+
+Quicksort uses a divide-concuer technique called partitioning.      [p96](./11_divide_conquer/quicksort.py)
 
 
 ##
