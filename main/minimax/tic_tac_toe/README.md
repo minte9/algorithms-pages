@@ -3,7 +3,7 @@
 ## Activate venv
 
 ~~~sh
-source _env/bin activate
+source _env/bin/activate
 ~~~
 
 ## Run
