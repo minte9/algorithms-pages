@@ -6,7 +6,7 @@
 pip install -r requirements.txt
 ~~~
 
-### Play game
+### Play
 
 ~~~sh
 python TTT3_game.py
