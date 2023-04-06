@@ -173,7 +173,7 @@ def game(board, player=True, total_score=0, X_score=0):
 
 
 
-print("\nTic Tac Toe (computer first response is random, Q to exit)\n")
+print("\nTic Tac Toe (random first computer move, Q to exit)\n")
 board = start_board()
 show(board)
 game(board, True)
