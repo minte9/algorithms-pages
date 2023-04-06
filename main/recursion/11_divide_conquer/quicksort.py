@@ -15,10 +15,7 @@ Process: the range half in size for each recursive call
 Base case: a range to sort that is empty or has one item
 """
 
-DEBUG = False
-CYAN, ENDC = '\033[96m', '\033[0m'
-
-def quicksort(items, left=0, right=None):
+def quicksort_print(items, left=0, right=None):
 
     if right == None: 
         right = len(items) - 1
@@ -30,51 +27,35 @@ def quicksort(items, left=0, right=None):
     i = left
     pivot = items[right]
 
-    if DEBUG == True:
-        print(CYAN)
-        print(items[left:right+1], "PARTITION", ENDC)
-        print("Pivot =", pivot)
+    CYAN, ENDC = '\033[96m', '\033[0m'
+    print(CYAN)
+    print(items[left:right+1], "PARTITION", ENDC)
+    print("Pivot =", pivot)
 
     for j in range(left, right+1):
         
         if items[j] < pivot:
 
-            if DEBUG == True:
-                print(f"Swap i={i} j={j} ", items[j], "with", items[i], end="  ")
-
+            print(f"Swap i={i} j={j} ", items[j], "with", items[i], end="  ")
             items[i], items[j] = items[j], items[i] # Swap values
             i = i + 1
-
-            if DEBUG == True:
-                print(items, "i =", i)
+            print(items, "i =", i)
 
         if items[j] == pivot:
             items[i], items[right] = items[right], items[i] # Move pivot
-
-            if DEBUG == True:
-                print("Move the pivot to the left on i=", i)
-                print(items)
-            
+            print("Move the pivot to the left on i=", i)
+            print(items)
     # END PARTITIONING
 
-    quicksort(items, left, i-1)     # Recursive case
-    quicksort(items, i + 1, right)  # Recursive case
+    quicksort_print(items, left, i-1)     # Recursive case
+    quicksort_print(items, i + 1, right)  # Recursive case
 
 
-DEBUG = True
-data = [0, 7, 6, 3, 1, 2, 5, 4]; print(data)
-quicksort(data)
+data = [0, 7, 6, 3, 1, 2, 5, 4]
+quicksort_print(data)
 print("Done!\n")
-
-import random
-DEBUG = False
-data = random.sample(range(1, 100), 30); print(data)
-quicksort(data); print(data)
-print("Done!\n")
-
 
 """
-[0, 7, 6, 3, 1, 2, 5, 4]
 
 [0, 7, 6, 3, 1, 2, 5, 4] PARTITION 
 Pivot = 4
@@ -103,8 +84,39 @@ Pivot = 6
 Swap i=5 j=6  5 with 7  [0, 1, 2, 3, 4, 5, 7, 6] i = 6
 Move the pivot to the left on i= 6
 [0, 1, 2, 3, 4, 5, 6, 7]
-[0, 1, 2, 3, 4, 5, 6, 7]
 Done!
+
+"""
+
+
+
+def quicksort(items, left=0, right=None):
+
+    if right == None: 
+        right = len(items) - 1
+    if left >= right: # Base case
+        return
+    
+    i = left
+    pivot = items[right]
+    for j in range(left, right+1):
+        if items[j] < pivot:
+            items[i], items[j] = items[j], items[i] # Swap values
+            i = i + 1
+        if items[j] == pivot:
+            items[i], items[right] = items[right], items[i] # Move pivot
+
+    quicksort(items, left, i-1)     # Recursive case
+    quicksort(items, i + 1, right)  # Recursive case
+
+
+import random
+data = random.sample(range(1, 100), 30); print(data)
+quicksort(data); print(data)
+print("Done!\n")
+
+
+"""
 
 [13, 99, 59, 75, 6, 40, 82, 79, 76, 81, 27, 80, 91, 69, 97, 89, 47, 61, 95, 32, 23, 54, 83, 36, 88, 58, 1, 29, 96, 44]
 [1, 6, 13, 23, 27, 29, 32, 36, 40, 44, 47, 54, 58, 59, 61, 69, 75, 76, 79, 80, 81, 82, 83, 88, 89, 91, 95, 96, 97, 99]
