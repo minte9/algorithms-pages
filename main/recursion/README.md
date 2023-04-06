@@ -10,6 +10,8 @@
 - [Flood fill](#flood-fill) 
 - [Tree traversal](#tree-traversal)  
 - [Maze solve](#maze-solve)  
+- [Binary search](#binary-search)
+- [Quicksort](#quicksort)
 
 #
 
