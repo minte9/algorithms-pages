@@ -48,7 +48,7 @@ A palindrome is a word `spelled the same` forward or backward.      [p52](./06_p
 A puzzle involving a tower of `stacked disks`                       [p54](./07_tower_of_hanoi/tower_of_hanoi.py)   
 Solve the puzzle yourself, in `interactive` mode.                   [p54](./07_tower_of_hanoi/tower_of_hanoi2_play.py)   
 
-## Flood Fill
+### Flood Fill
 Begins on one pixel and `spreads` until it meets a non-white.       [p60](./08_flood_fill/flood_fill.py)  
 
 
