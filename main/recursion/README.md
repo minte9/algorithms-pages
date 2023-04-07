@@ -42,6 +42,8 @@ To reverse a string we `place the head behind` the tail.            [p49](./05_h
 ### Middle
 A palindrome is a word `spelled the same` forward or backward.      [p52](./06_palindrome/palindrome.py)  
 
+##
+
 ### Tower of Hanoi
 A puzzle involving a tower of `stacked disks`                       [p54](./07_tower_of_hanoi/tower_of_hanoi.py)   
 Solve the puzzle yourself, in `interactive` mode.                   [p54](./07_tower_of_hanoi/tower_of_hanoi2_play.py)   
