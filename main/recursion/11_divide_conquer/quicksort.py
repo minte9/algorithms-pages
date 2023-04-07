@@ -46,7 +46,6 @@ Done!
 
 """
 
-
 def quicksort_explained(items, left=0, right=None):
 
     if right == None: 
