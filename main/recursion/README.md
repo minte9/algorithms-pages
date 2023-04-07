@@ -46,6 +46,8 @@ Iterative function based on `power rule` from recursive approach.   [p36](./04_e
 ### Head Tail
 To sum numbers we `add the head` to the sum of tail array.          [p46](./05_head_tail/sum_numbers.py)   
 To reverse a string we `place the head behind` the tail.            [p49](./05_head_tail/reverse_strings.py)   
+
+### Middle
 A palindrome is a word `spelled the same` forward or backward.      [p52](./06_palindrome/palindrome.py)  
 
 ### Tower of Hanoi
