@@ -57,10 +57,12 @@ Begins on one pixel and `spreads` until it meets a non-white.       [p60](./08_f
 
 #
 
-## Trees 
+## Backtracking and Tree Traversal 
 
 ### Tree Traversal
 We can write code to `access any node` by starting from root node.  [p73](./09_tree_traversal/tree_traversal.py)  
+
+### Maze solve
 A perfect maze has exactly `one path` from start to exit.           [p83](./10_maze_solve/maze_solve.py)  
 
 #
