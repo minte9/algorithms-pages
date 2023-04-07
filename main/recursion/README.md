@@ -15,7 +15,9 @@
 
 #
 
-## Call Stacks
+## Recursion
+
+### Call Stacks
 Programming languages remember `which line` called the function.    [p05](./01_call_stacks/line_remembering.py)   
 To really understand recursion, you must first `understand stacks`  [p06](./01_call_stacks/lifo_lists.py)  
 The program's call stack is a stack of `frame objects`              [p09](./01_call_stacks/frame_objects.py)  
@@ -27,6 +29,8 @@ Reaching the base case `doesn't means` the end of program.          [p15](./02_b
 
 #
 
+## Recursion vs Iteration
+
 ## Iterative approach
 For calculating `factorials` the iterative approach is better.      [p22](./03_iterative_approach/factorial_number.py)  
 The recursive approach will take `fibonacci(100)` million years.    [p25](./03_iterative_approach/fibonacci_sequence.py)  
@@ -37,7 +41,9 @@ Iterative function based on `power rule` from recursive approach.   [p36](./04_e
 
 #
 
-## Head Tail
+## Classic algorithms
+
+### Head Tail
 To sum numbers we `add the head` to the sum of tail array.          [p46](./05_head_tail/sum_numbers.py)   
 To reverse a string we `place the head behind` the tail.            [p49](./05_head_tail/reverse_strings.py)   
 A palindrome is a word `spelled the same` forward or backward.      [p52](./06_palindrome/palindrome.py)  
@@ -51,7 +57,9 @@ Begins on one pixel and `spreads` until it meets a non-white.       [p60](./08_f
 
 #
 
-## Tree Traversal
+## Trees 
+
+### Tree Traversal
 We can write code to `access any node` by starting from root node.  [p73](./09_tree_traversal/tree_traversal.py)  
 A perfect maze has exactly `one path` from start to exit.           [p83](./10_maze_solve/maze_solve.py)  
 
@@ -59,7 +67,11 @@ A perfect maze has exactly `one path` from start to exit.           [p83](./10_m
 
 ## Divide and conquer
 
-Binary search we determe `which half` of the list the item is in.   [p93](./11_divide_conquer/binary_search.py)  
+### Binary search
+We repeatedly determining `which half` of the list the item is in.   [p93](./11_divide_conquer/binary_search.py)  
+
+### Quicsort
+
 Quicksort uses a divide-concuer technique called `partitioning`     [p96](./11_divide_conquer/quicksort.py)
 
 
