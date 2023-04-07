@@ -31,7 +31,7 @@ Reaching the base case `doesn't means` the end of program.          [p15](./02_b
 
 ## Recursion vs Iteration
 
-## Iterative approach
+### Iterative approach
 For calculating `factorials` the iterative approach is better.      [p22](./03_iterative_approach/factorial_number.py)  
 The recursive approach will take `fibonacci(100)` million years.    [p25](./03_iterative_approach/fibonacci_sequence.py)  
 
