@@ -47,7 +47,7 @@ Done!
 """
 
 
-def quicksort_print(items, left=0, right=None):
+def quicksort_explained(items, left=0, right=None):
 
     if right == None: 
         right = len(items) - 1
@@ -79,12 +79,12 @@ def quicksort_print(items, left=0, right=None):
             print(items)
     # END PARTITIONING
 
-    quicksort_print(items, left, i-1)     # Recursive case
-    quicksort_print(items, i + 1, right)  # Recursive case
+    quicksort_explained(items, left, i-1)     # Recursive case
+    quicksort_explained(items, i + 1, right)  # Recursive case
 
 
 data = [0, 7, 6, 3, 1, 2, 5, 4]
-quicksort_print(data)
+quicksort_explained(data)
 print("Done!")
 
 """
