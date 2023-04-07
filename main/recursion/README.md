@@ -40,8 +40,6 @@ Iterative function based on `power rule` from recursive approach.   [p36](./04_e
 ## Head Tail
 To sum numbers we `add the head` to the sum of tail array.          [p46](./05_head_tail/sum_numbers.py)   
 To reverse a string we `place the head behind` the tail.            [p49](./05_head_tail/reverse_strings.py)   
-
-### Middle
 A palindrome is a word `spelled the same` forward or backward.      [p52](./06_palindrome/palindrome.py)  
 
 ### Tower of Hanoi
@@ -55,15 +53,13 @@ Begins on one pixel and `spreads` until it meets a non-white.       [p60](./08_f
 
 ## Tree Traversal
 We can write code to `access any node` by starting from root node.  [p73](./09_tree_traversal/tree_traversal.py)  
-
-### Maze Solve
 A perfect maze has exactly `one path` from start to exit.           [p83](./10_maze_solve/maze_solve.py)  
 
 #
 
 ## Divide and conquer
 
-Binary search we determe `which half` of the list the item is in.   [p93](./11_divide_conquer/binary_search.py)
+Binary search we determe `which half` of the list the item is in.   [p93](./11_divide_conquer/binary_search.py)  
 Quicksort uses a divide-concuer technique called `partitioning`     [p96](./11_divide_conquer/quicksort.py)
 
 
