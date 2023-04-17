@@ -1,6 +1,5 @@
 ## Algorithms - Divide and Conquer
 
-##
 
 #### Binary search
 We repeatedly determining `which half` of the list the item is in.   [p93](./binary_search/bs_algorithm.py)  
