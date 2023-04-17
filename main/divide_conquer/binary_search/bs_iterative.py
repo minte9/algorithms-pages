@@ -15,10 +15,8 @@ def binary_search(needle, haystack):
         if needle < haystack[m]:  j = m - 1
         if needle == haystack[m]: 
             return m # found item, return key
-
         if i > j: 
             return None # break loop
-
 
 data = [1, 4, 8, 11, 13, 16, 19, 19]
 assert binary_search(1, data)   == 0
