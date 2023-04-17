@@ -10,8 +10,6 @@
 - [Flood fill](#flood-fill) 
 - [Tree traversal](#tree-traversal)  
 - [Maze solve](#maze-solve)  
-- [Binary search](#binary-search)
-- [Quicksort](#quicksort)
 
 #
 
@@ -66,17 +64,6 @@ We can write code to `access any node` by starting from root node.  [p73](./09_t
 
 #### Maze solve
 A perfect maze has exactly `one path` from start to exit.           [p83](./10_maze_solve/maze_solve.py)  
-
-#
-
-## Divide and conquer
-
-#### Binary search
-We repeatedly determining `which half` of the list the item is in.   [p93](../divide_conquer/binary_search/binary_search.py)  
-
-#### Quicsort
-
-Quicksort uses a divide-concuer technique called `partitioning`     [p96](../divide_conquer/quicksort/quicksort.py)
 
 
 ##
