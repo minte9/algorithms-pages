@@ -1,4 +1,4 @@
-""" Quicksort - Recursive sorting algorithm
+""" Quicksort / Recursive sorting algorithm
 
 Developed by computer scientist Tony Hoare in 1959
 It uses a divide-conquer technique called partitioning.
@@ -12,13 +12,11 @@ one book (the base case). And the piles are now sorted.
 """
 
 def quicksort(items, i=0, j=None):
-
     j = len(items) - 1 if j == None else j
 
     if i > j: return # Base case
 
     pivot = items[j]
-
     for k in range(i, j + 1):
         if items[k] < pivot:
             items[i], items[k] = items[k], items[i] # swap items
@@ -31,6 +29,5 @@ def quicksort(items, i=0, j=None):
 
 data = [8, 18, 4, 2, 10]
 print("Data:\t", data) # [8, 18, 4, 2, 10]
-
 quicksort(data)
 print("Sorted:\t", data) # [2, 4, 8, 10, 18]

@@ -1,5 +1,5 @@
-""" Binary search - Key search algorithm for ordered lists
-
+""" Binary search / Algorithm
+Only for ordered lists key search.
 A linear search of a shelf with 100 books takes 100 steps.
 A binary search on 50 takes 6 and on 100 only 7 steps.
 """
