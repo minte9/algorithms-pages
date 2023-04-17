@@ -9,9 +9,7 @@ We repeatedly determining `which half` of the list the item is in.   [p93](./bin
 
 Quicksort uses a divide-concuer technique called `partitioning`     [p96](./quicksort/qs_algorithm.py)
 
-
-##
-
+#
 
 ### References
 
