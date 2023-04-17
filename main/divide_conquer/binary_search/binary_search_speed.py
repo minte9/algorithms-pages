@@ -24,7 +24,6 @@ def linear_search(needle, haystack):
 @timer_decorator
 def binary_search(needle, haystack):
     i, j = 0, len(haystack) - 1
-
     while True:
         m = (i + j) // 2
         if needle > haystack[m]:  i = m + 1
@@ -34,7 +33,7 @@ def binary_search(needle, haystack):
 
 @timer_decorator
 def generate_data():
-    data = [i for i in range(123456789)] # list comprehension
+    data = [i for i in range(123456789)]
     return data
 
 data = generate_data()

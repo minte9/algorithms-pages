@@ -6,7 +6,6 @@ A binary search on 50 takes 6 and on 100 only 7 steps.
 
 def binary_search(needle, haystack):
     i, j = 0, len(haystack) - 1
-
     while True:
         m = (i + j) // 2
         if needle > haystack[m]:  i = m + 1
