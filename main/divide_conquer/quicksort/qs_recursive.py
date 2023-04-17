@@ -15,7 +15,7 @@ def quicksort(items, i=0, j=None):
     
     if j == None: 
         j = len(items) - 1
-        
+
     if i > j: 
         return # stop sorting (base case)
 
@@ -33,5 +33,6 @@ def quicksort(items, i=0, j=None):
 
 data = [8, 18, 4, 2, 10]
 print("Data:\t", data) # [8, 18, 4, 2, 10]
+
 quicksort(data)
 print("Sorted:\t", data) # [2, 4, 8, 10, 18]
