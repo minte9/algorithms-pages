@@ -72,11 +72,11 @@ A perfect maze has exactly `one path` from start to exit.           [p83](./10_m
 ## Divide and conquer
 
 #### Binary search
-We repeatedly determining `which half` of the list the item is in.   [p93](./11_divide_conquer/binary_search.py)  
+We repeatedly determining `which half` of the list the item is in.   [p93](../divide_conquer/binary_search/binary_search.py)  
 
 #### Quicsort
 
-Quicksort uses a divide-concuer technique called `partitioning`     [p96](./11_divide_conquer/quicksort.py)
+Quicksort uses a divide-concuer technique called `partitioning`     [p96](../divide_conquer/quicksort/quicksort.py)
 
 
 ##
