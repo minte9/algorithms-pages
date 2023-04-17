@@ -44,9 +44,7 @@ key = linear_search(123456780, data)
 key = binary_search(123456780, data)
 
 """
-
 generate_data() time:    5.557476043701172 s
 linear_search() time:    7.532944917678833 s
 binary_search() time:    1.6689300537109375e-05 s
-
 """

@@ -61,9 +61,7 @@ print("sort() 300000 \t time:", end_time - start_time, "s")
 start_time, end_time = None, None
 
 """
-
 quicksort() 100  time: 0.01843881607055664 s
 quicksort() 480  time: 1.216728687286377 s
 sort() 300000    time: 0.0657494068145752 s
-
 """
