@@ -43,14 +43,15 @@ def quicksort(items, i=0, j=None):
 
 
 data = [8, 18, 4, 2, 10]
-print(data)
+print("\nData:", data, "\n")
 
 quicksort(data)
-print("\nSorted:", data)
+print("\nSorted:", data, "\n")
 
 """
 
-[8, 18, 4, 2, 10]
+Data: [8, 18, 4, 2, 10] 
+
 [8, 18, 4, 2, 10] Swap items 4 with 18
 [8, 4, 18, 2, 10] Swap items 2 with 18
 [8, 4, 2, 18, 10] Move the pivot 10
