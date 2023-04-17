@@ -12,12 +12,10 @@ one book (the base case). And the piles are now sorted.
 """
 
 def quicksort(items, i=0, j=None):
-    
-    if j == None: 
-        j = len(items) - 1
 
-    if i > j: 
-        return # stop sorting (base case)
+    j = len(items) - 1 if j == None else j
+
+    if i > j: return # Base case
 
     pivot = items[j]
 
