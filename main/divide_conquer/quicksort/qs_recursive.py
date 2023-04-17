@@ -28,6 +28,6 @@ def quicksort(items, i=0, j=None):
     quicksort(items, i + 1, j) # sort right partition
 
 data = [8, 18, 4, 2, 10]
-print("Data:\t", data)      # [8, 18, 4, 2, 10]
+print("Data:\t", data) # [8, 18, 4, 2, 10]
 quicksort(data)
-print("Sorted:\t", data)    # [2, 4, 8, 10, 18]
+print("Sorted:\t", data) # [2, 4, 8, 10, 18]
