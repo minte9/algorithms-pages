@@ -1,10 +1,4 @@
-""" Binary search - Key search algorithm for ordered lists
-
-A linear search of a shelf with 100 books takes 100 steps.
-A binary search on 50 takes 6 and on 100 only 7 steps.
-
-Notice, the code performs no action after the recursive call.
-It means that the binary search can be easily implemented iteratively.
+""" Binary search - Recursive algorithm
 """
 
 def binary_search(needle, haystack, i=0, j=None):

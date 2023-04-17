@@ -1,13 +1,4 @@
-""" Quicksort - Recursive sorting algorithm
-Developed by computer scientist Tony Hoare in 1959
-
-Quicksort uses a divide-conquer technique called partitioning.
-For example, we can have a large number of unordered books.
-We can separate the books in two piles A-M and N-Z, so the 
-the M would be the pivot.
-
-If you keep partitioning you end up with piles that contain 
-one book (the base case). And the piles are now sorted.
+""" Quicksort - explained
 """
 
 def quicksort(items, i=0, j=None):

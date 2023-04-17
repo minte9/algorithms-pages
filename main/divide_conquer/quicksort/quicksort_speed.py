@@ -1,4 +1,4 @@
-""" Quicksort - Recursive sorting algorithm
+""" Quicksort algorithm - Speed tests
 """
 
 import time
