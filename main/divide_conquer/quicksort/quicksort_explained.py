@@ -46,7 +46,7 @@ data = [8, 18, 4, 2, 10]
 print(data)
 
 quicksort(data)
-print(data)
+print("\nSorted:", data)
 
 """
 
@@ -69,6 +69,7 @@ print(data)
 [2, 4] 8 []
 [2] 4 []
 [] 2 []
-[2, 4, 8, 10, 18]
+
+Sorted: [2, 4, 8, 10, 18]
 
 """
