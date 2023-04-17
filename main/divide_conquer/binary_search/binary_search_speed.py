@@ -23,12 +23,10 @@ def linear_search(needle, haystack):
 
 @timer_decorator
 def binary_search(needle, haystack):
-
     i, j = 0, len(haystack) - 1
 
     while True:
         m = (i + j) // 2
-
         if needle > haystack[m]:  i = m + 1
         if needle < haystack[m]:  j = m - 1
         if needle == haystack[m]: return m
