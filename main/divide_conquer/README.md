@@ -5,11 +5,11 @@
 
 
 #### Binary search
-We repeatedly determining `which half` of the list the item is in.   [p93](./binary_search/binary_search.py)  
+We repeatedly determining `which half` of the list the item is in.   [p93](./binary_search/bs_algorithm.py)  
 
 #### Quicksort
 
-Quicksort uses a divide-concuer technique called `partitioning`     [p96](./quicksort/quicksort.py)
+Quicksort uses a divide-concuer technique called `partitioning`     [p96](./quicksort/qs_algorithm.py)
 
 
 ##
