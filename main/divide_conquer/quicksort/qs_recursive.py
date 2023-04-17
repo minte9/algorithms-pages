@@ -18,7 +18,6 @@ def quicksort(items, i=0, j=None):
 
     pivot = items[j]
     for k in range(i, j + 1):
-
         if items[k] < pivot:
             items[i], items[k] = items[k], items[i] # swap items
             i = i + 1
@@ -27,7 +26,6 @@ def quicksort(items, i=0, j=None):
             
     quicksort(items, 0, i - 1) # sort left partition
     quicksort(items, i + 1, j) # sort right partition
-
 
 data = [8, 18, 4, 2, 10]
 print("Data:\t", data)      # [8, 18, 4, 2, 10]
