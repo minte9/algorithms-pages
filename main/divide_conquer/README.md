@@ -2,13 +2,13 @@
 
 #
 
-Binary search / p93
+Binary search / p93  
 We repeatedly determining `which half` of the list the item is in. 
 
-Quicksort / p96
+Quicksort / p96  
 Uses a divide-concuer technique called `partitioning`
 
-Merge Sort / p104
+Merge Sort / p104  
 Each recusive call `divides` the unsorted list into halves.
 
 #
