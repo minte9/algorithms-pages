@@ -2,12 +2,14 @@
 
 #
 
-#### Binary search
-We repeatedly determining `which half` of the list the item is in.   [p93](./binary_search/binary_search_algorithm.py)  
+Binary search / p93
+We repeatedly determining `which half` of the list the item is in. 
 
-#### Quicksort
+Quicksort / p96
+Uses a divide-concuer technique called `partitioning`
 
-Quicksort uses a divide-concuer technique called `partitioning`     [p96](./quicksort/quicksort_algorithm.py)
+Merge Sort / p104
+Each recusive call `divides` the unsorted list into halves.
 
 #
 
@@ -15,5 +17,3 @@ Quicksort uses a divide-concuer technique called `partitioning`     [p96](./quic
 
 [The Recursive Book of Recursion (source code)](https://github.com/asweigart/the-recursive-book-of-recursion)  
 [Invent with Python, Recursion (online book)](https://inventwithpython.com/recursion/)  
-
-[![The recursive book of recursion](https://www.minte9.com/lib/images/references/book_recursion.png)](https://www.amazon.com/gp/product/B09BKL34VL)

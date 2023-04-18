@@ -3,7 +3,6 @@
 
 import time
 import random
-
 start_time, end_time = None, None
 
 def timer_decorator(func):
