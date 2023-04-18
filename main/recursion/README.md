@@ -11,7 +11,6 @@ The limit of stack size is `1000 function calls` in Python.         [p13](./01_c
 To avoid `a crash` there must be a base case.                       [p14](./02_base_case/base_case.py)  
 Reaching the base case `doesn't means` the end of program.          [p15](./02_base_case/before_after.py)  
 
-#
 
 ## Recursion vs Iteration
 
@@ -22,19 +21,6 @@ The recursive approach will take `fibonacci(100)` million years.    [p25](./03_i
 #### Exponents
 Exponents are calculated by `multiplying` a number by itself.       [p34](./04_exponents/calculating_exponents.py)  
 Iterative function based on `power rule` from recursive approach.   [p36](./04_exponents/recursive_insights.py)   
-
-#
-
-## Head Tail  
-
-Sum numbers / p46  
-To sum numbers we `add the head` to the sum of tail array.  
-
-Reverse string / p49  
-To reverse a string we `place the head behind` the tail.  
-
-Palindrome / p52  
-A palindrome is a word `spelled the same` forward or backward.  
 
 ## Tower of Hanoi
 A puzzle involving a tower of `stacked disks`                       [p54](./07_tower_of_hanoi/tower_of_hanoi.py)   
@@ -52,17 +38,6 @@ We can write code to `access any node` by starting from root node.
 Maze solve / p83  
 A perfect maze has exactly `one path` from start to exit.  
 
-
-## Divide and Conquer
-
-Binary search / p93    
-We repeatedly determining `which half` of the list the item is in. 
-
-Quicksort / p96  
-Uses a divide-concuer technique called `partitioning`
-
-Merge Sort / p104  
-Each recusive call `divides` the unsorted list into halves.
 
 
 ### References
