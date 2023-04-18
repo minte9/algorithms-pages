@@ -1,43 +1,35 @@
 ## Algorithms - Recursion
 
+Call Stacks  
+Programming languages remember `which line` called the function.    p05  
+To really understand recursion, you must first `understand stacks`  p06  
+The program's call stack is a stack of `frame objects`              p09  
+The limit of stack size is `1000 function calls` in Python.         p13  
 
-#### Call Stacks
-Programming languages remember `which line` called the function.    [p05](./01_call_stacks/line_remembering.py)   
-To really understand recursion, you must first `understand stacks`  [p06](./01_call_stacks/lifo_lists.py)  
-The program's call stack is a stack of `frame objects`              [p09](./01_call_stacks/frame_objects.py)  
-The limit of stack size is `1000 function calls` in Python.         [p13](./01_call_stacks/stack_overflow.py)  
+Base case   
+To avoid `a crash` there must be a base case.                       p14  
+Reaching the base case `doesn't means` the end of program.          p15  
 
-#### Base case 
-To avoid `a crash` there must be a base case.                       [p14](./02_base_case/base_case.py)  
-Reaching the base case `doesn't means` the end of program.          [p15](./02_base_case/before_after.py)  
+Recursion vs Iteration  
+For calculating `factorials` the iterative approach is better.      p22  
+The recursive approach will take `fibonacci(100)` million years.    p25  
 
+Exponents  
+Exponents are calculated by `multiplying` a number by itself.       p34  
+Iterative function based on `power rule` from recursive approach.   p36   
 
-## Recursion vs Iteration
+Tower of Hanoi  
+A puzzle involving a tower of `stacked disks`                       p54  
+Solve the puzzle yourself, in `interactive` mode.                   p54  
 
-#### Iterative approach
-For calculating `factorials` the iterative approach is better.      [p22](./03_iterative_approach/factorial_number.py)  
-The recursive approach will take `fibonacci(100)` million years.    [p25](./03_iterative_approach/fibonacci_sequence.py)  
+Flood Fill
+Begins on one pixel and `spreads` until it meets a non-white.       p60  
 
-#### Exponents
-Exponents are calculated by `multiplying` a number by itself.       [p34](./04_exponents/calculating_exponents.py)  
-Iterative function based on `power rule` from recursive approach.   [p36](./04_exponents/recursive_insights.py)   
+Tree Traversal  
+We can write code to `access any node` by starting from root node.  p73  
 
-## Tower of Hanoi
-A puzzle involving a tower of `stacked disks`                       [p54](./07_tower_of_hanoi/tower_of_hanoi.py)   
-Solve the puzzle yourself, in `interactive` mode.                   [p54](./07_tower_of_hanoi/tower_of_hanoi2_play.py)   
-
-#### Flood Fill
-Begins on one pixel and `spreads` until it meets a non-white.       [p60](./08_flood_fill/flood_fill.py)  
-
-
-## Backtracking and Tree Traversal 
-
-Tree Traversal / p73  
-We can write code to `access any node` by starting from root node.  
-
-Maze solve / p83  
-A perfect maze has exactly `one path` from start to exit.  
-
+Maze solve    
+A perfect maze has exactly `one path` from start to exit.           p83  
 
 
 ### References
