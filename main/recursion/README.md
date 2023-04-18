@@ -83,5 +83,4 @@ Each recusive call `divides` the unsorted list into halves.
 
 [The Recursive Book of Recursion (source code)](https://github.com/asweigart/the-recursive-book-of-recursion)  
 [Invent with Python, Recursion (online book)](https://inventwithpython.com/recursion/)  
-
-[![The recursive book of recursion](https://www.minte9.com/lib/images/references/book_recursion.png)](https://www.amazon.com/gp/product/B09BKL34VL)
+[The recursive book of recursion (buy)](https://www.amazon.com/gp/product/B09BKL34VL)
