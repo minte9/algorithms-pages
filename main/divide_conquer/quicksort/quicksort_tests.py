@@ -2,6 +2,8 @@
 """
 
 import time
+import random
+
 start_time, end_time = None, None
 
 def timer_decorator(func):
@@ -34,24 +36,36 @@ def quicksort(items, i=0, j=None):
 def native_sort(items):
     return items.sort()
 
-import random
+
+""" Test speed with 100 items
+"""
 data = random.sample(range(0, 100), 100)
 quicksort(data)
 print("quicksort() 100  time:", end_time - start_time, "s")
 start_time, end_time = None, None
 
-data = random.sample(range(0, 480), 480) # maximum recursion depth
+
+""" Test speed with 480 items
+A number larger than 480 will give error: maximum recursion depth error
+"""
+data = random.sample(range(0, 480), 480)
 quicksort(data)
 print("quicksort() 480  time:", end_time - start_time, "s")
 start_time, end_time = None, None
 
+
+""" Test with Python native sort() function
+"""
 data = random.sample(range(0, 300000), 300000)
 native_sort(data)
 print("sort() 300000 \t time:", end_time - start_time, "s")
 start_time, end_time = None, None
 
+
 """
+
 quicksort() 100  time: 0.01843881607055664 s
 quicksort() 480  time: 1.216728687286377 s
 sort() 300000    time: 0.0657494068145752 s
+
 """
