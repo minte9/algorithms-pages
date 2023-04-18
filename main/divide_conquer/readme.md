@@ -1,13 +1,13 @@
 ## Divide and Conquer - Algorithms
 
-Binary search p93    
-We repeatedly determining `which half` of the list the item is in. 
+Binary search      
+We repeatedly determining `which half` of the list the item is in. p93  
 
-Quicksort p96  
-Uses a divide-concuer technique called `partitioning`
+Quicksort    
+Uses a divide-concuer technique called `partitioning` p96  
 
-Merge Sort p104  
-Each recusive call `divides` the unsorted list into halves.
+Merge Sort    
+Each recusive call `divides` the unsorted list into halves. p104  
 
 
 ### References

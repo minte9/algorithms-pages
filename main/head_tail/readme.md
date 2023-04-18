@@ -1,13 +1,13 @@
 # Head Tail - Algorithms
 
-Sum numbers p46  
-To sum numbers we `add the head` to the sum of tail array.  
+Sum numbers    
+To sum numbers we `add the head` to the sum of tail array. p46   
 
-Reverse string p49  
-To reverse a string we `place the head behind` the tail.  
+Reverse string    
+To reverse a string we `place the head behind` the tail. p49  
 
-Palindrome p52  
-A palindrome is a word `spelled the same` forward or backward.  
+Palindrome    
+A palindrome is a word `spelled the same` forward or backward. p52  
 
 
 ### References
