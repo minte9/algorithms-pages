@@ -1,19 +1,5 @@
 ## Algorithms - Recursion
 
-- [Call stacks](#call-stacks) 
-- [Base case](#base-case) 
-- [Iterative approach](#iterative-approach) 
-- [Exponents](#exponents)
-- [Head tail](#head-tail) 
-- [Middle](#middle)
-- [Tower of hanoi](#tower-of-hanoi)  
-- [Flood fill](#flood-fill) 
-- [Tree traversal](#tree-traversal)  
-- [Maze solve](#maze-solve)  
-
-#
-
-## Recursion
 
 #### Call Stacks
 Programming languages remember `which line` called the function.    [p05](./01_call_stacks/line_remembering.py)   
