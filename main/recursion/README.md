@@ -39,34 +39,44 @@ Iterative function based on `power rule` from recursive approach.   [p36](./04_e
 
 #
 
-## Classic algorithms
+## Head Tail  
 
-#### Head Tail
-To sum numbers we `add the head` to the sum of tail array.          [p46](./05_head_tail/sum_numbers.py)   
-To reverse a string we `place the head behind` the tail.            [p49](./05_head_tail/reverse_strings.py)   
+Sum numbers / p46  
+To sum numbers we `add the head` to the sum of tail array.
 
-#### Middle
-A palindrome is a word `spelled the same` forward or backward.      [p52](./06_palindrome/palindrome.py)  
+Reverse string / p49
+To reverse a string we `place the head behind` the tail.
 
-#### Tower of Hanoi
+Palindrome / p52
+A palindrome is a word `spelled the same` forward or backward.
+
+## Tower of Hanoi
 A puzzle involving a tower of `stacked disks`                       [p54](./07_tower_of_hanoi/tower_of_hanoi.py)   
 Solve the puzzle yourself, in `interactive` mode.                   [p54](./07_tower_of_hanoi/tower_of_hanoi2_play.py)   
 
 #### Flood Fill
 Begins on one pixel and `spreads` until it meets a non-white.       [p60](./08_flood_fill/flood_fill.py)  
 
-#
 
 ## Backtracking and Tree Traversal 
 
-#### Tree Traversal
-We can write code to `access any node` by starting from root node.  [p73](./09_tree_traversal/tree_traversal.py)  
+Tree Traversal / p73
+We can write code to `access any node` by starting from root node.
 
-#### Maze solve
-A perfect maze has exactly `one path` from start to exit.           [p83](./10_maze_solve/maze_solve.py)  
+Maze solve  / p83
+A perfect maze has exactly `one path` from start to exit.
 
 
-##
+## Divide and Conquer
+
+Binary search / p93    
+We repeatedly determining `which half` of the list the item is in. 
+
+Quicksort / p96  
+Uses a divide-concuer technique called `partitioning`
+
+Merge Sort / p104  
+Each recusive call `divides` the unsorted list into halves.
 
 
 ### References
