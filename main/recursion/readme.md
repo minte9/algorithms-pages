@@ -22,7 +22,7 @@ Tower of Hanoi
 A puzzle involving a tower of `stacked disks`                       p54  
 Solve the puzzle yourself, in `interactive` mode.                   p54  
 
-Flood Fill
+Flood Fill  
 Begins on one pixel and `spreads` until it meets a non-white.       p60  
 
 Tree Traversal  
