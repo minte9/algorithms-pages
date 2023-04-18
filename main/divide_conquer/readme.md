@@ -9,7 +9,7 @@ Uses a divide-concuer technique called `partitioning` p96
 Merge Sort    
 Each recusive call `divides` the unsorted list into halves. p104  
 
-Sum numbers
+Sum numbers  
 We can divide a large array of numbers into smaller arrays to sum. p110  
 
 ### References
