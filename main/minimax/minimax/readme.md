@@ -11,6 +11,8 @@ Refactoring `dummy` implementation.
 Comments and statements to view `each` step.  
 03_comments.py  
 
+## Algorithm
+
 Binary tree with `arbitrary number` of children.  
 04_clean.py  
 
