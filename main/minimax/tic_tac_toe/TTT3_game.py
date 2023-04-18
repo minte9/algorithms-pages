@@ -4,6 +4,8 @@
 import numpy as np
 import random, sys
 
+COLORED_NUMBERS = False
+
 def get_legal_moves(board):
     moves = []
     for i in range(3):
@@ -39,7 +41,7 @@ def show(board, move=None):
         board_[i][j] = CYAN + board[move] + ENDC 
 
     GRAY, ENDC = '\033[90m', '\033[0m' # colored numbers
-    if 1 == 0: # activate colored numbers
+    if COLORED_NUMBERS: # activate colored numbers
         k = 0
         for i in range(3):
             for j in range(3):
