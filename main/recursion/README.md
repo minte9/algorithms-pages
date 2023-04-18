@@ -42,13 +42,13 @@ Iterative function based on `power rule` from recursive approach.   [p36](./04_e
 ## Head Tail  
 
 Sum numbers / p46  
-To sum numbers we `add the head` to the sum of tail array.
+To sum numbers we `add the head` to the sum of tail array.  
 
-Reverse string / p49
-To reverse a string we `place the head behind` the tail.
+Reverse string / p49  
+To reverse a string we `place the head behind` the tail.  
 
-Palindrome / p52
-A palindrome is a word `spelled the same` forward or backward.
+Palindrome / p52  
+A palindrome is a word `spelled the same` forward or backward.  
 
 ## Tower of Hanoi
 A puzzle involving a tower of `stacked disks`                       [p54](./07_tower_of_hanoi/tower_of_hanoi.py)   
@@ -60,11 +60,11 @@ Begins on one pixel and `spreads` until it meets a non-white.       [p60](./08_f
 
 ## Backtracking and Tree Traversal 
 
-Tree Traversal / p73
-We can write code to `access any node` by starting from root node.
+Tree Traversal / p73  
+We can write code to `access any node` by starting from root node.  
 
-Maze solve  / p83
-A perfect maze has exactly `one path` from start to exit.
+Maze solve / p83  
+A perfect maze has exactly `one path` from start to exit.  
 
 
 ## Divide and Conquer
