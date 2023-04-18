@@ -7,7 +7,7 @@ Learn and Remember - [minte9.com/algorithms](https://www.minte9.com/algorithms)
 - [Recursion](./main/recursion/)
 - [Head Tail](./main/head_tail/)
 - [Minimax](./main/minimax/)
-- [Divide-Conquer](./main/divide_conquer/)
+- [Divide Conquer](./main/divide_conquer/)
 
 
 ## Install

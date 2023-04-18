@@ -1,4 +1,4 @@
-## Divide and Conquer - Algorithms
+## Divide Conquer - Algorithms
 
 Binary search      
 We repeatedly determining `which half` of the list the item is in. p93  
