@@ -10,7 +10,7 @@ Merge Sort
 Each recusive call `divides` the unsorted list into halves. p104  
 
 Sum numbers  
-We can divide a large array of numbers into smaller arrays to sum. p110  
+We can divide a large array of numbers into `smaller arrays` to sum. p110  
 
 ### References
 
