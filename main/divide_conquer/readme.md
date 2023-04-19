@@ -14,7 +14,7 @@ Each recusive call `divides` the unsorted list into halves. p104
 ### Sum numbers  
 We can divide a large array of numbers into `smaller arrays` to sum. p110  
 
-#### Karatsuba multiplication  
+### Karatsuba multiplication  
 Fast multiplication algorithm, developed by Anatoly Karatsuba. p13  
 
 #
