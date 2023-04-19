@@ -1,5 +1,6 @@
 ## Divide Conquer - Algorithms
 
+#
 
 ### Binary search      
 We repeatedly determining `which half` of the list the item is in. p93  
@@ -16,6 +17,7 @@ We can divide a large array of numbers into `smaller arrays` to sum. p110
 #### Karatsuba multiplication  
 Fast multiplication algorithm, developed by Anatoly Karatsuba. p13  
 
+#
 
 ### References
 
