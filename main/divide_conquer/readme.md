@@ -24,4 +24,4 @@ Fast multiplication algorithm, developed by Anatoly Karatsuba. p13
 [The Recursive Book of Recursion (source code)](https://github.com/asweigart/the-recursive-book-of-recursion)  
 [Invent with Python, Recursion (online book)](https://inventwithpython.com/recursion/)  
 [The recursive book of recursion (buy)](https://www.amazon.com/gp/product/B09BKL34VL)  
-[Karatsuba multiplication](https://www.youtube.com/watch?v=cCKOl5li6YM&ab_channel=Nemean)
+[Karatsuba multiplication (youtube)](https://www.youtube.com/watch?v=cCKOl5li6YM&ab_channel=Nemean)
