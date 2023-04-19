@@ -1,19 +1,23 @@
 ## Divide Conquer - Algorithms
 
-Binary search      
+#
+
+#### Binary search      
 We repeatedly determining `which half` of the list the item is in. p93  
 
-Quicksort    
+#### Quicksort    
 Uses a divide-concuer technique called `partitioning` p96  
 
-Merge Sort    
+#### Merge Sort    
 Each recusive call `divides` the unsorted list into halves. p104  
 
-Sum numbers  
+#### Sum numbers  
 We can divide a large array of numbers into `smaller arrays` to sum. p110  
 
-Karatsuba multiplication  
+#### Karatsuba multiplication  
 Fast multiplication algorithm, developed by Anatoly Karatsuba. p13  
+
+#
 
 ### References
 
