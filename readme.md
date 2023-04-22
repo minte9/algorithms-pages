@@ -8,6 +8,7 @@ Learn and Remember - [minte9.com/algorithms](https://www.minte9.com/algorithms)
 - [Head Tail](./main/head_tail/)
 - [Minimax](./main/minimax/)
 - [Divide Conquer](./main/divide_conquer/)
+- [Permutations](./main/permutations/)
 
 
 ## Install
