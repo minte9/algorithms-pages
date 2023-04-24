@@ -1,7 +1,5 @@
 """ Head Permutations
-We select the first element from the set as the head.
-We get all the permutations from the rest of elements (the tail).
-For each permutation we place the head in every posible location.
+We place the head in every posible location of the tail.
 
 The permutation of a single char is the char itself (base case).
 By putting the B in every possible location of C we get BC CB. 
@@ -11,8 +9,6 @@ By putting the B in every possible location of C we get BC CB.
 """
 
 def head_permutations(chars):
-    if len(chars) == 1:
-        return [chars] # Base case
 
     head = chars[0]  # B
     tail = chars[1:] # C
@@ -22,5 +18,5 @@ def head_permutations(chars):
         
     return prms
 
-print(', '.join(head_permutations('BC'))) # BC, CB
-print(', '.join(head_permutations('ABC'))) # ABC, BAC, BCA
+print(', '.join(head_permutations('BC')))  # BC, CB
+print(', '.join(head_permutations('BCD'))) # BCD, CBD, CDB

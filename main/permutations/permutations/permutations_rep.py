@@ -1,9 +1,7 @@
-""" Permutations / With repetition
-Password checker
+""" Permutations / With repetition - Password checker
 
 The password has exactly 4 chars.
 The possible chars are: numbers 2,4,8 and letters J,P,B
-
 These chars can appear more then once:
 JPB2, JJJJ, 2442, etc
 

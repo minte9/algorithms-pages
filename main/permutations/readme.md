@@ -24,8 +24,3 @@ For example 4 choose 2 is `6 combinations` without repetition.
 
 The `formula` for calculating n choose k is:
 C(n,k) = (n!) / (k! x (n-k)!)
-
-## Head Tail
-
-Finding permutations `without repetitions` with head-tail strategy.
-We'll start `A as the head` and BC as tail.
