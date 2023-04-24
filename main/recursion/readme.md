@@ -18,6 +18,10 @@ Exponents
 Exponents are calculated by `multiplying` a number by itself.       p34  
 Iterative function based on `power rule` from recursive approach.   p36   
 
+Memoization
+Memoization is a technique of `remembering` the return values. p151
+Memoize means `to store` (the result of computed expression).
+
 
 ### References
 
