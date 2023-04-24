@@ -1,9 +1,5 @@
 # Algorithms
 
-Learn and Remember - [minte9.com/algorithms](https://www.minte9.com/algorithms)
-
-#
-
 - [Recursion](./main/recursion/) ( [apps](./main/recursion/practical_apps) )
 - [Head Tail](./main/head_tail/)  
 - [Optimization](./main/optimization/minimax) ( [apps](./main/optimization/practical_apps) )
