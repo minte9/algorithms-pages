@@ -1,4 +1,4 @@
-# Recursion - Permutations
+# Permutations - Algorithms
 
 ## Sets
 
