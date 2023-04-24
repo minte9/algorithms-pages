@@ -1,3 +1,5 @@
+# Recursion - Permutations
+
 ## Sets
 
 A set is a collection of `unique objects` {A,B,C}. p124
@@ -24,3 +26,12 @@ For example 4 choose 2 is `6 combinations` without repetition.
 
 The `formula` for calculating n choose k is:
 C(n,k) = (n!) / (k! x (n-k)!)
+
+# 
+
+### References
+
+[The Recursive Book of Recursion (source code)](https://github.com/asweigart/the-recursive-book-of-recursion)  
+[Invent with Python, Recursion (online book)](https://inventwithpython.com/recursion/)  
+[The recursive book of recursion (buy)](https://www.amazon.com/gp/product/B09BKL34VL)  
+[Karatsuba multiplication (youtube)](https://www.youtube.com/watch?v=cCKOl5li6YM&ab_channel=Nemean)
