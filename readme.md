@@ -6,7 +6,7 @@ Learn and Remember - [minte9.com/algorithms](https://www.minte9.com/algorithms)
 
 - [Recursion](./main/recursion/) / [Applications](./main/recursion/practical_apps)  
 - [Head Tail](./main/head_tail/)  
-- [Optimization](./main/optimization/) / [Applications](./main/recursion/practical_apps)  
+- [Optimization](./main/optimization/minimax) / [Applications](./main/recursion/practical_apps)  
 - [Divide Conquer](./main/divide_conquer/)  
 - [Permutations](./main/permutations/)  
 
