@@ -9,29 +9,27 @@ Iterrative, multiplies intergers 1 to n in a loop,
 
 """
 
-# Iterative
-def ifactorial(n):
+def factorial(n): # Iterative
     p = 1
     for i in range(1, n+1):
         p = p * i
     return p
 
-# Recursive
-def rfactorial(n): 
+def factorial_recursive(n):
     if n == 1:
         return 1
-    return n * rfactorial(n-1)
+    return n * factorial_recursive(n-1)
 
 # Tests
-assert ifactorial(4) == 24
-assert ifactorial(5) == 120
-assert rfactorial(5) == 5 * rfactorial(4)
-assert rfactorial(4) == 4 * rfactorial(3)
+assert factorial(4) == 24
+assert factorial(5) == 120
+assert factorial_recursive(5) == 5 * factorial_recursive(4)
+assert factorial_recursive(4) == 4 * factorial_recursive(3)
 
 # Limits
-n = ifactorial(1001)
+n = factorial(1001)
 print(len(str(n))) # 2571
 try:    
-    n = rfactorial(1001)
+    n = factorial_recursive(1001)
 except RecursionError as e:
     print(e) # maximum recursion depth exceeded in comparison
