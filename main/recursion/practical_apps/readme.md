@@ -13,6 +13,10 @@ We can write code to `access any node` by starting from root node.  p73
 Maze solve    
 A perfect maze has exactly `one path` from start to exit.           p83  
 
+Fractals
+Fractals are shapes that `repeat themselves`, sometimes chaotically.  p175
+They include many natural and artificial shapes.
+
 
 ### References
 
