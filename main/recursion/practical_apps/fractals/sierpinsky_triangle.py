@@ -6,20 +6,18 @@ When you draw the inner equilateral triangle, you form three new triangles.
 """
 
 import turtle
-turtle.tracer(50, 0)
+turtle.tracer(100, 0)
 turtle.setworldcoordinates(0, 0, 700, 700)
 turtle.hideturtle()
 
-MIN_SIZE = 4
+MIN_SIZE = 10 # decrease/increase amount of recursion
 
-def midpoint(startx, starty, endx, endy):
-    xDiff = abs(startx - endx)
-    yDiff = abs(starty - endy)
-    return (min(startx, endx) + (xDiff / 2.0), 
-            min(starty, endy) + (yDiff / 2.0))
-
+def midpoint(x1, y1, x2, y2):
+    xm = min(x1, x2) + abs(x1 - x2)/2
+    ym = min(y1, y2) + abs(y1 - y2)/2
+    return (xm, ym) 
+        
 def drawTriangle(ax, ay, bx, by, cx, cy):
-
     width = max(ax, bx, cx) - min(ax, bx, cx)
     height = max(ay, by, cy) - min(ay, by, cy)
 
@@ -28,13 +26,13 @@ def drawTriangle(ax, ay, bx, by, cx, cy):
         return 
 
     # Draw the triangle
-    turtle.penup() # lift up the pen
+    turtle.penup()      # lift up the pen
     turtle.goto(ax, ay)
-    turtle.pendown()
-    turtle.goto(bx, by)
-    turtle.goto(cx, cy)
-    turtle.goto(cx, cy)
-    turtle.pendown()
+    turtle.pendown()    # draw start
+    turtle.goto(bx, by) # 1st line
+    turtle.goto(cx, cy) # 2nd line
+    turtle.goto(ax, ay) # 3th line
+    turtle.penup()      # draw stop
 
     # Calculate midpoints
     abm = midpoint(ax, ay, bx, by)
@@ -46,6 +44,8 @@ def drawTriangle(ax, ay, bx, by, cx, cy):
     drawTriangle(abm[0], abm[1], bx, by, bcm[0], bcm[1])
     drawTriangle(acm[0], acm[1], bcm[0], bcm[1], cx, cy)
 
-drawTriangle(50, 50, 350, 650, 650, 50)
+drawTriangle(50, 50, 350, 650, 650, 50) # equilateral Siepinsky triangle
+
+#drawTriangle(50, 50, 350, 350, 350, 50) # skewed example
 
 turtle.exitonclick()
