@@ -19,6 +19,7 @@ def drawCurve(start, direction, len, len_limit):
         return 
 
     points = []
+    turtle.pencolor(COLOR)
 
     # Move to start position
     turtle.penup()
@@ -87,7 +88,7 @@ COLOR = 'green'
 drawSnowflake((220, 460), 0, 220, 10)
 
 COLOR = 'blue'
-drawSnowflake((270, 430), 0, 120, 1)
+drawSnowflake((270, 430), 0, 120, 10)
 
 
 turtle.exitonclick()
