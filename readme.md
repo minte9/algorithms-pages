@@ -14,19 +14,19 @@
 > [Optimization](./main/optimization/minimax)  
 > Minimax  
 
-[Divide Conquer](./main/divide_conquer/)  
+> [Divide Conquer](./main/divide_conquer/)   
 > Binary Search  
 > Quciksort  
 > Merge Sort  
 > Sum numbers  
 > Karatsuba multiplication  
 
-[Permutations](./main/permutations/)
+> [Permutations](./main/permutations/)  
 > Sets  
 > Permutations  
 > Combinations  
 
-[Applications](./main/applications/)
+> [Applications](./main/applications/)  
 > Tower of Hanoi  
 > Flodd Fill  
 > Tree Traversal  
