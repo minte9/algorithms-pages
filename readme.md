@@ -20,24 +20,20 @@ Recursion
         Tree Traversal  
         Maze solve  
         Fractals  
-
 Head Tail
     Sum numbers  
     Reverse string  
     Palindrome  
-    
 Optimization
     Minimax  
     Applications  
         Tic-Tac-Toe  
-
 Divide Conquer   
     Binary Search  
     Quciksort  
     Merge Sort  
     Sum numbers  
     Karatsuba multiplication   
-
 Permutations
     Sets  
     Permutations  
