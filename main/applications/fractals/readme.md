@@ -15,3 +15,7 @@
 ### Fractal Tree
 
 ![Fractal Tree](https://github.com/minte9/algorithms-pages/blob/main/main/applications/fractals/trees/fractal_tree.png)
+
+### Kock Snowflake
+
+![Fractal Tree](https://github.com/minte9/algorithms-pages/blob/main/main/applications/fractals/kock_snowflake/kock_snowflake.png)
