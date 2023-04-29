@@ -8,7 +8,7 @@
 
 #
 
-Recursion  
+- [Recursion](./main/recursion/) ( [apps](./main/recursion/practical_apps) )  
 - Call stacks   
 - Base case   
 - Iterative approach   
@@ -20,7 +20,7 @@ Recursion
 --- Maze solve  
 --- Fractals  
 
-Head Tail
+- [Head Tail](./main/head_tail/)  
 - Sum numbers
 - Reverse string
 - Palindrome
