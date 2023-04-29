@@ -8,26 +8,26 @@
 
 #
 
-- [Recursion](./main/recursion/) ( [apps](./main/recursion/practical_apps) )  
-- Call stacks   
-- Base case   
-- Iterative approach   
-- Memoization   
-- Applications   
+Recursion  
+-- Call stacks   
+-- Base case   
+-- Iterative approach   
+-- Memoization   
+-- Applications   
 --- Tower of Hanoi   
 --- Flodd Fill  
 --- Tree Traversal  
 --- Maze solve  
 --- Fractals  
 
-- [Head Tail](./main/head_tail/)  
+Head Tail
 - Sum numbers
 - Reverse string
 - Palindrome
     
 Optimization
 - Minimax
-- Applications  
+- Applications
 --- Tic-Tac-Toe
 
 Divide Conquer 
