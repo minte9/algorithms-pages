@@ -22,9 +22,7 @@ Iterative function based on `power rule` from recursive approach.   p36
 > Memoization is a technique of `remembering` the return values. p151  
 Memoize means `to store` (the result of computed expression).  
 
-
 ### References
-
-[The Recursive Book of Recursion (source code)](https://github.com/asweigart/the-recursive-book-of-recursion)  
+> [The Recursive Book of Recursion (source code)](https://github.com/asweigart/the-recursive-book-of-recursion)  
 [Invent with Python, Recursion (online book)](https://inventwithpython.com/recursion/)  
 [The recursive book of recursion (buy)](https://www.amazon.com/gp/product/B09BKL34VL)

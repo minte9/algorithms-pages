@@ -24,8 +24,6 @@ For example 4 choose 2 is `6 combinations` without repetition.
 > The `formula` for calculating n choose k is:  
 C(n,k) = (n!) / (k! x (n-k)!)  
 
-# 
-
 ### References
 > [The Recursive Book of Recursion (source code)](https://github.com/asweigart/the-recursive-book-of-recursion)  
 [Invent with Python, Recursion (online book)](https://inventwithpython.com/recursion/)  
