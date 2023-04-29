@@ -5,6 +5,7 @@
 - [Optimization](./main/optimization/minimax)
 - [Divide Conquer](./main/divide_conquer/)  
 - [Permutations](./main/permutations/)  
+- [Applications](./main/applications/)  
 
 #
 
