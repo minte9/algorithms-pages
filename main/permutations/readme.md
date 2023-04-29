@@ -1,4 +1,4 @@
-# Permutations - Algorithms
+# Permutations
 
 ## Sets
 

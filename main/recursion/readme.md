@@ -1,4 +1,4 @@
-## Algorithms - Recursion
+## Recursion
 
 ### Call Stacks  
 Programming languages remember `which line` called the function.    p05  
