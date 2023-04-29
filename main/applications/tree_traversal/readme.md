@@ -36,4 +36,9 @@ We get `closer` to the base naturally, because the trees are acyclic.
 ## Stack overlow
 
 > Trees that are `especially deep` will case a stack overflow.  
-Each level deeper into the tree requires `yet another` recursion call.  
+Each level deeper into the tree requires `yet another` recursion call. 
+
+### References
+> [The Recursive Book of Recursion (source code)](https://github.com/asweigart/the-recursive-book-of-recursion)  
+[Invent with Python, Recursion (online book)](https://inventwithpython.com/recursion/)  
+[The recursive book of recursion (buy)](https://www.amazon.com/gp/product/B09BKL34VL)
