@@ -1,6 +1,6 @@
 # Algorithms
 
-[Recursion](./main/recursion/)
+> [Recursion](./main/recursion/)
 > Call stacks  
 > Base case  
 > Iterative approach  
