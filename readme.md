@@ -7,9 +7,7 @@
 - [Permutations](./main/permutations/)  
 - [Applications](./main/applications/)  
 
-#
-
-<pre style='background-color: none !important;'>
+<pre>
 Recursion
     Call stacks
     Base case
