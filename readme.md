@@ -22,7 +22,6 @@
 > Karatsuba multiplication  
 
 [Permutations](./main/permutations/)  
-> Sets  
 > Permutations  
 > Combinations  
 
