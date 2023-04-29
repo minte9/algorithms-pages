@@ -9,10 +9,12 @@
 
 
 [Recursion](./main/recursion/)
+<pre>
   Call stacks
   Base case
   Iterative approach
   Memoization
+</pre>
 
 Head Tail
     Sum numbers
