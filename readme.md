@@ -14,33 +14,33 @@ Recursion
 - Iterative approach   
 - Memoization   
 - Applications   
----- Tower of Hanoi   
----- Flodd Fill  
----- Tree Traversal  
----- Maze solve  
----- Fractals  
+--- Tower of Hanoi   
+--- Flodd Fill  
+--- Tree Traversal  
+--- Maze solve  
+--- Fractals  
 
 Head Tail
-    Sum numbers
-    Reverse string
-    Palindrome
+- Sum numbers
+- Reverse string
+- Palindrome
     
 Optimization
-    Minimax
-    Applications
-        Tic-Tac-Toe
+- Minimax
+- Applications
+--- Tic-Tac-Toe
 
 Divide Conquer 
-    Binary Search
-    Quciksort
-    Merge Sort
-    Sum numbers
-    Karatsuba multiplication  
+- Binary Search
+- Quciksort
+- Merge Sort
+- Sum numbers
+- Karatsuba multiplication  
 
 Permutations
-    Sets
-    Permutations
-    Combinations
+- Sets
+- Permutations
+- Combinations
 
 ## Install
 
