@@ -9,7 +9,7 @@
 #
 
 <pre>
-    Recursion
+Recursion
     Call stacks   
     Base case   
     Iterative approach   
@@ -21,27 +21,27 @@
         Maze solve  
         Fractals  
 
-[Head Tail](./main/head_tail/)   
-Sum numbers  
-Reverse string  
-Palindrome  
+Head Tail
+    Sum numbers  
+    Reverse string  
+    Palindrome  
     
-[Optimization](./main/optimization/minimax)  
-Minimax  
-Applications  
---- Tic-Tac-Toe  
+Optimization
+    Minimax  
+    Applications  
+        Tic-Tac-Toe  
 
-[Divide Conquer](./main/divide_conquer/)   
-Binary Search  
-Quciksort  
-Merge Sort  
-Sum numbers  
-Karatsuba multiplication   
+Divide Conquer   
+    Binary Search  
+    Quciksort  
+    Merge Sort  
+    Sum numbers  
+    Karatsuba multiplication   
 
-[Permutations](./main/permutations/)   
-Sets  
-Permutations  
-Combinations  
+Permutations
+    Sets  
+    Permutations  
+    Combinations  
 </pre>
 
 ## Install
