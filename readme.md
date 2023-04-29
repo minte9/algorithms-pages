@@ -8,12 +8,13 @@
 
 #
 
+<pre>
 [Recursion](./main/recursion/)  
 Call stacks   
 Base case   
 Iterative approach   
 Memoization   
-Applications   
+Applications: 
 --- Tower of Hanoi   
 --- Flodd Fill  
 --- Tree Traversal  
