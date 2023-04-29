@@ -6,10 +6,12 @@ import turtle
 turtle.tracer(10, 0)
 turtle.setworldcoordinates(0, 0, 700, 700)
 turtle.hideturtle()
+turtle.fillcolor('orange')
 
 ANGLE = 90
 LEVEL = 6
 LINE_LENGTH = 5
+FILL = True
 
 def hilbert_cuadrant(angle, level):    
     if level == 0: # Base case
@@ -35,20 +37,25 @@ def hilbert_curve(position):
     turtle.penup()
     turtle.goto(position)
     turtle.pendown()
-    hilbert_cuadrant(ANGLE, LEVEL)
+    if FILL: turtle.begin_fill()
+
+    hilbert_cuadrant(ANGLE, LEVEL)  # Upper left quadrant
+    turtle.forward(LINE_LENGTH)
+
+    hilbert_cuadrant(ANGLE, LEVEL)  # Upper right quadrant
+    turtle.left(3*ANGLE)
+    turtle.forward(LINE_LENGTH)
+    turtle.right(ANGLE)
+
+    hilbert_cuadrant(ANGLE, LEVEL)  # Lower right quadrant
+    turtle.left(-4*ANGLE)
+    turtle.forward(LINE_LENGTH)
+
+    hilbert_cuadrant(ANGLE, LEVEL)  # Lower left quadrant
+
+    if FILL: turtle.end_fill()
+    return
 
 
-hilbert_curve((30, 350))        # Upper left quadrant
-turtle.forward(LINE_LENGTH)
-
-hilbert_cuadrant(ANGLE, LEVEL)  # Upper right quadrant
-turtle.left(3*ANGLE)
-turtle.forward(LINE_LENGTH)
-turtle.right(ANGLE)
-
-hilbert_cuadrant(ANGLE, LEVEL)  # Lower right quadrant
-turtle.left(-4*ANGLE)
-turtle.forward(LINE_LENGTH)
-
-hilbert_cuadrant(ANGLE, LEVEL)  # Lower left quadrant
+hilbert_curve((30, 350))        
 turtle.exitonclick()
