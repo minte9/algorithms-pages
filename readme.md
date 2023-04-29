@@ -9,7 +9,7 @@
 
 #
 
-<pre style='background-color: none'>
+<pre style='background-color: none !important;'>
 Recursion
     Call stacks
     Base case
