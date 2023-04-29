@@ -1,6 +1,6 @@
 ## Optimization
 
-### Minimax algorithm
+### Minimax
 > Maximize my score, while taking into accout that you will `try to minimize` my score.   
 Refactoring `dummy` implementation.  
 Comments and statements to view `each` step.  
