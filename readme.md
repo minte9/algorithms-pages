@@ -1,32 +1,32 @@
 # Algorithms
 
-> [Recursion](./main/recursion/)  
+[Recursion](./main/recursion/)  
 > Call stacks  
 > Base case  
 > Iterative approach  
 > Memoization  
 
-> [Head Tail](./main/head_tail/)  
+[Head Tail](./main/head_tail/)  
 > Sum numbers  
 > Reverse string  
 > Palindrome  
     
-> [Optimization](./main/optimization/minimax)  
+[Optimization](./main/optimization/minimax)  
 > Minimax  
 
-> [Divide Conquer](./main/divide_conquer/)   
+[Divide Conquer](./main/divide_conquer/)   
 > Binary Search  
 > Quciksort  
 > Merge Sort  
 > Sum numbers  
 > Karatsuba multiplication  
 
-> [Permutations](./main/permutations/)  
+[Permutations](./main/permutations/)  
 > Sets  
 > Permutations  
 > Combinations  
 
-> [Applications](./main/applications/)  
+[Applications](./main/applications/)  
 > Tower of Hanoi  
 > Flodd Fill  
 > Tree Traversal  
