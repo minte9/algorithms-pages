@@ -19,3 +19,8 @@
 ### Kock Snowflake
 
 ![Fractal Tree](https://github.com/minte9/algorithms-pages/blob/main/main/applications/fractals/kock_snowflake/kock_snowflake.png)
+
+
+### Hilbert Curve
+
+![Hilber Curve](https://github.com/minte9/algorithms-pages/blob/main/main/applications/fractals/hilbert_curve/hilbert_curve.png)
