@@ -10,7 +10,7 @@
 
 ### Sierpinsky Carpet
 
-![Sierpinsky Carpet](https://github.com/minte9/algorithms-pages/blob/main/main/applications/fractals/sierpinsky_triangle.png)
+![Sierpinsky Carpet](https://github.com/minte9/algorithms-pages/blob/main/main/applications/fractals/sierpinsky_triangle/sierpinsky2.png)
 
 ### Fractal Tree
 
