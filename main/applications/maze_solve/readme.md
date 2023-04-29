@@ -1,4 +1,4 @@
-#### Maze Solve
+### Maze Solve
 > A perfect maze has exactly `one path` from start to exit. p83   
 
 
