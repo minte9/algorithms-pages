@@ -8,11 +8,11 @@
 - [Applications](./main/applications/)  
 
 
-[Recursion](./main/recursion/)  
-/ Call stacks  
-/ Base case  
-/ Iterative approach  
-/ Memoization  
+### [Recursion](./main/recursion/)  
+Call stacks  
+Base case  
+Iterative approach  
+Memoization  
 
 Head Tail
     Sum numbers
