@@ -10,38 +10,38 @@
 
 <pre>
 Recursion
-    Call stacks   
-    Base case   
-    Iterative approach   
-    Memoization   
-    Applications: 
-        Tower of Hanoi   
-        Flodd Fill  
-        Tree Traversal  
-        Maze solve  
-        Fractals  
+    Call stacks
+    Base case
+    Iterative approach
+    Memoization
 
 Head Tail
-    Sum numbers  
-    Reverse string  
-    Palindrome  
+    Sum numbers
+    Reverse string
+    Palindrome
     
 Optimization
-    Minimax  
-    Applications  
-        Tic-Tac-Toe  
+    Minimax
 
-Divide Conquer   
-    Binary Search  
-    Quciksort  
-    Merge Sort  
-    Sum numbers  
-    Karatsuba multiplication   
+Divide Conquer
+    Binary Search
+    Quciksort
+    Merge Sort
+    Sum numbers
+    Karatsuba multiplication
 
 Permutations
-    Sets  
-    Permutations  
-    Combinations  
+    Sets
+    Permutations
+    Combinations
+
+Applications
+    Tower of Hanoi
+    Flodd Fill
+    Tree Traversal
+    Maze solve
+    Tic-Tac-Toe
+    Fractals
 </pre>
 
 ## Install
