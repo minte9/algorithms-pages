@@ -8,7 +8,7 @@
 - [Applications](./main/applications/)  
 
 
-### [Recursion](./main/recursion/)  
+#### [Recursion](./main/recursion/)  
 Call stacks  
 Base case  
 Iterative approach  
