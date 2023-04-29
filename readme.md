@@ -9,7 +9,7 @@
 #
 
 <pre>
-Recursion
+<b>Recursion</b>
     Call stacks   
     Base case   
     Iterative approach   
