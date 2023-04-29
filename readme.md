@@ -9,10 +9,10 @@
 
 
 [Recursion](./main/recursion/)  
-&nbps; Call stacks  
-- Base case  
-- Iterative approach  
-- Memoization  
+/ Call stacks  
+/ Base case  
+/ Iterative approach  
+/ Memoization  
 
 Head Tail
     Sum numbers
