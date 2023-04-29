@@ -1,40 +1,32 @@
 # Algorithms
 
-- [Recursion](./main/recursion/)
-- [Head Tail](./main/head_tail/)  
-- [Optimization](./main/optimization/minimax)
-- [Divide Conquer](./main/divide_conquer/)  
-- [Permutations](./main/permutations/)  
-- [Applications](./main/applications/)  
-
-
 [Recursion](./main/recursion/)  
 > Call stacks  
 > Base case  
 > Iterative approach  
 > Memoization  
 
-Head Tail
+[Head Tail](./main/head_tail/)  
     Sum numbers
     Reverse string
     Palindrome
     
-Optimization
+[Optimization](./main/optimization/minimax)
     Minimax
 
-Divide Conquer
+[Divide Conquer](./main/divide_conquer/)  
     Binary Search
     Quciksort
     Merge Sort
     Sum numbers
     Karatsuba multiplication
 
-Permutations
+[Permutations](./main/permutations/)
     Sets
     Permutations
     Combinations
 
-Applications
+[Applications](./main/applications/)
     Tower of Hanoi
     Flodd Fill
     Tree Traversal
