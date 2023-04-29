@@ -8,36 +8,36 @@
 
 #
 
-Recursion  
--- Call stacks   
--- Base case   
--- Iterative approach   
--- Memoization   
--- Applications   
+[Recursion](./main/recursion/)
+Call stacks   
+Base case   
+Iterative approach   
+Memoization   
+Applications   
 --- Tower of Hanoi   
 --- Flodd Fill  
 --- Tree Traversal  
 --- Maze solve  
 --- Fractals  
 
-Head Tail
-- Sum numbers
-- Reverse string
-- Palindrome
+[Head Tail](./main/head_tail/)  
+Sum numbers
+Reverse string
+Palindrome
     
-Optimization
-- Minimax
-- Applications
+[Optimization](./main/optimization/minimax) 
+Minimax
+Applications
 --- Tic-Tac-Toe
 
-Divide Conquer 
-- Binary Search
-- Quciksort
-- Merge Sort
-- Sum numbers
-- Karatsuba multiplication  
+[Divide Conquer](./main/divide_conquer/)  
+Binary Search
+Quciksort
+Merge Sort
+Sum numbers
+Karatsuba multiplication  
 
-Permutations
+[Permutations](./main/permutations/) 
 - Sets
 - Permutations
 - Combinations
