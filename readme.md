@@ -1,8 +1,8 @@
 # Algorithms
 
-- [Recursion](./main/recursion/) ( [apps](./main/recursion/practical_apps) )
+- [Recursion](./main/recursion/)
 - [Head Tail](./main/head_tail/)  
-- [Optimization](./main/optimization/minimax) ( [apps](./main/optimization/practical_apps) )
+- [Optimization](./main/optimization/minimax)
 - [Divide Conquer](./main/divide_conquer/)  
 - [Permutations](./main/permutations/)  
 
