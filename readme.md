@@ -27,7 +27,7 @@ Head Tail
     
 Optimization
 - Minimax
-- Applications
+- Applications  
 --- Tic-Tac-Toe
 
 Divide Conquer 
