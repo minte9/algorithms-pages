@@ -7,12 +7,12 @@
 - [Permutations](./main/permutations/)  
 - [Applications](./main/applications/)  
 
-<pre>
+
 [Recursion](./main/recursion/)
-    Call stacks
-    Base case
-    Iterative approach
-    Memoization
+  Call stacks
+  Base case
+  Iterative approach
+  Memoization
 
 Head Tail
     Sum numbers
