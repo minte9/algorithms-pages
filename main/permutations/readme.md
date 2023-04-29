@@ -1,8 +1,7 @@
 # Permutations
 
 ### Sets
->
-A set is a collection of `unique objects` {A,B,C}. p124  
+> A set is a collection of `unique objects` {A,B,C}. p124  
 Order `doesn't matter` for a set, {A,B,C} is the same as {B,A,C}  
 A set like {A,B,C,A} has repeate A and so is `not a set`.  
 
