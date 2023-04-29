@@ -1,7 +1,7 @@
 # Algorithms
 
 [Recursion](./main/recursion/)  
-> Call stacks  
+- [] Call stacks  
 > Base case  
 > Iterative approach  
 > Memoization  
