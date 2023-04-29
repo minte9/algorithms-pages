@@ -1,16 +1,19 @@
 # Permutations
 
-> Sets  
+### Sets
+
 A set is a collection of `unique objects` {A,B,C}. p124  
 Order `doesn't matter` for a set, {A,B,C} is the same as {B,A,C}  
 A set like {A,B,C,A} has repeate A and so is `not a set`.  
 
-> Permutations  
+### Permutations
+
 A permutation of a set is a `specific ordering` of all elements. p127  
 For example {A,B,C} has `six` permutations.  
 ABC ACB BAC BCA CAB CBA  
 
-> Combinations  
+### Combinations
+
 A combination is a `selection of elements` from a set. p134  
 We say a `k-combination` is a subset of k elements for a set.  
 The 1-combinations of {A,B,C} are: {A}, {B}, {C}  
