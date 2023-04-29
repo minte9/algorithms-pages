@@ -8,17 +8,17 @@
 
 #
 
-Recursion
-    Call stacks
-    Base case
-    Iterative approach
-    Memoization
-    Applications
-        Tower of Hanoi
-        Flodd Fill
-        Tree Traversal
-        Maze solve
-        Fractals
+Recursion  
+    Call stacks   
+    Base case   
+    Iterative approach   
+    Memoization   
+    Applications   
+        Tower of Hanoi   
+        Flodd Fill  
+        Tree Traversal  
+        Maze solve  
+        Fractals  
 
 Head Tail
     Sum numbers
