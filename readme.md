@@ -11,12 +11,11 @@
 
 
 Recursion
-<pre>
     Call stacks
     Base case
     Iterative approach
     Memoization
-</pre>
+
 Head Tail
     Sum numbers
     Reverse string
