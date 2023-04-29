@@ -13,7 +13,7 @@
 > We can divide a large array of numbers into `smaller arrays` to sum. p110  
 
 ### Karatsuba multiplication  
-> Fast multiplication algorithm, developed by Anatoly Karatsuba. p13  
+> Fast multiplication algorithm, developed by `Anatoly` Karatsuba. p13  
 
 
 ### References
