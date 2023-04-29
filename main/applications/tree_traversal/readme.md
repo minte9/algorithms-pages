@@ -1,13 +1,13 @@
 ## Trees
 > A tree `data structure` is a structure of nodes.  p72  
 Nodes are `connected` by other nodes by edges.  
- 
+>  
 > Nodes contain `data`.  
 Edges represent a `relationship` with another nodes.  
-
+> 
 > The starting node of a tree is called a `root`.  
 Trees always have exactly `one root`.  
-
+> 
 > In trees child nodes must have `one parent` and  
 edges that are `not loops`  
 
