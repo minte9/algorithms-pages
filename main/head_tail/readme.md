@@ -1,4 +1,4 @@
-## Head Tail - Algorithms
+## Head Tail
 
 ### Sum numbers    
 > To sum numbers we `add the head` to the sum of tail array. p46   
