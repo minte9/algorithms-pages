@@ -11,3 +11,7 @@
 ### Sierpinsky Carpet
 
 ![Sierpinsky Carpet](https://github.com/minte9/algorithms-pages/blob/main/main/applications/fractals/sierpinsky_carpet.png)
+
+### Fractal Tree
+
+![Fractal Tree](https://github.com/minte9/algorithms-pages/blob/main/main/applications/fractals/fractal_tree.png)
