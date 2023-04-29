@@ -1,4 +1,4 @@
-# Permutations
+## Permutations
 
 ### Sets
 > A set is a collection of `unique objects` {A,B,C}. p124  
