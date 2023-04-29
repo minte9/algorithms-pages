@@ -8,7 +8,7 @@
 
 #
 
-[Recursion](./main/recursion/)
+[Recursion](./main/recursion/)  
 Call stacks   
 Base case   
 Iterative approach   
@@ -20,24 +20,24 @@ Applications
 --- Maze solve  
 --- Fractals  
 
-[Head Tail](./main/head_tail/)  
+[Head Tail](./main/head_tail/)   
 Sum numbers
 Reverse string
 Palindrome
     
-[Optimization](./main/optimization/minimax) 
+[Optimization](./main/optimization/minimax)  
 Minimax
 Applications
 --- Tic-Tac-Toe
 
-[Divide Conquer](./main/divide_conquer/)  
+[Divide Conquer](./main/divide_conquer/)   
 Binary Search
 Quciksort
 Merge Sort
 Sum numbers
 Karatsuba multiplication  
 
-[Permutations](./main/permutations/) 
+[Permutations](./main/permutations/)   
 - Sets
 - Permutations
 - Combinations
