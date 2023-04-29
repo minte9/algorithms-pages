@@ -7,32 +7,32 @@
 > Memoization  
 
 [Head Tail](./main/head_tail/)
-> Sum numbers
-> Reverse string
-> Palindrome
+> Sum numbers  
+> Reverse string  
+> Palindrome  
     
 [Optimization](./main/optimization/minimax)
-> Minimax
+> Minimax  
 
 [Divide Conquer](./main/divide_conquer/)  
-> Binary Search
-> Quciksort
-> Merge Sort
-> Sum numbers
-> Karatsuba multiplication
+> Binary Search  
+> Quciksort  
+> Merge Sort  
+> Sum numbers  
+> Karatsuba multiplication  
 
 [Permutations](./main/permutations/)
-> Sets
-> Permutations
-> Combinations
+> Sets  
+> Permutations  
+> Combinations  
 
 [Applications](./main/applications/)
-> Tower of Hanoi
-> Flodd Fill
-> Tree Traversal
-> Maze solve
-> Tic-Tac-Toe
-> Fractals
+> Tower of Hanoi  
+> Flodd Fill  
+> Tree Traversal  
+> Maze solve  
+> Tic-Tac-Toe  
+> Fractals  
 </pre>
 
 ## Install
