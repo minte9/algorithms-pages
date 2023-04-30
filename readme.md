@@ -1,9 +1,9 @@
 # Algorithms
 
 [Recursion](./main/recursion/)  
-> Call stacks  
+> Call stacks / Line remembering, Frame objects, Stack overflow
 > Base case  
-> Iterative approach  
+> Iterative approach / Exponents, Factorial, Fibonacci
 > Memoization  
 
 [Head Tail](./main/head_tail/)  
@@ -14,7 +14,7 @@
 > Combinations  
     
 [Optimization](./main/optimization/minimax)  
-> Minimax  
+> Minimax  / Alpha-prunning
 
 [Divide Conquer](./main/divide_conquer/)   
 > Binary Search  
