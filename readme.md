@@ -14,7 +14,7 @@
 > Combinations  
     
 [Optimization](./main/optimization/minimax)  
-> Minimax
+> Minimax  
 > Alpha-beta prunning  
 
 [Divide Conquer](./main/divide_conquer/)   
