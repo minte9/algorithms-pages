@@ -10,6 +10,8 @@
 > Sum numbers  
 > Reverse string  
 > Palindrome  
+> Permutations  
+> Combinations  
     
 [Optimization](./main/optimization/minimax)  
 > Minimax  
@@ -20,10 +22,6 @@
 > Merge Sort  
 > Sum numbers  
 > Karatsuba multiplication  
-
-[Permutations](./main/permutations/)  
-> Permutations  
-> Combinations  
 
 [Applications](./main/applications/)  
 > Tower of Hanoi  
