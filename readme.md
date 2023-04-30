@@ -3,7 +3,7 @@
 [Recursion](./main/recursion/)  
 > Call stacks / Line remembering, Frame objects, Stack overflow  
 > Base case  
-> Iterative approach / Exponents, Factorial, Fibonacci  
+> Recursion vs Iteration / Exponents, Factorial, Fibonacci  
 > Memoization  
 
 [Head Tail](./main/head_tail/)  
