@@ -1,12 +1,9 @@
 # Algorithms
 
 [Recursion](./main/recursion/)  
-> Call stacks  
-    Line remembering  
-    Frame objects  
-    Stack overflow  
+> Call stacks: line remembering, frame objects, stack overflow  
 > Base case  
-> Recursion vs Iteration / Exponents, Factorial, Fibonacci  
+> Recursion vs Iteration: exponents, factorial, fibonacci  
 > Memoization  
 
 [Head Tail](./main/head_tail/)  
