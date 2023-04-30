@@ -14,7 +14,7 @@
 > Combinations  
     
 [Optimization](./main/optimization/minimax)  
-> Minimax  / Alpha-prunning  
+> Minimax  
 
 [Divide Conquer](./main/divide_conquer/)   
 > Binary Search  
