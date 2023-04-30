@@ -1,10 +1,10 @@
 # Algorithms
 
 [Recursion](./main/recursion/)  
-> Call stacks &nbsp; > frame objects, stack overflow  
+> Call stacks       &nbsp; / frame objects, stack overflow  
 > Base case  
-> Iterative approach > exponents, factorial, fibonacci   
-> Memoization (fibonacci) 
+> Iterative approach &nbsp; / exponents, factorial, fibonacci   
+> Memoization       &nbsp; / fibonacci
 
 [Head Tail](./main/head_tail/)  
 > Sum numbers  
