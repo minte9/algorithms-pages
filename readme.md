@@ -1,9 +1,9 @@
 # Algorithms
 
 [Recursion](./main/recursion/)  
-> Call stacks (frame objects, stack overflow)   
+> Call stacks > frame objects, stack overflow  
 > Base case  
-> Iterative approach (exponents, factorial, fibonacci)  
+> Iterative approach > exponents, factorial, fibonacci   
 > Memoization (fibonacci) 
 
 [Head Tail](./main/head_tail/)  
