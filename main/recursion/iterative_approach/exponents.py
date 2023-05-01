@@ -1,15 +1,15 @@
-""" Calculating exponents x^n
+""" Calculating exponents: x^n
 
 Iterative, a loop that repeatedly multiplies a number by itself
     res = res * x
+
 Recursive, use the power rule: 
     a^n = a^(n-1) * a^1 
+    
 Recursive v2, each call cuts the problem in half: 
     a^6 = a^3 * a^3
     a^5 = a^2 * a^2 * a
 """
-
-import time
 
 def pow_interative(x, n): # Iterative
     res = x
@@ -27,13 +27,13 @@ def pow_recursive_v2(x, n):
     if n == 0:
         return 1
 
-    res = pow_recursive_v2(x, n // 2) * pow_recursive_v2(x, n // 2) # floor division
+    res = pow_recursive_v2(x, n // 2) * \
+          pow_recursive_v2(x, n // 2)
 
-    if n % 2 == 0: # even
-        return res
-    elif n % 2 == 1: # odd
-        return res * x
+    if n % 2 == 0: return res
+    if n % 2 == 1: return res * x
 
+# Tests
 assert pow_interative(2, 2) == 4
 assert pow_interative(3, 3) == 27
 assert pow_recursive(2, 2) == 4
@@ -41,6 +41,8 @@ assert pow_recursive(3, 3) == 27
 assert pow_recursive(2, 2) == 4
 assert pow_recursive(3, 3) == 27
 
+# Time
+import time
 start = time.time()
 a = pow_interative(3, 600)
 print("Iterative: \t", time.time() - start, 'sec') 
