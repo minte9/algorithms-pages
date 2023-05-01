@@ -5,9 +5,7 @@ finishises its execution.
 
 def first_function():
     print('Line 07')
-    
     second_function()
-
     print('Line 09 - return to first function')
     return
 
