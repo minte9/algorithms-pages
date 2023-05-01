@@ -2,31 +2,30 @@
 A Frame contain information about a single function call.
 Frames are created and pushed onto the stack when function is called.
 When the function returns, that frame is popped off the stack.
-
-Variables are always separate variables,
-even if they have the same name as local variables in functions.
 """
 
-def first():
-   x = '10'
-   print('Frame A: x =', x); second()
-   print('Frame A: x =', x)
+def frame_objects(i=1):
+   print('A Frame', 'No.', i)
+   second_func(i+1)
+   print('A Frame', 'No.', i)
+   return
 
-def second():
-   x = '20'
-   print('Frame B: x =', x); third()
-   print('Frame B: x =', x)
+def second_func(i):
+   print('B Frame', 'No.', i)
+   third_func(i+1)
+   print('B Frame', 'No.', i)
+   return
 
-def third():
-   x = '30'
-   print('Frame C: x =', x)
+def third_func(i):
+   print('C Frame', 'No.', i)
+   return
 
-first()
+frame_objects()
 
 """
-    Frame A: x = 10
-    Frame B: x = 20
-    Frame C: x = 30
-    Frame B: x = 20
-    Frame A: x = 10
+   A Frame No. 1
+   B Frame No. 2
+   C Frame No. 3
+   B Frame No. 2
+   A Frame No. 1
 """
