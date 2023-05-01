@@ -12,7 +12,7 @@
 > Combinations  
     
 [Optimization](./main/optimization/minimax)  
-> Minimax  `Alpha-beta prunning`  
+> Minimax   
 
 [Divide Conquer](./main/divide_conquer/)   
 > Binary Search  
