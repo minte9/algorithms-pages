@@ -4,8 +4,6 @@ remembered for future use.
 To memoize a function we create a cache dictionary.
 """
 
-import time
-
 cache = {}
 
 def fibonacci_recursive(n):
@@ -31,23 +29,18 @@ def fibonacci_iterative(n):
         a, b = b, a + b
     return b
 
+# Time
+import time
+t1 = time.time(); n = fibonacci_memoize(100)
+t2 = time.time(); n = fibonacci_recursive(36)
+t3 = time.time(); n = fibonacci_iterative(100)
 
-start = time.time()
-n = fibonacci_memoize(100)
-print("fibonacci_memoize(100)  =", n, time.time() - start, 's') 
-
-start = time.time()
-n = fibonacci_recursive(36)
-print("fibonacci_recursive(36) =", n, time.time() - start, 's') 
-
-start = time.time()
-n = fibonacci_iterative(100)
-print("fibonacci_iterative(100) =", n, time.time() - start, 's') 
+print("fibonacci_memoize(100)", time.time() - t1, 's') 
+print("fibonacci_recursive(36)", time.time() - t2, 's') 
+print("fibonacci_iterative(100)", time.time() - t3, 's') 
 
 """
-
-fibonacci_memoize(100) = 354224848179261915075      0.0005996227264404297 s
-fibonacci_recursive(36) = 14930352                  4.443222761154175 s
-fibonacci_iterative(100) = 354224848179261915075    1.430511474609375e-05 s
-
+    fibonacci_memoize(100) 2.627922773361206 s
+    fibonacci_recursive(36) 2.627795934677124 s
+    fibonacci_iterative(100) 7.200241088867188e-05 s
 """

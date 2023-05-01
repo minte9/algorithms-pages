@@ -3,7 +3,7 @@
 Memoization is a technique of `remembering` the return values. p151
 Memoize means `to store` (the result of computed expression).
 
-Dinamic programming is a technique that breaks a larg problem into 
+Dinamic programming is a technique that breaks a large problem into 
 `overlaping subproblems`.
 
 Not all functions can be memoized.
