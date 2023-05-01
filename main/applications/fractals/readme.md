@@ -1,5 +1,7 @@
 ## Fractals
 
+> Fractals are infinitely complex patterns that are self-similar across different scales.
+
 ### Turtle graphics
 
 ![Turtle graphics](https://github.com/minte9/algorithms-pages/blob/main/main/applications/fractals/turtle_graphics/image.png)
