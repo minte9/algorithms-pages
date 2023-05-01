@@ -1,7 +1,11 @@
 """ Frame objects
+
 A Frame contain information about a single function call.
 Frames are created and pushed onto the stack when function is called.
-When the function returns, that frame is popped off the stack.
+
+When the function returns, that frame is popped off the stack, 
+and the previous frame object becomes the current one, 
+resuming the execution of the calling function from where it left off.
 """
 
 def frame_objects(i=1):
