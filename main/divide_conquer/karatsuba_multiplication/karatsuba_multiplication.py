@@ -1,4 +1,5 @@
-""" Karatsuba Algorithm
+""" Karatsuba Multiplication Algorithm
+
 Fast multiplication algorithm, developed by Anatoly Karatsuba 
 in 1960, at the age of 23!
 
@@ -16,7 +17,8 @@ ab x cd
     = 10^n*k1 + 10^(n/2)*k4 + k2
 """
 
-TABLE = {} # Normaly, lookup tables are hardcoded in the code
+# Normaly, lookup tables are hardcoded in the code
+TABLE = {}
 for i in range(10):
     for j in range(10):
         TABLE[(i, j)] = i * j
@@ -59,6 +61,32 @@ def karatsuba(x, y):
 
     return int(k1) + int(k4) + int(k2)  
 
+def product(x, y):
+    product = 0
+    for _ in range(x):
+        product += y
+    return product
+
+
+# Tests
 assert karatsuba(10, 20) == 200
 assert karatsuba(90, 900) == 81000
 assert karatsuba(1357, 2468) == 3349076
+
+# Time
+import time
+x = 123_456_789
+y = 123_456_789
+
+start = time.time()
+total = karatsuba(x, y)
+print(f"karatsuba() time: {time.time() - start}s {total}")
+
+start = time.time()
+total = product(x, y)
+print(f"product()   time: {time.time() - start}s {total}")
+
+"""
+    karatsuba() time: 0.00013637542724609375s 15241578750190521
+    product()   time: 5.290467023849487s 15241578750190521
+"""
