@@ -26,7 +26,7 @@
 > Flodd Fill  
 > Tree Traversal  
 > Maze solve  
-> Tic-Tac-Toe  
+> Tic-Tac-Toe  `Legal moves` `Board` `Termnal state` `Score` `Next move` `Play`
 > Fractals  `Turtle graphics` `Sierpinsky Triangle` `Fractal Trees` `Hilber curve`
 </pre>
 
