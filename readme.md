@@ -7,15 +7,13 @@
 > Memoization `Fibonacci`
 
 [Head Tail](./main/head_tail/)  
-> Sum numbers  
 > Reverse string  
 > Palindrome  
 > Permutations  
 > Combinations  
     
 [Optimization](./main/optimization/minimax)  
-> Minimax  
-> Alpha-beta prunning  
+> Minimax  `Alpha-beta prunning`  
 
 [Divide Conquer](./main/divide_conquer/)   
 > Binary Search  
