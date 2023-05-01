@@ -1,6 +1,6 @@
-""" Line remembering
-Programming languages remembers the line of code that called a function.
-It returns to that line when the function finishises its execution.
+""" Programming languages remembers the line of code 
+that called a function. It returns to that line when 
+the function finishises its execution.
 """
 
 def line_remembering_function():
