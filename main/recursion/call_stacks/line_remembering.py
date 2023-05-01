@@ -3,18 +3,22 @@ called a function and returns to that line when the function
 finishises its execution.
 """
 
-def a():
+def first_function():
     print('Line 07')
-    b()
-    print('Line 09 - return to function a()')
+    
+    second_function()
 
-def b():
+    print('Line 09 - return to first function')
+    return
+
+def second_function():
     print('Line 10')
+    return
 
-a()
+first_function()
 
 """
     Line 07
     Line 10
-    Line 09 - retrun to function a()
+    Line 09 - retrun to first function
 """
