@@ -6,6 +6,7 @@ It returns to that line when the function finishises its execution.
 def line_remembering_function():
     print('Line 08')
     goto()
+    
     print('Line 10 - return to first function')
     return
 
