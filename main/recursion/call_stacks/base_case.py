@@ -1,14 +1,8 @@
 """ Base case 
-
 To avoid a crash, there must be a base case, where function
-stop calling itself and just returns. All recursive function require at least 
-on base case and at least one recursive case.
-
+stop calling itself and just returns.
 The code in a recursive call can be split in two parts, 
 before the recursive call and after recursive call.
-
-Reaching the base case doesn't necessary means the end 
-of the recursive algorithm.
 """
 
 def show_frame(repeat, i=0):
