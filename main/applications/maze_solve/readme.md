@@ -3,7 +3,7 @@
 
 #
 
-![maze](https://github.com/minte9/algorithms-pages/blob/main/main/applications/maze_solve/maze_solve.png)
+![maze](https://github.com/minte9/algorithms-pages/blob/main/main/applications/maze_solve/image.png)
 
 
 ### References
