@@ -1,4 +1,6 @@
-""" A stack stores multiple values like a list. 
+""" Stacks
+
+A stack stores multiple values like a list. 
 Stacks are LIFO data structure (last in, first out)
 """
 

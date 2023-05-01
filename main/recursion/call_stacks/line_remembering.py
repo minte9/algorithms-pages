@@ -14,7 +14,7 @@ def b():
 a()
 
 """
-Line 07
-Line 10
-Line 09 - retrun to function a()
+    Line 07
+    Line 10
+    Line 09 - retrun to function a()
 """
