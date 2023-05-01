@@ -23,7 +23,7 @@
 
 [Applications](./main/applications/)  
 > Tower of Hanoi  
-> Flodd Fill  
+> Flood Fill  
 > Tree Traversal  
 > Maze solve  
 > Tic-Tac-Toe  `Legal moves` `Board` `Termnal state` `Score` `Next move` `Play`  
