@@ -1,8 +1,7 @@
 # Algorithms
 
 [Recursion](./main/recursion/)  
-> Call stacks `Frame objects` `Stack overflow`  
-> Base case  
+> Call stacks `Frame objects` `Stack overflow` `Base case`    
 > Iterative approach `Exponents` `Factorial` `Fibonacci`     
 > Memoization `Fibonacci`
 
