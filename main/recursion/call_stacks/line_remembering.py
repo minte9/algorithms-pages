@@ -4,20 +4,21 @@ called a function and returns to that line when the function
 finishises its execution.
 """
 
-def first_function():
-    print('Line 07')
-    second_function()
-    print('Line 09 - return to first function')
+def line_remembering_function():
+    print('Line 08')
+    goto()
+    
+    print('Line 10 - return to first function')
     return
 
-def second_function():
-    print('Line 10')
+def goto():
+    print('Line 14')
     return
 
-first_function()
+line_remembering_function()
 
 """
-    Line 07
-    Line 10
-    Line 09 - retrun to first function
+    Line 08
+    Line 14
+    Line 10 - return to first function
 """
