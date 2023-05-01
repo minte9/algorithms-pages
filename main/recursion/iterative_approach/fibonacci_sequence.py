@@ -26,6 +26,7 @@ def fibonacci_recursive(n):
     if n == 2: return 1
     return fibonacci_recursive(n-1) + fibonacci_recursive(n-2)
 
+# Tests
 assert fibonacci_iterative(2) == 1
 assert fibonacci_iterative(3) == 2
 assert fibonacci_iterative(4) == 3
@@ -33,6 +34,7 @@ assert fibonacci_iterative(5) == 5
 assert fibonacci_recursive(6) == 8
 assert fibonacci_recursive(7) == 13
 
+# Time
 import time
 t1 = time.time(); n1 = fibonacci_iterative(100)
 t2 = time.time(); n2 = fibonacci_recursive(36)
