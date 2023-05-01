@@ -27,7 +27,7 @@
 > Tree Traversal  
 > Maze solve  
 > Tic-Tac-Toe  
-> Fractals  
+> Fractals  `Turtle graphics` `Sierpinsky Triangle` `Fractal Trees` `Hilber curve`
 </pre>
 
 #
