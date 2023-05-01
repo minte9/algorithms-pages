@@ -1,5 +1,4 @@
 """ Frame objects
-
 A Frame contain information about a single function call.
 Frames are created and pushed onto the stack when function is called.
 
