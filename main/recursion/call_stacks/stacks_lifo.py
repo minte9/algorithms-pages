@@ -4,10 +4,10 @@ Stacks are LIFO data structure (last in, first out)
 """
 
 cards = []
-cards.append('5');  print(' '.join(cards))
-cards.append('3');  print(' '.join(cards))
-cards.append('7');  print(' '.join(cards))
-cards.pop();        print(' '.join(cards)) # Last in, First out
+cards.append('5'); print(' '.join(cards))
+cards.append('3'); print(' '.join(cards))
+cards.append('7'); print(' '.join(cards))
+cards.pop();       print(' '.join(cards)) # Last in, First out
 
 """
     5
