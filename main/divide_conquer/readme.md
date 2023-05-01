@@ -4,7 +4,7 @@
 > We repeatedly determining `which half` of the list the item is in. p93  
 
 ### Quicksort    
-> Uses a divide-concuer technique called `partitioning` p96  
+> Uses a divide-conquer technique called `partitioning` p96  
 
 ### Merge Sort    
 > Each recusive call `divides` the unsorted list into halves. p104  
