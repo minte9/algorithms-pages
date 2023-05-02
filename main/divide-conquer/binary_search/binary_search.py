@@ -5,9 +5,15 @@ A linear search of a shelf with 100 books takes 100 steps.
 A binary search on 50 takes 6 and on 100 only 7 steps.
 """
 
-import sys
-sys.dont_write_bytecode = True
-from decorators import timer # import custom module (no .pyc files)
+import time
+
+def timer(func):
+    def wrapper(*args, **kwargs):
+        t1 = time.time()
+        res = func(*args, **kwargs)
+        print(func.__name__ + "():\t", time.time() - t1, "s")
+        return res
+    return wrapper
 
 @timer 
 def binary_search(needle, haystack):
