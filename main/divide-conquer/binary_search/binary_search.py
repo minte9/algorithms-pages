@@ -7,7 +7,7 @@ A binary search on 50 takes 6 and on 100 only 7 steps.
 
 import sys
 sys.dont_write_bytecode = True
-from decorators import timer
+from decorators import timer # import custom module (no .pyc files)
 
 @timer 
 def binary_search(needle, haystack):
