@@ -11,7 +11,7 @@ In `functional programming` we write functions that don't modify
 global variables or any external state.
 
 The python sqrt() function is `deterministic` (always return the same value).
-Tgen time.time() functoin is `nondeterministic`.
+Tgen time.time() function is `nondeterministic`.
 
 Side `effects` are any changes that a function makes to anything outside its code.
 If a function is deterministic and as no side effects, it is called `pure function`.
