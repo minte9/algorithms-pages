@@ -3,7 +3,7 @@
 ### Sum numbers    
 > To sum numbers we `add the head` to the sum of tail array. p46   
 
-### Reverse string    
+### Reverse strings   
 > To reverse a string we `place the head behind` the tail. p49  
 
 ### Palindrome    
