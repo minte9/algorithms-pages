@@ -1,7 +1,9 @@
 """ Minimax algorithm - Dummy
 Binary tree, with only two choices, left and right.
-When is Max turn on list node, we evaluate each node children on `not player` choise, 
-because Min player will try to minimize the Max score.
+
+When is Max turn on list node, we evaluate each node children
+on `not player` choise, because Min player will try to minimize
+the Max score.
 """
 
 def minimax(node, player):
