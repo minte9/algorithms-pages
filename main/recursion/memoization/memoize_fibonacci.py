@@ -47,7 +47,7 @@ print("fibonacci_recursive(36)", time.time() - t2, 's', n2)
 print("fibonacci_iterative(100)", time.time() - t3, 's', n3) 
 
 """
-    fibonacci_memoize(100) 2.736084222793579 s 354224848179261915075
-    fibonacci_recursive(36) 2.735971450805664 s 14930352
-    fibonacci_iterative(100) 5.555152893066406e-05 s 354224848179261915075
+    fibonacci_memoize(100) 2.736084222793579 s          354224848179261915075
+    fibonacci_recursive(36) 2.735971450805664 s         14930352
+    fibonacci_iterative(100) 5.555152893066406e-05 s    354224848179261915075
 """
