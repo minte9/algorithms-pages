@@ -4,12 +4,13 @@ that automatically memoize the function it decorates.
 Memoization can be apply to any pure function to speed up the execution.
 """
 
+from functools import lru_cache
+
 def fibonacci_recursive(n):
     if n == 1: return 1
     if n == 2: return 1
     return fibonacci_recursive(n-1) + fibonacci_recursive(n-2)
 
-from functools import lru_cache
 @lru_cache()
 def fibonacci_memoize(n): # Look Here
     if n == 1: return 1
