@@ -24,7 +24,7 @@ def isPalindrome_iterative(s):
         last  = s[m-1-i]
         if first != last:
             return False
-            
+
     return True
 
 assert isPalindrome_recursive('level')  == True
@@ -35,3 +35,28 @@ assert isPalindrome_iterative('level') == True
 assert isPalindrome_iterative('rac e car') == True
 assert isPalindrome_iterative('levels') == False
 assert isPalindrome_iterative('race car') == False
+
+# Overflow
+import random
+def generate_palindrome(length):
+
+    # Random integer between 97 and 122 (inclusive), which are
+    # ASCII codes for the lowercase letters a to z
+    chars = [chr(random.randint(97, 122)) for _ in range(length//2)]
+    
+    # Reversed copy of the chars list
+    reversed = chars[::-1] 
+    return ''.join(chars + reversed)
+
+str_random = generate_palindrome(2000)
+print(str_random)
+try:
+    print(isPalindrome_recursive(str_random))
+except RecursionError as e:
+    print("isPalindorme_recursive(2000)", e) # maximum recursion depth exceeded
+print("isPalindrome_iterative(2000)", isPalindrome_iterative(str_random)) # True
+
+"""
+    isPalindorme_recursive(2000) maximum recursion depth exceeded ...
+    isPalindrome_iterative(2000) True
+"""
