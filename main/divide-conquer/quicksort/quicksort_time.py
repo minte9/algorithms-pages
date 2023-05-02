@@ -9,11 +9,14 @@ start, end = 0, 0
 def timer(func):
     def wrapper(*args, **kwargs):
         global start, end
+
         if start == 0: 
             start = time.time()
+
         result = func(*args, **kwargs)
         end = time.time()
         return result
+        
     return wrapper
 
 @timer
