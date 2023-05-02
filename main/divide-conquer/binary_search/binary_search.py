@@ -6,7 +6,7 @@ A binary search on 50 takes 6 and on 100 only 7 steps.
 """
 
 import sys
-sys.dont_write_bytecode = True # import custome module
+sys.dont_write_bytecode = True # import custom module
 from decorators import timer
 
 @timer 
