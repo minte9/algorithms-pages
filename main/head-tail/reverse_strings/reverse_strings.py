@@ -1,37 +1,36 @@
 """ Reverse strings / Head tail technique
-A classic reverse algorithm, even though the 
-iterative solution is better.
+A classic reverse algorithm, even though the iterative solution is better.
 """
 
-def head_tail_reverse(s):
-    if len(s) <= 1: # Base case
-        return s
-    head = s[0]
-    tail = s[1:]
-    res  = head_tail_reverse(tail) + head # Recursive case
+def reverse_string_recursive(str):
+    if len(str) <= 1: # Base case
+        return str
+    head = str[0]
+    tail = str[1:]
+    res  = reverse_string_recursive(tail) + head
     return res
 
-def reverse(str):
+def reverse_string_iterative(str):
     m = len(str)
     s = ""
     for i in range(1, m + 1):
         s += str[m - i]
     return s
 
-assert head_tail_reverse('S') == 'S'
-assert head_tail_reverse('XY') == 'YX'
-assert head_tail_reverse('CAT') == 'TAC'
-assert head_tail_reverse('Hello World!') == '!dlroW olleH'
-assert reverse('S') == 'S'
-assert reverse('XY') == 'YX'
-assert reverse('CAT') == 'TAC'
-assert reverse('Hello World!') == '!dlroW olleH'
+assert reverse_string_recursive('S') == 'S'
+assert reverse_string_recursive('XY') == 'YX'
+assert reverse_string_recursive('CAT') == 'TAC'
+assert reverse_string_recursive('Hello World!') == '!dlroW olleH'
+assert reverse_string_iterative('S') == 'S'
+assert reverse_string_iterative('XY') == 'YX'
+assert reverse_string_iterative('CAT') == 'TAC'
+assert reverse_string_iterative('Hello World!') == '!dlroW olleH'
 
 # Overflow
 try:
-    head_tail_reverse('a' * 1000)
+    reverse_string_recursive('a' * 1000)
 except RecursionError as e:
     print(e) # maximum recursion depth exceeded
 
-str = reverse('a' * 1000)
+str = reverse_string_iterative('a' * 1000)
 print(str)
