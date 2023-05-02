@@ -1,4 +1,6 @@
 import time
+import sys
+sys.dont_write_bytecode = True # no .pyc
 
 def timer(func):
     def wrapper(*args, **kwargs):
