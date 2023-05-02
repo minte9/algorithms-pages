@@ -5,7 +5,7 @@
 > Iterative approach `Exponents` `Factorial` `Fibonacci`     
 > Memoization `Fibonacci`
 
-[Head Tail](./main/head_tail/)  
+[Head Tail](./main/head-tail/)  
 > Reverse string  
 > Palindrome  
 > Permutations  
@@ -14,7 +14,7 @@
 [Optimization](./main/optimization/minimax)  
 > Minimax   `Alpha-beta prunnning`
 
-[Divide Conquer](./main/divide_conquer/)   
+[Divide Conquer](./main/divide-conquer/)   
 > Binary Search  
 > Quciksort  
 > Merge Sort  
