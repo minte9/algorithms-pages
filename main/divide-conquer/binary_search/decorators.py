@@ -1,6 +1,6 @@
 import time
 
-def runtimeprint(func):
+def timer(func):
     def wrapper(*args, **kwargs):
         t1 = time.time()
         res = func(*args, **kwargs)
