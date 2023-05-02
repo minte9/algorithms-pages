@@ -58,6 +58,6 @@ except RecursionError as e:
 print("isPalindrome_iterative(2000)", isPalindrome_iterative(str_random))
 
 """
-    isPalindorme_recursive(2000) maximum recursion depth exceeded ...
-    isPalindrome_iterative(2000) True
+    isPalindorme_recursive(2000_str) maximum recursion depth exceeded ...
+    isPalindrome_iterative(2000_str) True
 """
