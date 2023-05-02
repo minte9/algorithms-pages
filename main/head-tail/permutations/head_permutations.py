@@ -8,8 +8,8 @@ Head permutations, we place the head in every posible location of the tail.
 The permutation of a single char is the char itself (base case).
 By putting the B in every possible location of C we get BC CB. 
 
- BC = None + B + C  # tail[0:0] = None
- CB = C + B + None  # tail[1:]  = None
+    BC = None + B + C  # tail[0:0] = None
+    CB = C + B + None  # tail[1:]  = None
 """
 
 def head_permutations(chars):
