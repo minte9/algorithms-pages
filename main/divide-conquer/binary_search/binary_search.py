@@ -9,7 +9,7 @@ import sys
 sys.dont_write_bytecode = True
 from decorators import timer
 
-@timer
+@timer 
 def binary_search(needle, haystack):
     i = 0 
     j = len(haystack) - 1
@@ -43,9 +43,9 @@ assert binary_search(100, data) == None
 print("Tests passed")
 
 # Time
-data = generate_data()
-key = binary_search(123456780, data)
-key = linear_search(123456780, data)
+lst = generate_data()
+key = binary_search(123456780, lst)
+key = linear_search(123456780, lst)
 
 """
     generate_data() time:    5.986196041107178 s
