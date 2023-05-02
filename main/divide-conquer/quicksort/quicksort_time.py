@@ -2,6 +2,10 @@
 Around 480 items maximum
 """
 
+import random
+import time
+start, end = 0, 0
+
 def timer(func):
     def wrapper(*args, **kwargs):
         global start, end
@@ -36,13 +40,9 @@ def quicksort(items, i=0, j=None):
 @timer
 def native_sort(items):
     return items.sort()
-    
+
 
 # Time
-import random
-import time
-start, end = 0, 0
-
 lst = random.sample(range(0, 100), 100)
 start, end = 0, 0
 quicksort(lst)
