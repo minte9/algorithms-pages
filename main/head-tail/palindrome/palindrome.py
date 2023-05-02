@@ -26,6 +26,7 @@ def isPalindrome_iterative(s):
 
     return True
 
+# Tests
 assert isPalindrome_recursive('level')  == True
 assert isPalindrome_recursive('rac e car') == True
 assert isPalindrome_recursive('levels') == False
