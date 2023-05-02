@@ -59,22 +59,20 @@ move = minimax(tree, False)
 print('Min best move =', move, '\n')
 
 """
+    Max to play
+    Node: [[[[3, 4]], [8, [-2, 10], 5]], 7]
+    Node: [[[3, 4]], [8, [-2, 10], 5]]
+    Node: [[3, 4]]
+    Node: [3, 4]
+    Node: [8, [-2, 10], 5]
+    Max best move = 7
 
-Max to play
-Node: [[[[3, 4]], [8, [-2, 10], 5]], 7]
-Node: [[[3, 4]], [8, [-2, 10], 5]]
-Node: [[3, 4]]
-Node: [3, 4]
-Node: [8, [-2, 10], 5]
-Max best move = 7
-
-Min to play
-Node: [[[[3, 4]], [8, [-2, 10], 5]], 7]
-Node: [[[3, 4]], [8, [-2, 10], 5]]
-Node: [[3, 4]]
-Node: [3, 4]
-Node: [8, [-2, 10], 5]
-Node: [-2, 10]
-Min best move = 5
-
+    Min to play
+    Node: [[[[3, 4]], [8, [-2, 10], 5]], 7]
+    Node: [[[3, 4]], [8, [-2, 10], 5]]
+    Node: [[3, 4]]
+    Node: [3, 4]
+    Node: [8, [-2, 10], 5]
+    Node: [-2, 10]
+    Min best move = 5
 """
