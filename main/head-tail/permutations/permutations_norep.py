@@ -1,5 +1,8 @@
 """ Permutations / Without repetition
 
+A permutation of a set is a specific ordering of all elements.
+For example {A,B,C} has six permutations ABC ACB BAC BCA CAB CBA
+
 We select one of the elements from the set as the head.
 We get all the permutations from the rest of elements (the tail).
 For each permutation we place the head in every posible location.

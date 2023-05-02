@@ -1,6 +1,10 @@
 """ Head Permutations
-We place the head in every posible location of the tail.
 
+A set is a collection of unique objects {A,B,C}.
+Order doesn't matter for a set, {A,B,C} is the same as {B,A,C}
+A set like {A,B,C,A} has repeate A and so is not a set.
+
+For head permutations, we place the head in every posible location of the tail.
 The permutation of a single char is the char itself (base case).
 By putting the B in every possible location of C we get BC CB. 
 
