@@ -1,4 +1,4 @@
-""" Palindrome / First last middle technique
+""" Palindrome / Head tail technique
 
 A palindrome is a word or phrase that is spelled the same 
 when written forward or backword (level, race car).
