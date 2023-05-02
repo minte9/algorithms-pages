@@ -10,8 +10,8 @@ def minimax(node, player):
     if isinstance(node, int):  # Base case
         return node
 
-    lv = minimax(node[0], not player) # Recursive case
-    rv = minimax(node[1], not player)
+    lv = minimax(node[0], not player) # Recursive
+    rv = minimax(node[1], not player) # Recursive
 
     if player:
         best_score = max(lv, rv)
