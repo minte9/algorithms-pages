@@ -1,19 +1,19 @@
 # Memoization - Algorithms
 
-Memoization is a technique of `remembering` the return values. p151  
+> Memoization is a technique of `remembering` the return values. p151  
 Memoize means `to store` (the result of computed expression).  
 
-Dinamic programming is a technique that breaks a large problem into  
+> Dinamic programming is a technique that breaks a large problem into  
 `overlaping subproblems`.
 
-Not all functions can be memoized.  
+> Not all functions can be memoized.  
 In `functional programming` we write functions that don't modify   
 global variables or any external state.  
 
-The python sqrt() function is `deterministic` (always return the same value).  
+> The python sqrt() function is `deterministic` (always return the same value).  
 Tgen time.time() function is `nondeterministic`.  
 
-Side `effects` are any changes that a function makes to anything outside its code.  
+> Side `effects` are any changes that a function makes to anything outside its code.  
 If a function is deterministic and as no side effects, it is called `pure function`.  
 
 #
