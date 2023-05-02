@@ -1,8 +1,6 @@
 import time
-import sys
-sys.dont_write_bytecode = True # no .pyc
 
-def timer(func):
+def runtimeprint(func):
     def wrapper(*args, **kwargs):
         t1 = time.time()
         res = func(*args, **kwargs)

@@ -5,9 +5,9 @@ A linear search of a shelf with 100 books takes 100 steps.
 A binary search on 50 takes 6 and on 100 only 7 steps.
 """
 
-from decorators import timer
+from m9_decorators import runtimeprint
 
-@timer 
+@runtimeprint
 def binary_search(needle, haystack):
     i = 0 
     j = len(haystack) - 1
@@ -21,14 +21,14 @@ def binary_search(needle, haystack):
         if i > j: 
             return None
 
-@timer
+@runtimeprint
 def linear_search(needle, haystack):
     for i in range(len(haystack)):
         if needle == haystack[i]:
             return i
     return None
 
-@timer
+@runtimeprint
 def generate_data():
     data = [i for i in range(123456789)]
     return data
@@ -46,7 +46,7 @@ key = binary_search(123456780, data)
 key = linear_search(123456780, data)
 
 """
-    generate_data() time:    5.986196041107178 s
-    binary_search() time:    1.8835067749023438e-05 s
-    linear_search() time:    8.184731483459473 s
+    generate_data():    5.986196041107178 s
+    binary_search():    1.8835067749023438e-05 s
+    linear_search():    8.184731483459473 s
 """
