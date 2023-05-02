@@ -4,13 +4,12 @@ remembered for future use.
 To memoize a function we create a cache dictionary.
 """
 
-CACHE = {}
-
 def fibonacci_recursive(n):
     if n == 1: return 1
     if n == 2: return 1
     return fibonacci_recursive(n-1) + fibonacci_recursive(n-2)
 
+CACHE = {}
 def fibonacci_memoize(n):
     global CACHE
 
