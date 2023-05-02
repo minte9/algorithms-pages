@@ -9,8 +9,8 @@ def fibonacci_recursive(n):
     if n == 2: return 1
     return fibonacci_recursive(n-1) + fibonacci_recursive(n-2)
 
-import functools
-@functools.lru_cache()
+from functools import lru_cache
+@lru_cache()
 def fibonacci_memoize(n): # Look Here
     if n == 1: return 1
     if n == 2: return 1
@@ -32,16 +32,16 @@ assert fibonacci_memoize(7) == 13
 
 # Time
 import time
-t1 = time.time(); n = fibonacci_memoize(100)
-t2 = time.time(); n = fibonacci_recursive(36)
-t3 = time.time(); n = fibonacci_iterative(100)
+t1 = time.time(); n1 = fibonacci_memoize(100)
+t2 = time.time(); n2 = fibonacci_recursive(36)
+t3 = time.time(); n3 = fibonacci_iterative(100)
 
-print("fibonacci_memoize(100)", time.time() - t1, 's') 
-print("fibonacci_recursive(36)", time.time() - t2, 's') 
-print("fibonacci_iterative(100)", time.time() - t3, 's') 
+print("fibonacci_memoize(100)", time.time() - t1, 's', n1) 
+print("fibonacci_recursive(36)", time.time() - t2, 's', n2) 
+print("fibonacci_iterative(100)", time.time() - t3, 's', n3) 
 
 """
-    fibonacci_memoize(100) 2.659872531890869 s
-    fibonacci_recursive(36) 2.6597554683685303 s
-    fibonacci_iterative(100) 5.054473876953125e-05 s
+    fibonacci_memoize(100) 2.736084222793579 s 354224848179261915075
+    fibonacci_recursive(36) 2.735971450805664 s 14930352
+    fibonacci_iterative(100) 5.555152893066406e-05 s 354224848179261915075
 """
