@@ -1,5 +1,6 @@
 """ Reverse strings / Head tail technique
-A classic recursive algorithm, even though the iterative solution is better.
+A classic recursive algorithm, even though 
+the iterative solution is better.
 """
 
 def reverse_string_recursive(str):
