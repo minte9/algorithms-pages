@@ -25,5 +25,7 @@ tree = [[9, 5], [-3, -2]]
 print('Max to play / Best score =', minimax(tree, True))
 print('Min to play / Best score =', minimax(tree, False))
 
-# Max to play =  5
-# Min to play = -2
+"""
+    Max to play / Best score = 5
+    Min to play / Best score = -2
+"""
