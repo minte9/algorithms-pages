@@ -4,14 +4,12 @@ that automatically memoize the function it decorates.
 Memoization can be apply to any pure function to speed up the execution.
 """
 
-import time
-import functools
-
 def fibonacci_recursive(n):
     if n == 1: return 1
     if n == 2: return 1
     return fibonacci_recursive(n-1) + fibonacci_recursive(n-2)
 
+import functools # Look Here
 @functools.lru_cache()
 def fibonacci_memoize(n):
     if n == 1: return 1
@@ -24,23 +22,26 @@ def fibonacci_iterative(n):
         a, b = b, a + b
     return b
 
+# Tests
+assert fibonacci_iterative(2) == 1
+assert fibonacci_iterative(3) == 2
+assert fibonacci_recursive(4) == 3
+assert fibonacci_recursive(5) == 5
+assert fibonacci_memoize(6) == 8
+assert fibonacci_memoize(7) == 13
 
-start = time.time()
-n = fibonacci_memoize(100)
-print("fibonacci_memoize(100)  =", n, time.time() - start, 's') 
+# Time
+import time
+t1 = time.time(); n = fibonacci_memoize(100)
+t2 = time.time(); n = fibonacci_recursive(36)
+t3 = time.time(); n = fibonacci_iterative(100)
 
-start = time.time()
-n = fibonacci_recursive(36)
-print("fibonacci_recursive(36) =", n, time.time() - start, 's') 
-
-start = time.time()
-n = fibonacci_iterative(100)
-print("fibonacci_iterative(100) =", n, time.time() - start, 's') 
+print("fibonacci_memoize(100)", time.time() - t1, 's') 
+print("fibonacci_recursive(36)", time.time() - t2, 's') 
+print("fibonacci_iterative(100)", time.time() - t3, 's') 
 
 """
-
-fibonacci_memoize(100)   = 354224848179261915075    0.00023746490478515625 s
-fibonacci_recursive(36)  = 14930352                 4.304527521133423 s
-fibonacci_iterative(100) = 354224848179261915075    1.1682510375976562e-05 s
-
+    fibonacci_memoize(100) 2.659872531890869 s
+    fibonacci_recursive(36) 2.6597554683685303 s
+    fibonacci_iterative(100) 5.054473876953125e-05 s
 """
