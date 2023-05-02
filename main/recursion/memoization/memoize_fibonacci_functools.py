@@ -9,9 +9,9 @@ def fibonacci_recursive(n):
     if n == 2: return 1
     return fibonacci_recursive(n-1) + fibonacci_recursive(n-2)
 
-import functools # Look Here
+import functools
 @functools.lru_cache()
-def fibonacci_memoize(n):
+def fibonacci_memoize(n): # Look Here
     if n == 1: return 1
     if n == 2: return 1
     return fibonacci_memoize(n-1) + fibonacci_memoize(n-2)
