@@ -53,11 +53,11 @@ print(str_random)
 try:
     print(isPalindrome_recursive(str_random))
 except RecursionError as e:
-    print("isPalindorme_recursive(2000)", e)
+    print("isPalindorme_recursive(str2000)", e)
 
-print("isPalindrome_iterative(2000)", isPalindrome_iterative(str_random))
+print("isPalindrome_iterative(str2000)", isPalindrome_iterative(str_random))
 
 """
-    isPalindorme_recursive(2000_str) maximum recursion depth exceeded ...
-    isPalindrome_iterative(2000_str) True
+    isPalindorme_recursive(str2000) maximum recursion depth exceeded ...
+    isPalindrome_iterative(str2000) True
 """
