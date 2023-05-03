@@ -32,14 +32,14 @@
 
 #
 
-## Install
+### Install
 
 ~~~sh
 git clone https://github.com/minte9/algorithms-pages.git
 cd algorithms-pages/
 ~~~
 
-## Updates
+### Updates
 
 ~~~sh
 cd algorithms-pages/
