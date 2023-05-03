@@ -48,18 +48,15 @@ def native_sort(items):
 # Time
 lst = random.sample(range(0, 100), 100)
 start, end = 0, 0
-quicksort(lst)
-t1 = end - start
+quicksort(lst); t1 = end - start
 
 lst = random.sample(range(0, 480), 480) # stack overlow limit
 start, end = 0, 0
-quicksort(lst)
-t2 = end - start
+quicksort(lst); t2 = end - start
 
 lst = random.sample(range(0, 300000), 300000)
 start, end = 0, 0
-native_sort(lst)
-t3 = end - start
+native_sort(lst); t3 = end - start
 
 print("quicksort() 100 items:", t1, "s")
 print("quicksort() 480 items:", t2, "s")
