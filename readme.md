@@ -49,7 +49,7 @@ git pull origin main
 #
 
 ### References
-> [The Recursive Book of Recursion (source code)](https://github.com/asweigart/the-recursive-book-of-recursion)  
-[Invent with Python, Recursion (online book)](https://inventwithpython.com/recursion/)  
-[The recursive book of recursion (buy)](https://www.amazon.com/gp/product/B09BKL34VL)  
-[Learn and Remember (minte9)](https://www.minte9.com)
+> [The Recursive Book of Recursion](https://github.com/asweigart/the-recursive-book-of-recursion) (source code)  
+> [Invent with Python, Recursion](https://inventwithpython.com/recursion/) (free online)  
+> [The recursive book of recursion](https://www.amazon.com/gp/product/B09BKL34VL)  
+> [Learn and Remember](https://www.minte9.com) (minte9)  
