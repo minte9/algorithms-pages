@@ -50,6 +50,6 @@ git pull origin main
 
 ### References
 > [The Recursive Book of Recursion](https://github.com/asweigart/the-recursive-book-of-recursion) (source code)  
+> [The recursive book of recursion](https://www.amazon.com/gp/product/B09BKL34VL) (book)  
 > [Invent with Python, Recursion](https://inventwithpython.com/recursion/) (free online)  
-> [The recursive book of recursion](https://www.amazon.com/gp/product/B09BKL34VL)  
 > [Learn and Remember](https://www.minte9.com) (minte9)  
