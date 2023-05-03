@@ -61,12 +61,14 @@ def karatsuba(x, y):
 
     return int(k1) + int(k4) + int(k2)  
 
-def product(x, y):
+def linear_product(x, y):
     product = 0
     for _ in range(x):
         product += y
     return product
 
+def native_product(x, y):
+    return x * y
 
 # Tests
 assert karatsuba(10, 20) == 200
@@ -78,15 +80,22 @@ import time
 x = 123_456_789
 y = 123_456_789
 
-start = time.time()
-total = karatsuba(x, y)
-print(f"karatsuba() time: {time.time() - start}s {total}")
+t0 = time.time()
+p1 = karatsuba(x, y); t1 = time.time() - t0
 
-start = time.time()
-total = product(x, y)
-print(f"product()   time: {time.time() - start}s {total}")
+t0 = time.time()
+p2 = linear_product(x, y); t2 = time.time() - t0
+
+t0 = time.time()
+p3 = native_product(x, y); t3 = time.time() - t0
+
+assert p1 == p2
+print("karatsuba()", t1, "s")
+print("linear_product()", t2, "s")
+print("native_product()", t3, "s")
 
 """
-    karatsuba() time: 0.00013637542724609375s 15241578750190521
-    product()   time: 5.290467023849487s 15241578750190521
+    karatsuba()      0.0003743171691894531 s
+    linear_product() 8.377368927001953 s
+    native_product() 3.0994415283203125e-06 s
 """

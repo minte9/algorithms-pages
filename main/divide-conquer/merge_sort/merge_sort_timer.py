@@ -44,6 +44,27 @@ def merge_sort(items):
     return sorted
 
 @timer
+def quicksort(items, i=0, j=None):
+    if j == None: 
+        j = len(items) - 1
+
+    if i > j: 
+        return # Base case
+    
+    pivot = items[j]
+    for k in range(i, j + 1):
+
+        if items[k] < pivot:
+            items[i], items[k] = items[k], items[i] # swap items
+            i = i + 1 # move pointer
+
+        if items[k] == pivot:
+            items[i], items[k] = items[k], items[i] # move pivot
+    
+    quicksort(items, 0, i - 1) # sort left partition
+    quicksort(items, i + 1, j) # sort right partition
+
+@timer
 def native_sort(items):
     return items.sort()
 
