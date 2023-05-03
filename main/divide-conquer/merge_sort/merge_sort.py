@@ -1,4 +1,9 @@
-""" Merge sort / Algorithm Debug
+""" Merge sort / Algorithm
+Each recusive call divides the unsorted list into halves, 
+dowm into lists of zero of one lengths.
+
+Then, as the recursive calls return, these smaller lists 
+are merged toghether into sorted order.
 """
 
 def merge_sort(items, depth=0):
@@ -7,8 +12,8 @@ def merge_sort(items, depth=0):
         return items
 
     m = len(items) // 2
-    L = merge_sort(items[:m], depth + 1) # Recursive case
-    R = merge_sort(items[m:], depth + 1) # Recursive case
+    L = merge_sort(items[:m], depth + 1) # Recursive
+    R = merge_sort(items[m:], depth + 1)
     
     # At this stage left and right are sorted
     print(depth * " ", L, " ", R) 
@@ -18,7 +23,8 @@ def merge_sort(items, depth=0):
     sorted = []
     while len(sorted) < len(items):
 
-        # Append the smaller value and advance to next item
+        # Append the smaller value and 
+        # advance tge pointer to next item
         if L[i] < R[j]:
             sorted.append(L[i])
             i = i + 1
@@ -45,22 +51,20 @@ sorted = merge_sort(data)
 print(sorted)
 
 """
-
-[2, 9, 8, 5, 3, 4, 7, 6]
-   [2]   [9]
-   [2, 9]
-   [8]   [5]
-   [5, 8]
-  [2, 9]   [5, 8]
-  [2, 5, 8, 9]
-   [3]   [4]
-   [3, 4]
-   [7]   [6]
-   [6, 7]
-  [3, 4]   [6, 7]
-  [3, 4, 6, 7]
- [2, 5, 8, 9]   [3, 4, 6, 7]
- [2, 3, 4, 5, 6, 7, 8, 9]
-[2, 3, 4, 5, 6, 7, 8, 9]
-
+    [2, 9, 8, 5, 3, 4, 7, 6]
+	   [2]   [9]
+	   [2, 9]
+	   [8]   [5]
+	   [5, 8]
+	  [2, 9]   [5, 8]
+	  [2, 5, 8, 9]
+	   [3]   [4]
+	   [3, 4]
+	   [7]   [6]
+	   [6, 7]
+	  [3, 4]   [6, 7]
+	  [3, 4, 6, 7]
+	 [2, 5, 8, 9]   [3, 4, 6, 7]
+	 [2, 3, 4, 5, 6, 7, 8, 9]
+	[2, 3, 4, 5, 6, 7, 8, 9]
 """
