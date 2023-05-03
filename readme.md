@@ -1,7 +1,5 @@
 # Algorithms
 
-Learn and Remember - [minte9.com/mlearning](https://www.minte9.com/mlearning)
-
 [Recursion](./main/recursion/)  
 > Call stacks `Frame objects` `Stack overflow` `Base case`    
 > Iterative approach `Exponents` `Factorial` `Fibonacci`     
