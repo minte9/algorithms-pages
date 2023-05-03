@@ -50,8 +50,9 @@ print("Tests passed")
 
 # Time
 lst = generate_data()
-key = binary_search(123456780, lst)
-key = linear_search(123456780, lst)
+k1= binary_search(123456780, lst)
+k2 = linear_search(123456780, lst)
+assert k1 == k2
 
 """
     generate_data() time:    5.986196041107178 s

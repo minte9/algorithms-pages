@@ -73,12 +73,10 @@ def native_sort(items):
 lst = random.sample(range(0, 300000), 300000)
 
 start, end = 0, 0
-sorted = merge_sort(lst)
-t1 = end - start
+merge_sort(lst); t1 = end - start
 
 start, end = 0, 0
-native_sort(lst)
-t2 = end - start
+native_sort(lst); t2 = end - start
 
 print("merge_sort() 300000 items:", t1, "s")
 print("sort() 300000 items:", t2, "s")
