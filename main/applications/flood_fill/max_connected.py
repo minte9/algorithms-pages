@@ -47,5 +47,8 @@ for y in range(len(grid)):
         max_ = get_max_connected(y, x)
         totals.append(max_)
 
-print(totals) # [2, 0, 0, 0, 0, 4, 0, 4, 0, 4, 4, 4]
-print("Maxim connected:", max(totals) + 1)  # 5
+print(totals)
+    # [2, 0, 0, 0, 0, 4, 0, 4, 0, 4, 4, 4]
+
+print("Maxim connected:", max(totals) + 1)  # 1 for item itself
+    # 5
