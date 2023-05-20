@@ -9,12 +9,10 @@ grid = [
     [0, 1, 2, 1],
     [2, 1, 1, 1],
 ]
-
 connections = {'0': 1, '1': 1, '2': 1}
 
 for y in range(len(grid)):
     for x in range(len(grid[0])):
-
         v = grid[y][x] # current item value
             
         # Right
