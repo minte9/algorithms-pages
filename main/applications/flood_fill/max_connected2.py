@@ -1,5 +1,5 @@
 """ Given a grid 4x3, find the maximum connected colors
-Iterative solution
+Iterative
 
 https://www.youtube.com/watch?v=IWvbPIYQPFM
 """

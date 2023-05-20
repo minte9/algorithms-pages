@@ -1,4 +1,5 @@
 """ Given a grid 4x3, find the maximum connected colors
+Recursive
 
 https://www.youtube.com/watch?v=IWvbPIYQPFM
 """
