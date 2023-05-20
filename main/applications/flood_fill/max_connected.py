@@ -1,6 +1,6 @@
 """ Given a grid 4x3, find the maximum connected colors
 
-https://www.youtube.com/watch?v=IWvbPIYQPFM&ab_channel=TechLead
+https://www.youtube.com/watch?v=IWvbPIYQPFM
 """
 
 grid = [
