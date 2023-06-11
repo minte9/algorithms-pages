@@ -1,9 +1,9 @@
 # Algorithms
 
 [Recursion](./main/recursion/)  
-> Call stacks `Frame objects` `Stack overflow` `Base case`    
+> Call stacks  
 > Iterative approach `Exponents` `Factorial` `Fibonacci`     
-> Memoization `Fibonacci`
+> Memoization  
 
 [Head Tail](./main/head-tail/)  
 > Reverse string  
