@@ -2,7 +2,7 @@
 
 [Recursion](./main/recursion/)  
 > Call stacks  
-> Iterative approach `Exponents` `Factorial` `Fibonacci`     
+> Iterative approach  
 > Memoization  
 
 [Head Tail](./main/head-tail/)  
@@ -12,7 +12,7 @@
 > Combinations  
     
 [Optimization](./main/optimization/minimax)  
-> Minimax   `Alpha-beta prunnning`
+> Minimax   
 
 [Divide Conquer](./main/divide-conquer/)   
 > Binary Search  
@@ -26,8 +26,8 @@
 > Flood Fill  
 > Tree Traversal  
 > Maze solve  
-> Tic-Tac-Toe  `Legal moves` `Board` `Termnal state` `Score` `Next move` `Play`  
-> Fractals  `Turtle graphics` `Sierpinsky Triangle` `Fractal Trees` `Hilber curve`
+> Tic-Tac-Toe   
+> Fractals  
 </pre>
 
 #
