@@ -34,11 +34,14 @@ def is_terminal_state(board):
 
 def show(board, move=None):
     board_ = np.copy(board).tolist() 
+
+    # Current move colored
     if move: 
         i, j = move
         CYAN, ENDC = '\033[96m', '\033[0m'
-        board_[i][j] = CYAN + board[move] + ENDC # colored move
-        
+        board_[i][j] = CYAN + board[move] + ENDC
+
+    # Show board 
     for i in range(3):
         print(" ", board_[i][0], "|", board_[i][1], "|", board_[i][2])
         print(" ---+---+---") if i < 2 else ""
