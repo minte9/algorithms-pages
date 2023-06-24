@@ -11,5 +11,5 @@ Binary tree with `arbitrary number` of children.
 
 ### References
 
-[Apha-beta Prunning](https://mathspp.com/blog/minimax-algorithm-and-alpha-beta-pruning)  mathspp  
-[TicTacToe Minimax](https://www.kaggle.com/code/catalinprescure/tictactoe-minimax) kaggle  
+[Apha-beta Prunning](https://mathspp.com/blog/minimax-algorithm-and-alpha-beta-pruning)  Mathspp  
+[TicTacToe Minimax](https://www.kaggle.com/code/catalinprescure/tictactoe-minimax) Kaggle Notebook  
