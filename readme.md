@@ -52,4 +52,4 @@ git pull origin main
 > [The Recursive Book of Recursion](https://inventwithpython.com/recursion/) free online book  
 > [The Recursive Book of Recursion](https://github.com/asweigart/the-recursive-book-of-recursion) source code    
 > [The Recursive Book of Recursion](https://www.amazon.com/gp/product/B09BKL34VL) book  
-> [Learn and Remember](https://www.minte9.com) minte9  
+> [Learn and Remember - Algorithms](https://www.minte9.com/algorithms) minte9  
