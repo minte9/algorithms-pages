@@ -6,8 +6,6 @@ Base case: xy coordinates on the edge of the image or if not the old color
 Arguments to pass: xy coordinates to user for the 4 neighbours 
 Arguments closer to base: algorithm runs out of pixels to check
 """
-import copy
-
 A = [
     list('||||||||||||||||||||||||||||||'),
     list('||                  ||     |||'),
@@ -19,45 +17,57 @@ A = [
     list('||||||||||||||||||||||||||||||'),
 ]
 
-WIDTH, HEIGHT = len(A[0]), len(A)
-print(WIDTH, 'x', HEIGHT)
+# Width and height
+w = len(A[0])
+h = len(A) 
 
-def show(image):
-    for y in range(HEIGHT):
-        for x in range(WIDTH):
-            print(image[y][x], end='')
+# Show image
+def show(A):
+    for y in range(h):
+        for x in range(w):
+            print(A[y][x], end="")
         print()
     print()
 
-def floodFill(image, i, j):
-    if image[i][j] != ' ': # Base case
-        return
-
-    image[i][j] = '0' # Change current
-
-    neighbors = [
-        (i, j + 1), # Up
-        (i, j - 1), # Down
-        (i - 1, j), # Left
-        (i + 1, j), # Right
-    ]
-    for y, x in neighbors:
-        if image[y][x] == ' ':
-            if (x >= 0 and x < WIDTH) and (y >= 0 and y < HEIGHT):
-                image = floodFill(image, y, x) # Recursive case
-    
-    return image
-
 show(A)
 
-B = copy.deepcopy(A)
-C = copy.deepcopy(A)
+# Flood Fill
+def fill(A, start):
+    y, x = start
 
-floodFill(B, 1, 4)
-floodFill(C, 1, 25)
+    A[y][x] = '0'
 
+    top = y-1, x
+    right = y, x+1
+    bottom = y+1, x
+    left = y, x-1
+
+    # Check north
+    y, x = top
+    if A[y][x] == ' ': A[y][x] = '0'; fill(A, top) # Recursive
+
+    # Check east
+    y, x = right
+    if A[y][x] == ' ': A[y][x] = '0'; fill(A, right)
+
+    # Check south
+    y, x = bottom
+    if A[y][x] == ' ': A[y][x] = '0'; fill(A, bottom)
+
+    # Check east
+    y, x = left
+    if A[y][x] == ' ': A[y][x] = '0'; fill(A, left)
+
+    return A # Base case
+
+# Copy of A (to be used in first fill)
+B = A[:]
+
+# Start fill
+fill(B, (1, 4))
+
+# Show final result
 show(B)
-show(C)
 
 """
     ||||||||||||||||||||||||||||||
@@ -76,14 +86,5 @@ show(C)
     ||||00000||    ||000||     |||
     |||0000000||||||000000||   |||
     ||||||||000000000000||||||||||
-    ||||||||||||||||||||||||||||||
-
-    ||||||||||||||||||||||||||||||
-    ||                  ||00000|||
-    ||        |||||    ||00000||||
-    ||||||    ||  ||   ||000||||||
-    ||||     ||    ||   ||00000|||
-    |||       ||||||      ||000|||
-    ||||||||            ||||||||||
     ||||||||||||||||||||||||||||||
 """
