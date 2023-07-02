@@ -21,11 +21,10 @@
 > Sum numbers  
 > Karatsuba multiplication  
 
-#
-
 [Practice](./practice/)  
-> Tower of Hanoi  
+> Head Tail
 > Flood Fill  
+> Tower of Hanoi  
 > Tree Traversal  
 > Maze solve  
 > Tic-Tac-Toe   
