@@ -21,7 +21,7 @@
 > Sum numbers  
 > Karatsuba multiplication  
 
-## Practice
+#
 
 [Practice](./main/practice/)  
 > Tower of Hanoi  
