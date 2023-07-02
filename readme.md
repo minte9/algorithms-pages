@@ -21,7 +21,9 @@
 > Sum numbers  
 > Karatsuba multiplication  
 
-[Applications](./main/applications/)  
+## Practice
+
+[Practice](./main/practice/)  
 > Tower of Hanoi  
 > Flood Fill  
 > Tree Traversal  
