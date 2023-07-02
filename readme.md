@@ -23,7 +23,7 @@
 
 #
 
-[Practice](./main/practice/)  
+[Practice](./practice/)  
 > Tower of Hanoi  
 > Flood Fill  
 > Tree Traversal  
