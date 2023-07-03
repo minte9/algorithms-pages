@@ -22,7 +22,7 @@
 > Karatsuba multiplication  
 
 [Practice](./practice/)  
-> Head Tail
+> Head Tail  
 > Flood Fill  
 > Tower of Hanoi  
 > Tree Traversal  
