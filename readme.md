@@ -24,10 +24,9 @@
 [Practice](./practice/)  
 > Head Tail  
 > Flood Fill  
-> Tower of Hanoi  
-> Tree Traversal  
-> Maze solve  
 > Tic-Tac-Toe   
+> Tower of Hanoi  
+> Maze solve  
 > Fractals  
 </pre>
 
