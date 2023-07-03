@@ -1,10 +1,7 @@
 """ Flood Fill
-Begins on one pixel and spreads until it meets a non-white pixel.
-Then it moves on to the neighbors and so on.
-
-Base case: xy coordinates on the edge of the image or if not the old color
-Arguments to pass: xy coordinates to user for the 4 neighbours 
-Arguments closer to base: algorithm runs out of pixels to check
+Begins on one pixel and spreads until it meets a non-white pixel, 
+then it moves on to the neighbors and so on.
+Arguments to pass are xy coordinates to user for the 4 neighbours 
 """
 A = [
     list('||||||||||||||||||||||||||||||'),
@@ -17,24 +14,18 @@ A = [
     list('||||||||||||||||||||||||||||||'),
 ]
 
-# Width and height
-w = len(A[0])
-h = len(A) 
+def show_list(A):
+    width = len(A[0])
+    height = len(A) 
 
-# Show image
-def show(A):
-    for y in range(h):
-        for x in range(w):
+    for y in range(height):
+        for x in range(width):
             print(A[y][x], end="")
-        print()
-    print()
+        print('')
+    print('')
 
-show(A)
-
-# Flood Fill
-def fill(A, start):
+def flood_fill(A, start):
     y, x = start
-
     A[y][x] = '0'
 
     top = y-1, x
@@ -42,43 +33,36 @@ def fill(A, start):
     bottom = y+1, x
     left = y, x-1
 
-    # Check north
+    # NORTH
     y, x = top
-    if A[y][x] == ' ': A[y][x] = '0'; fill(A, top) # Recursive
+    if A[y][x] == ' ': 
+        A[y][x] = '0'
+        flood_fill(A, top) # Recursive
 
-    # Check east
+    # EAST
     y, x = right
-    if A[y][x] == ' ': A[y][x] = '0'; fill(A, right)
+    if A[y][x] == ' ': 
+        A[y][x] = '0'
+        flood_fill(A, right)
 
-    # Check south
+    # SOUTH
     y, x = bottom
-    if A[y][x] == ' ': A[y][x] = '0'; fill(A, bottom)
+    if A[y][x] == ' ': 
+        A[y][x] = '0'
+        flood_fill(A, bottom)
 
-    # Check east
+    # WEST
     y, x = left
-    if A[y][x] == ' ': A[y][x] = '0'; fill(A, left)
+    if A[y][x] == ' ': 
+        A[y][x] = '0'
+        flood_fill(A, left)
 
     return A # Base case
 
-# Copy of A (to be used in first fill)
-B = A[:]
-
-# Start fill
-fill(B, (1, 4))
-
-# Show final result
-show(B)
+flood_fill(A, (1, 4))
+show_list(A)
 
 """
-    ||||||||||||||||||||||||||||||
-    ||                  ||     |||
-    ||        |||||    ||     ||||
-    ||||||    ||  ||   ||   ||||||
-    ||||     ||    ||   ||     |||
-    |||       ||||||      ||   |||
-    ||||||||            ||||||||||
-    ||||||||||||||||||||||||||||||
-
     ||||||||||||||||||||||||||||||
     ||000000000000000000||     |||
     ||00000000|||||0000||     ||||
