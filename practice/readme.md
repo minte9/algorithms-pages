@@ -1,4 +1,4 @@
-# Algorithms - Practice
+# Practice / Algorithms
 
 > Head Tail  
 > Flood Fill  
