@@ -17,7 +17,8 @@ ab x cd
     = 10^n*k1 + 10^(n/2)*k4 + k2
 """
 
-# Normaly, lookup tables are hardcoded in the code
+# Normaly, lookup tables are hardcoded in the code, but here 
+# we are reducing the amount of typing by using nested loops
 TABLE = {}
 for i in range(10):
     for j in range(10):
