@@ -15,4 +15,5 @@ def hilbert_quadrant():
     turtle.right(90); turtle.forward(50) # Line 3
 
 hilbert_quadrant()
+
 turtle.exitonclick()
