@@ -1,25 +1,30 @@
 import math
 
-print(math.log(8, 2))
-print(math.log(625, 5))
-print(math.log(1000, 10))
+def logarithm(x, base):
+    if x == 1:
+        return 0
 
-assert math.log(8, 2) == 3
-assert math.log(625, 5) == 4
-assert round(math.log(1000, 10)) == 3
+    left = 0
+    right = x
+    epsilon = 1e-7 # small value (precision of the result)
+    
+    m = (right + left) // 2 # middle
+    
+    while right - left > epsilon:
 
-def log(x, base):
-    n = base
-    i = 1
-    while n * base <= x:
-        n *= base
-        i += 1
-    return i
+        if x <= base**m:
+            right = m
+        else:
+            left = m
 
-print(log(8, 2))
-print(log(625, 5))
-print(log(1000, 10))
+        m = (left + right) / 2
 
-assert log(8, 2) == 3
-assert log(625, 5) == 4
-assert log(1000, 10) == 3
+    return round(m, 7)
+
+print(logarithm(8, 2))
+print(logarithm(625, 5))
+print(logarithm(1000, 10))
+
+assert logarithm(8, 2)      == 3 == math.log(8, 2)
+assert logarithm(625, 5)    == 4 == math.log(625, 5)
+assert logarithm(1000, 10)  == 3 == round(math.log(1000, 10))
