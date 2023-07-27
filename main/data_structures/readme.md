@@ -6,4 +6,4 @@
 
 ### References
 
-[A Common-Sense Guide to Data Structures and Algorithms](https://www.amazon.com/gp/product/B08KYMK4NR/)
+[A Common-Sense Guide to Data Structures and Algorithms](https://www.amazon.com/gp/product/B08KYMK4NR/) book
