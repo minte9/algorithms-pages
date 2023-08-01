@@ -3,6 +3,7 @@
 - Arrays
 - Big O Notation
 - Optimzing for Scenarios
+- Hash Tables
 
 ### References
 
