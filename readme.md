@@ -6,10 +6,10 @@
 > Memoization  
 
 [Data STructures](./main/data_structures/)  
-> Arrays
-> Big O Notation
-> Optimizing
-> Hash Tables
+> Arrays  
+> Big O Notation  
+> Optimizing  
+> Hash Tables  
 
 [Head Tail](./main/head-tail/)  
 > Reverse string  
