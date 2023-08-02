@@ -58,4 +58,4 @@ git pull origin main
 > [The Recursive Book of Recursion](https://github.com/asweigart/the-recursive-book-of-recursion) / source code    
 > [The Recursive Book of Recursion](https://www.amazon.com/gp/product/B09BKL34VL) / book  
 > [A Common-Sense Guide to Data Structures and Algorithms](https://www.amazon.com/gp/product/B08KYMK4NR/) / book  
-> [Learn and Remember - Algorithms](https://www.minte9.com/algorithms) / minte9  
+> [Learn and Remember Algorithms](https://www.minte9.com/algorithms) / minte9  
