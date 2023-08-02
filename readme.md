@@ -8,7 +8,6 @@
 [Data STructures](./main/data_structures/)  
 > Arrays  
 > Big O Notation  
-> Big O Optimization
 > Hash Tables  
 
 [Head Tail](./main/head-tail/)  
