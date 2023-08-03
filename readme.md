@@ -5,7 +5,7 @@
 > Iterative approach  
 > Memoization  
 
-[Data Structures](./main/data_structures/)  
+[Data Structures](./main/data-structures/)  
 > Arrays  
 > Big O Notation  
 > Hash Tables  
