@@ -9,7 +9,7 @@
 [Head Tail](./main/head-tail/)  
 > Reverse string  / Palindrome / Permutations / Combinations  
     
-[Optimization](./main/optimization/minimax)  
+[Decision Making](./main/optimization/minimax)  
 > Minimax   
 
 [Divide Conquer](./main/divide-conquer/)   
