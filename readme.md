@@ -7,7 +7,7 @@
 > Arrays, Big O Notation, Hash Tables 
 
 [Head Tail](./main/head-tail/) 
-> Reverse string , Palindrome, Permutations, Combinations 
+> Reverse string, Palindrome, Permutations, Combinations 
    
 [Decision Making](./main/optimization/minimax) 
 > Minimax  
