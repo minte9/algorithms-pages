@@ -1,7 +1,7 @@
 # Algorithms
 
 [Recursion](./main/recursion/)  / Call stacks, Iterative approach, Memoization   
-[Data Structures](./main/data-structures/) / Arrays, Big O Notation, Hash Tables  
+[Data Structures](./main/data-structures/) / Arrays, Big O, Hash Tables, Stacks, Queues, Linked Lists 
 [Head Tail](./main/head-tail/) / Reverse string, Palindrome, Permutations, Combinations  
 [Decision Making](./main/optimization/minimax) / Minimax   
 [Divide Conquer](./main/divide-conquer/) / Binary Search, Quciksort, Merge Sort, Sum numbers, Karatsuba multiplication  
