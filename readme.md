@@ -1,14 +1,10 @@
 # Algorithms
 
 [Recursion](./main/recursion/)  
-> Call stacks  
-> Iterative approach  
-> Memoization  
+> Call stacks / Iterative approach / Memoization  
 
 [Data Structures](./main/data-structures/)  
-> Arrays  
-> Big O Notation  
-> Hash Tables  
+> Arrays / Big O Notation / Hash Tables  
 
 [Head Tail](./main/head-tail/)  
 > Reverse string  
@@ -53,9 +49,7 @@ git pull origin main
 
 #
 
-### References
-> [The Recursive Book of Recursion](https://inventwithpython.com/recursion/) / free online book  
-> [The Recursive Book of Recursion](https://github.com/asweigart/the-recursive-book-of-recursion) / source code    
-> [The Recursive Book of Recursion](https://www.amazon.com/gp/product/B09BKL34VL) / book  
-> [A Common-Sense Guide to Data Structures and Algorithms](https://www.amazon.com/gp/product/B08KYMK4NR/) / book  
+### References   
+> [The Recursive Book of Recursion](https://www.amazon.com/gp/product/B09BKL34VL) / amazon  
+> [A Common-Sense Guide to Data Structures and Algorithms](https://www.amazon.com/gp/product/B08KYMK4NR/) / amazon  
 > [Learn and Remember Algorithms](https://www.minte9.com/algorithms) / minte9  
