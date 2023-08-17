@@ -7,28 +7,16 @@
 > Arrays / Big O Notation / Hash Tables  
 
 [Head Tail](./main/head-tail/)  
-> Reverse string  
-> Palindrome  
-> Permutations  
-> Combinations  
+> Reverse string  / Palindrome / Permutations / Combinations  
     
 [Optimization](./main/optimization/minimax)  
 > Minimax   
 
 [Divide Conquer](./main/divide-conquer/)   
-> Binary Search  
-> Quciksort  
-> Merge Sort  
-> Sum numbers  
-> Karatsuba multiplication  
+> Binary Search / Quciksort / Merge Sort / Sum numbers / Karatsuba multiplication  
 
 [Practice](./practice/)  
-> Head Tail  
-> Flood Fill  
-> Tic-Tac-Toe   
-> Tower of Hanoi  
-> Maze solve  
-> Fractals  
+> Head Tail / Flood Fill / Tic-Tac-Toe / Tower of Hanoi / Maze solve / Fractals  
 </pre>
 
 #
