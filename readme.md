@@ -5,8 +5,7 @@
 [Head Tail](./main/head-tail/) / Reverse string, Palindrome, Permutations, Combinations  
 [Decision Making](./main/optimization/minimax) / Minimax   
 [Divide Conquer](./main/divide-conquer/) / Binary Search, Quciksort, Merge Sort, Sum numbers, Karatsuba multiplication  
-[Practice](./practice/) / > Head Tail, Flood Fill, Tic-Tac-Toe, Tower of Hanoi, Maze solve, Fractals  
-
+[Practice](./practice/) / Head Tail, Flood Fill, Tic-Tac-Toe, Tower of Hanoi, Maze solve, Fractals  
 </pre>
 
 #
