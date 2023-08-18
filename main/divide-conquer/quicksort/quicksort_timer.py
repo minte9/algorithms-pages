@@ -4,22 +4,7 @@ Around 480 items maximum
 
 import random
 import time
-start, end = 0, 0
 
-def timer(func):
-    def wrapper(*args, **kwargs):
-        global start, end
-
-        if start == 0: 
-            start = time.time()
-
-        result = func(*args, **kwargs)
-        end = time.time()
-        return result
-        
-    return wrapper
-
-@timer
 def quicksort(items, i=0, j=None):
     if j == None: 
         j = len(items) - 1
@@ -40,24 +25,26 @@ def quicksort(items, i=0, j=None):
     quicksort(items, 0, i - 1) # sort left partition
     quicksort(items, i + 1, j) # sort right partition
 
-@timer
-def native_sort(items):
-    return items.sort()
 
+# Quicksort on 100 items
+list = random.sample(range(0, 100), 100)
+start = time.time()
+quicksort(list)
+t1 = time.time() - start
 
-# Time
-lst = random.sample(range(0, 100), 100)
-start, end = 0, 0
-quicksort(lst); t1 = end - start
+# Quicksort on 480 items (aprox. stack overflow limit)
+list = random.sample(range(0, 480), 480)
+start = time.time()
+quicksort(list)
+t2 = time.time() - start
 
-lst = random.sample(range(0, 480), 480) # stack overlow limit
-start, end = 0, 0
-quicksort(lst); t2 = end - start
+# Python built-in sort
+list = random.sample(range(0, 300000), 300000)
+start = time.time()
+list.sort()
+t3 = time.time() - start
 
-lst = random.sample(range(0, 300000), 300000)
-start, end = 0, 0
-native_sort(lst); t3 = end - start
-
+# Output times
 print("quicksort() 100 items:", t1, "s")
 print("quicksort() 480 items:", t2, "s")
 print("sort() 300000 items:", t3, "s")
