@@ -6,7 +6,6 @@ A binary search on 50 takes 6 and on 100 only 7 steps.
 """
 
 import time
-
 def timer(func):
     def wrapper(*args, **kwargs):
         t1 = time.time()
