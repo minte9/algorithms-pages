@@ -6,25 +6,24 @@
     var ctx = canvas.getContext("2d");
 
     const current_page = {
-		"type":"current_page","x":200,"y":150,"title":"Decision Tree","subcatg":"Supervised","catg":"MLearning","link":"/"};
+		"type":"current_page","x":200,"y":150,"title":"Current Page","subcatg":"Subcatg1","catg":"Catg1","link":"/"};
     const related_pages = [
-        {"type":"related","x":250,"y":280,"title":"Random Forest","subcatg":"Supervised","catg":"MLearning","link":"/"},
-        {"type":"related","x":350,"y":280,"title":"Decision Tree","subcatg":"Algorithms","catg":"MLearning","link":"/"},
+        {"type":"related","x":250,"y":280,"title":"Related1","subcatg":"Subcatg1","catg":"Catg1","link":"/"},
+        {"type":"related","x":350,"y":280,"title":"Related2","subcatg":"Subcatg2","catg":"Catg2","link":"/"},
     ];
-	const practice_pages = [
-        {"type":"notebook","x":200,"y":220,"title":"Notebook","catg":"Github","link":"/"},
+	const example_pages = [
 		{"type":"code","x":150,"y":320,"title":"Example1","catg":"Github","link":"/"},
 		{"type":"code","x":50,"y":320,"title":"Example2","catg":"Github","link":"/"},
     ];
     const subcategories = [
-        {"type":"subcatg","x":200,"y":50,"title":"Supervised","subcatg":"Supervised","catg":"MLearning"},
-        {"type":"subcatg","x":400,"y":70,"title":"Algorithms","subcatg":"Algorithms","catg":"MLearning"},
+        {"type":"subcatg","x":200,"y":50,"title":"Subcatg1","subcatg":"Subcatg1","catg":"Catg1"},
+        {"type":"subcatg","x":400,"y":70,"title":"Subcatg2","subcatg":"Subcatg2","catg":"Catg2"},
     ];
 
 	var pages = []
 	pages = pages.concat(related_pages);
 	pages = pages.concat(current_page);
-	pages = pages.concat(practice_pages);
+	pages = pages.concat(example_pages);
 
     class Node {
         constructor (type, x, y, title, subcatg, catg, link) {
@@ -90,14 +89,14 @@
 			// Add edges from subcategories
 			if (startNode.subcatg == endNode.subcatg) {
 				if (['subcatg','current_page'].includes(startNode.type)) {
-					graph.addEdge(startNode, endNode, "#999");
+					graph.addEdge(startNode, endNode);
 				}
 			}
 			
 			// Add edges from current page
 			if (startNode.type == 'current_page') {
 				if (['notebook', 'related', 'code'].includes(endNode.type)) {
-					graph.addEdge(startNode, endNode, "#f87431");
+					graph.addEdge(startNode, endNode);
 				}
 			}
 		}
@@ -109,7 +108,7 @@
     for (var i = 0; i < graph.edges.length; i++) {
         let startNode = graph.edges[i].start;
         let endNode = graph.edges[i].end;
-		let strokeStyle = graph.edges[i].color;
+		let strokeStyle = "#ddd";
 		
         ctx.beginPath();
         ctx.moveTo(startNode.x, startNode.y);
@@ -126,11 +125,10 @@
 
         ctx.fillStyle = node.type == 'current_page' ? "#f87431" : "#FFF"; // different color for current node
         ctx.fillStyle = node.type != 'current_page' && node.link ? "#ccc" : ctx.fillStyle;
-        ctx.fillStyle = node.type == 'notebook' ? '#3EB489' : ctx.fillStyle; // is notebook node
 		ctx.fillStyle = node.type == 'code' ? '#3EB489' : ctx.fillStyle; // is code node
 
         ctx.fill();
-        ctx.strokeStyle = "#666";
+        ctx.strokeStyle = "#999";
         ctx.stroke();
 
         // Draw the node title
@@ -138,11 +136,7 @@
         ctx.font = "12px Arial"; // Set the desired font size and font family
         ctx.textAlign = "center";
 
-		if (node.type == 'current_page') {
-			ctx.fillText("Connections", node.x - 55, node.y + 5);
-		} else {
-			ctx.fillText(node.title, node.x, node.y + 30);
-		}
+		ctx.fillText(node.title, node.x, node.y + 30);
 
         if (node.link == undefined) {
             ctx.fillStyle = "#999";
