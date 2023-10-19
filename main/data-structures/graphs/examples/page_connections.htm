@@ -1,4 +1,4 @@
-<!-- 
+<!--
     Javascript Graph Example:
     Current page connections (parents, related, examples)
     Canvas to draw nodes and edges
@@ -59,32 +59,32 @@
     const graph = new Graph();
 
     // Add subcategories nodes
-    for (let i=0; i<subcategories.length; i++) { 
+    for (let i=0; i<subcategories.length; i++) {
 		subcatgNode = new Node(
 			'subcatg',
-            subcategories[i].x, 
-			subcategories[i].y, 
-			subcategories[i].title, 
-			subcategories[i].subcatg, 
+            subcategories[i].x,
+			subcategories[i].y,
+			subcategories[i].title,
+			subcategories[i].subcatg,
 			subcategories[i].catg
         );
 		graph.addNode(subcatgNode);
     }
 
 	// Add pages nodes
-	for (let i=0; i<pages.length; i++) {   
+	for (let i=0; i<pages.length; i++) {
 		pageNode = new Node(
 			pages[i].type,
-            pages[i].x, 
-			pages[i].y, 
-			pages[i].title, 
-			pages[i].subcatg, 
+            pages[i].x,
+			pages[i].y,
+			pages[i].title,
+			pages[i].subcatg,
 			pages[i].catg,
 			pages[i].link
         );
 		graph.addNode(pageNode);
     }
-	
+
 	// Add edges
 	for (let i=0; i<graph.nodes.length; i++) {
 		startNode = graph.nodes[i];
@@ -98,7 +98,7 @@
 					graph.addEdge(startNode, endNode);
 				}
 			}
-			
+
 			// Add edges from current page
 			if (startNode.type == 'current_page') {
 				if (['notebook', 'related', 'code'].includes(endNode.type)) {
@@ -115,7 +115,7 @@
         let startNode = graph.edges[i].start;
         let endNode = graph.edges[i].end;
 		let strokeStyle = "#ddd";
-		
+
         ctx.beginPath();
         ctx.moveTo(startNode.x, startNode.y);
         ctx.lineTo(endNode.x, endNode.y);
