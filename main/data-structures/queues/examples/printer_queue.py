@@ -8,10 +8,10 @@ class Queue:
     def __init__(self):
         self.items = []
 
-    def enqueue(self, item):
-        self.items.insert(0, item) # Add to the front of the queue (FIFO)
+    def append(self, item):
+        self.items.append(item)
 
-    def dequeue(self):
+    def popleft(self):
         return self.items.pop() # Remove from the end of the queue (FIFO)
 
     def is_empty(self):
@@ -54,22 +54,17 @@ class Printer:
         else:
             print("An error occurred.")
 
-j1 = Job()
-j2 = Job()
-
-queue = Queue()
-queue.enqueue(j1)
-queue.enqueue(j2)
-
 printer = Printer()
-job = printer.get_next_job(queue)
-printer.process(job)
+jobs = Queue()
 
-job = printer.get_next_job(queue)
-printer.process(job)
+j1 = Job()
+jobs.enqueue(j1)
 
-job = printer.get_next_job(queue)
-printer.process(job)
+j2 = Job()
+jobs.enqueue(j2)
 
-if queue.is_empty():
-    print("Printing complete.")
+while jobs.is_empty() == False:
+    current_job = printer.get_next_job(jobs)
+    printer.process(current_job)
+
+print("Printing complete.")
