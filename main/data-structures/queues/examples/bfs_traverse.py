@@ -1,7 +1,7 @@
 """ Example of using a queue for BFS 
 
-Using set() for visited is more efficient than using a list
-A set can perform 'in' test in constant time O(1).
+Using set() for visited is more efficient than using a list.
+A set can perform search test in constant time O(1).
 A set enforces uniquness, it won't allow duplicates.
 """
 
