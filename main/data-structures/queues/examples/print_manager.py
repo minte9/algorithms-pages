@@ -62,3 +62,17 @@ pm.add_job(Document("Second"))
 pm.add_job(Document("Third"))
 
 pm.run()
+
+"""
+    Print document = First
+    Print page 1
+    Print page 2
+    Print document = Second
+    Print page 1
+    Print document = Third
+    Print page 1
+    Print page 2
+    Print page 3
+    Print page 4
+    Print page 5
+"""
