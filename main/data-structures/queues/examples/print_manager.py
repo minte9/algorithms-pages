@@ -1,4 +1,5 @@
-""" Printer Queue Example
+""" Printer Manager 
+Example of using queue for printing
 https://vegibit.com/python-queue-example
 """
 
