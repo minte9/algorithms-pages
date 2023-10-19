@@ -1,8 +1,8 @@
 """ Printer Queue Example
-    https://vegibit.com/python-queue-example
+https://vegibit.com/python-queue-example
 """
 
-from icecream import ic
+import random
 
 class Queue:
     def __init__(self):
@@ -12,59 +12,53 @@ class Queue:
         self.items.append(item)
 
     def popleft(self):
-        return self.items.pop() # Remove from the end of the queue (FIFO)
+        curr = self.items[0]
+        self.items = self.items[1:]
+        return curr
 
     def is_empty(self):
         return self.items == []
 
-class Job:
+class Document:
+    def __init__(self, title):
+        self.title = title
+        self.queue = Queue() # Look Here
+
+        # Add pages to queue
+        self.add_pages() 
+
+    def add_pages(self):
+        n = random.randint(1, 5)
+
+        # Simulate pages reading
+        for k in range(n):
+            self.queue.append(k+1)
+
+    def print_pages(self):
+        print('Print document =', self.title)
+        
+        while not self.queue.is_empty():
+            page = self.queue.popleft()
+
+            # Simulate printing
+            print('Print page', page) 
+
+class PrintManager:
     def __init__(self):
-        self.pages = 5
+        self.queue = Queue() # Look Here
 
-    # Simulate printing (by decrementing the page count)
-    def print_page(self):
+    def add_job(self, document):
+        self.queue.append(document)
 
-        ic('Print page', self.pages)
+    def run(self):
+        while not self.queue.is_empty():
+            document = self.queue.popleft()
+            document.print_pages()
 
-        if self.pages > 0:
-            self.pages -= 1
+pm = PrintManager()
 
-    # Check if the print job is complete
-    def check_complete(self):
-        if self.pages == 0:
-            return True
-        return False
+pm.add_job(Document("First"))
+pm.add_job(Document("Second"))
+pm.add_job(Document("Third"))
 
-class Printer:
-    def __init__(self):
-        self.current_job = None
-
-    def get_next_job(self, queue):
-        try:
-            return queue.dequeue()
-        except IndexError:
-            return "No more jobs to print"
-
-    def process(self, job):
-        while job.pages > 0:
-            job.print_page()
-
-        if job.check_complete():
-            print(f"Printing {job} complete.")
-        else:
-            print("An error occurred.")
-
-printer = Printer()
-jobs = Queue()
-
-j1 = Job()
-jobs.enqueue(j1)
-
-j2 = Job()
-jobs.enqueue(j2)
-
-while jobs.is_empty() == False:
-    current_job = printer.get_next_job(jobs)
-    printer.process(current_job)
-
-print("Printing complete.")
+pm.run()
