@@ -3,6 +3,7 @@ Example of using hash table to implement a caching system
 
 Frozenset() ensures key consistency, will get the same hash string.
 In a set() params order doesn't matter, but after hashing the result is not the same.
+https://www.jsontest.com
 """
 
 import requests
