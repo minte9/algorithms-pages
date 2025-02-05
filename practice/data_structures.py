@@ -31,7 +31,7 @@ print(prime_numbers)
 
 
 """ A better version is to check divisibility only up to sqrt(n)
-    The reduce the complexity to O(sqrt(n))
+    The reduce the complexity to O(n * sqrt(n))
 """
 import math
 
