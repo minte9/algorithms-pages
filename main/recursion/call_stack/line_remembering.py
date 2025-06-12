@@ -1,4 +1,4 @@
-""" Programming languages remembers the line of code that called a function. 
+""" Programming languages remember the line of code that called a function. 
 It returns to that line when the function finishes its execution.
 """
 
