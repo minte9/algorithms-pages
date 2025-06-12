@@ -1,34 +1,41 @@
-""" Frame objects
-A Frame contain information about a single function call.
+""" A Frame contain information about a single function call.
 Frames are created and pushed onto the stack when function is called.
-
-When the function returns, that frame is popped off the stack, 
-and the previous frame object becomes the current one, 
-resuming the execution of the calling function from where it left off.
+When the function returns, that frame is popped off the stack.
 """
 
-def frame_objects(i=1):
-   print('A Frame', 'No.', i)
-   second_func(i+1)
-   print('A Frame', 'No.', i)
+# Frame's number
+no = 0
+
+def A():
+   global no
+   no += 1
+
+   i = no
+   print(f"Function A / Frame {i}")
+
+   # Push anew frame onto the stack
+   B()
+
+   print(f"Function A / Frame {i}")
    return
 
-def second_func(i):
-   print('B Frame', 'No.', i)
-   third_func(i+1)
-   print('B Frame', 'No.', i)
+def B():
+   global no
+   no += 1
+
+   print(f"Function B / Frame {no}")
    return
 
-def third_func(i):
-   print('C Frame', 'No.', i)
-   return
 
-frame_objects()
+# Push first frame onto the stack (function call)
+A()
+
+# Push new frame onto the stack
+B()
 
 """
-   A Frame No. 1
-   B Frame No. 2
-   C Frame No. 3
-   B Frame No. 2
-   A Frame No. 1
+   Function A / Frame 1
+   Function B / Frame 2
+   Function A / Frame 1
+   Function B / Frame 3
 """

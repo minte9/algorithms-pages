@@ -1,23 +1,24 @@
-""" Programming languages remembers the line of code that called 
-a function. It returns to that line when the function 
-finishes its execution.
+""" Programming languages remembers the line of code that called a function. 
+It returns to that line when the function finishes its execution.
 """
 
-def line_remembering_function():
-    print('Line 08')
-    goto()
+def A():
+    print('Line 01 in A')
+
     
-    print('Line 10')
-    return
+    # Go to B and remember the line
+    B()
 
-def goto():
-    print('Line 14 - return to first function')
-    return
+    print('Line 02 in A');
 
-line_remembering_function()
+def B():
+    print('Line 01 in B')
+
+A()
 
 """
-    Line 08
-    Line 14 - return to first function
-    Line 10
+    Line 01 in A
+    Go to B
+    Line 01 in B
+    Line 02 in A
 """
