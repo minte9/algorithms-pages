@@ -3,22 +3,22 @@ It returns to that line when the function finishes its execution.
 """
 
 def A():
-    print('Line 01 in A')
+    print('A -> Line 01')
 
     
-    # Go to B and remember the line
+    print('A -> Goto B and remember the line in A')
     B()
 
-    print('Line 02 in A');
+    print('A -> Line 02');
 
 def B():
-    print('Line 01 in B')
+    print('B -> Line 01')
 
 A()
 
 """
-    Line 01 in A
-    Go to B
-    Line 01 in B
-    Line 02 in A
+    A -> Line 01
+    A -> Goto B and remember the line in A
+    B -> Line 01
+    A -> Line 02
 """
