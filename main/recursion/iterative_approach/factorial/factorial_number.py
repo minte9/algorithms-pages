@@ -1,12 +1,12 @@
-""" Factorial 4! = 4x3x2x1
-Factorials are use for example in finding permutations number.
-
-Recursive, uses neighbours 5! = 5 * 4!
-5 frame objects
+""" A factorial, denoted by an exclamation point (n!), is the product of 
+all positive integers less than or equal to a given non-negative integer n 
+4! = 4x3x2x1
 
 Iterrative, multiplies intergers 1 to n in a loop, 
-1 frame object, better!
+1 frame object (function call)
 
+Recursive, uses neighbours 5! = 5 * 4!
+5 frame objects 
 """
 
 def factorial_iterative(n):
@@ -20,16 +20,22 @@ def factorial_recursive(n):
         return 1
     return n * factorial_recursive(n-1)
 
-# Tests
 assert factorial_iterative(4) == 24
-assert factorial_iterative(5) == 120
 assert factorial_recursive(5) == 5 * factorial_recursive(4)
-assert factorial_recursive(4) == 4 * factorial_recursive(3)
 
 # Limits
-n = factorial_iterative(1001)
-print(len(str(n))) # 2571
+n = factorial_iterative(30000)
+print(f"Iterative factorial 30.000 iterations:", len(str(n)))
+
+# Recursive approach limit (< 3000)
 try:    
-    n = factorial_recursive(1001)
+    n = factorial_recursive(3000)
 except RecursionError as e:
-    print(e) # maximum recursion depth exceeded in comparison
+    print(f"Recursive factorial 3.000 iterations limit reached!")
+    print(f"RecursionError: {e}")
+
+"""
+    Iterative factorial 30.000 iterations: 121288
+    Recursive factorial 3.000 iterations limit reached!
+    RecursionError: maximum recursion depth exceeded in comparison
+"""
