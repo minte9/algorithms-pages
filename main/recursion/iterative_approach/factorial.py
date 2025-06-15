@@ -23,6 +23,9 @@ def factorial_recursive(n):
 assert factorial_iterative(4) == 24
 assert factorial_recursive(5) == 5 * factorial_recursive(4)
 
+print("4! =", factorial_iterative(4))
+print("5! =", factorial_recursive(5))
+
 # Limits
 n = factorial_iterative(30000)
 print(f"Iterative factorial 30.000 iterations:", len(str(n)))
@@ -35,6 +38,8 @@ except RecursionError as e:
     print(f"RecursionError: {e}")
 
 """
+    4! = 24
+    5! = 120
     Iterative factorial 30.000 iterations: 121288
     Recursive factorial 3.000 iterations limit reached!
     RecursionError: maximum recursion depth exceeded in comparison
