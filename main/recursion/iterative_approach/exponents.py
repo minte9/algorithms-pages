@@ -6,6 +6,9 @@ Iterative approach uses a loop that repeatedly multiplies a number by itself:
 
 Recursive approach uses the power rule: 
     a^n = a^(n-1) * a^1 
+
+For most of the tasks, an iterative approach, with loops that repeat a task,
+is usually better than recursion.
 """
 
 def pow_interative(x, n):
