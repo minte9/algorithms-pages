@@ -3,7 +3,7 @@
 
 Iterrative approach, a loop and two variables (a, b)
 The program needs to keep track only of the latest two numbers.
-    0 1 1     0 1 1 2       0 1 1 2 3     0 1 1 2 3 5       ...
+    0 1 1     0 1 1 2       0 1 1 2 3     0 1 1 2 3 5       ... 
     a b a+b     a b a+b         a b a+b         a b a+b
 
 The recursive algorithm is much slower than the iterative, it repeats same calculation.
