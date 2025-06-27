@@ -13,7 +13,7 @@ R = []
 target = 63
 
 for n in reversed(D):
-    while n <= target - sum(R):
+    while n <= target - sum(R):  # Look Here
         R.append(n)
 
 print(R, f"Mininum number of coins = {len(R)}")
