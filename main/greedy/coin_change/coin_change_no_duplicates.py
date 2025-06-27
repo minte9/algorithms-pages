@@ -1,5 +1,6 @@
-""" Coin change variation:
-No duplicates allowed in the result (set)
+""" Coin change (variation)
+
+No duplicates allowed in the result (set).
 """
 
 COINS = [1, 2, 3, 5, 10, 20, 30, 50, 100, 130, 150]
