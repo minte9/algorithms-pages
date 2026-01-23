@@ -1,12 +1,11 @@
 # INSERTING SETS - O(1)
 # ---------------------
-# In terms of time compexity, 
-# the only difference between arrays and sets is at insertion.
-#
-# Reading O(1)
-# Searching O(N)
-# Inserting O(1)
-# Deleting O(N)
+# In terms of time compexity, the only difference 
+# between arrays and sets is at insertion:
+#   - Reading O(1)
+#   - Searching O(N)
+#   - Inserting O(1)
+#   - Deleting O(N)
 #
 # Concept:
 #   A set stores UNIQUE, UNORDERD elements. It rejects duplicates.
