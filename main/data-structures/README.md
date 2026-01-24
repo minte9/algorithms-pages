@@ -19,6 +19,16 @@
 
 ### Hash Tables
 
-- hashing encoding for `indexes`
+- hash encoding for `indexes`
 - time complexity `O(1)`
-- python `dictionary`
+- python `dict`
+
+
+#
+
+
+### Time complexity
+
+- Linear Search `O(n)`
+- Binary Search `O(log n)` (fast)
+- Bubble Sort `O(n^2)`
