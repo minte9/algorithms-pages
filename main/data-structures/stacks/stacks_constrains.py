@@ -2,8 +2,8 @@
 # -------------------
 # Concept:
 #   - A stack is a collection of items with restricted access.
-#   - You can only add items to the top
-#   - You can only remove items from the top
+#   - You can only add items to the TOP
+#   - You can only remove items from the TOP
 #
 # This rule is called LIFO:
 #   - Last In, First Out
@@ -13,7 +13,7 @@
 #   - Browser back history
 #   - Undo/Redo in an editor 
 # 
-# You can' remove the middle item or inspect everything freely.
+# You can't remove the middle item or inspect everything freely.
 # 
 # Python does not have a special Stack type,
 # but lists already support stack behavior.
