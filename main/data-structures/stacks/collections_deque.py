@@ -11,7 +11,6 @@
 # BROWSER HISTORY STACK (deque)
 # -----------------------------
 
-
 from collections import deque
 
 # Max number of pages to remember
