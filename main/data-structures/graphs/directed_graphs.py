@@ -8,11 +8,11 @@
 #   - Bob does not have to follow Alice
 # -------------------------------------
 
-followees = {
-    'Alice': ['Bob', 'Diana'],
-    'Bob': ['Cynthia'],
-    'Cynthia': ['Bob'],
-}
+followees = {}
+
+followees['Alice'] = ['Bob', 'Diana']
+followees['Bob'] = ['Cynthia']
+followees['Cynthia'] = ['Bob']
 
 assert 'Bob' in followees['Alice']
 assert 'Alice' not in followees['Bob']

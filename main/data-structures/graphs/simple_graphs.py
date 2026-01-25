@@ -13,7 +13,7 @@
 #   - flight routes
 #   - recommendations systems
 # 
-# Exampl: Friend relationships
+# Example: Friend relationships
 #   - We use a dictionary
 #   - Each key is a vertex
 #   - Each list contains connected vertices
