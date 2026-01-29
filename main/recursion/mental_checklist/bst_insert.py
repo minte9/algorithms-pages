@@ -64,8 +64,10 @@ def print_tree(node, depth=0):
     print_tree(node.left, depth + 1)
 
 print_tree(tree)
-# --------------
+
+# The tree is printed sideways
+# ----------------------------
 # 50
-# 33
-#     31
-# 25
+#     33
+#       31
+#   25
