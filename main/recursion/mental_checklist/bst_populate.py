@@ -140,5 +140,10 @@ input = [8, 3, 10, 1, 6, 14, 4, 7, 13]
 tree = populate(input)
 output = accumulate(tree.root)
 assert output == [8, 3, 1, 6, 4, 7, 10, 14, 13]
+
+input = [9, 7, 8, 5, 6, 4, 3, 1]
+tree = populate(input)
+output = accumulate(tree.root)
+assert output == [9, 7, 5, 4, 3, 1, 6, 8]
                    
 print("Tests passed")
