@@ -1,4 +1,4 @@
-# DFS - Depth-First Search TRAVERSAL
+# DEPTH-FIRST SEARCH (DFS) TRAVERSAL
 # ----------------------------------
 # Concept:
 #   - Depth-First Search explores a tree by going as deep
@@ -16,7 +16,7 @@
 #   - Insert values into it
 #   - Implement all three DFS traversals
 #   - Test the traversal algorithm
-# --------------------------------------
+# --------------------------------
 
 class Node:
     def __init__(self, info):
@@ -49,51 +49,16 @@ class BinarySearchTree:
 
 
 # ---------------------------------------------
-# DFS Traversal Algorithms
+# CONSTRUCT THE TREE
 # ---------------------------------------------
 
-def preorder(root):
-    """
-    Preaorder DFS: 
-    Root -> Left -> Right
-    Useful for copying or serializing a tree.
-    """
-    if root is None:
-        return []
-    
-    return [root.info] + preorder(root.left) + preorder(root.right)
+bst = BinarySearchTree()
+values = [8, 3, 10, 1, 6, 14, 4, 7, 13]
 
-def inorder(root):  
-    """ 
-    Inorder DFS: 
-    Left -> Root -> Right 
-    For a BST, this returns values in sorted order.
+for v in values:
+    bst.insert(v)
+
     """
-    if root is None:
-        return []
-
-    return inorder(root.left) + [root.info] + inorder(root.right)
-
-def postorder(root):
-    """
-    Postorder DFS:
-    Left -> Right -> Root
-    Ofthen userd for deleting.
-    """
-    if root is None:
-        return []
-    
-    return postorder(root.left) + postorder(root.right) + [root.info]
-    
-
-# ---------------------------------------------
-# Tests
-# ----------------------------------------------
-
-if __name__ == '__main__':
-    """
-    Construct the following BST:
-
             8
           /   \
          3     10
@@ -101,27 +66,79 @@ if __name__ == '__main__':
        1   6      14
           / \     /
          4   7   13
-
-    Inorder:
-        inorder(4) = inorder(2) + [4] + inorder(6)
-        inorder(2) = inorder(1) + [2] + inorder(3)
-
-    Postorder:
-        postorder(3) = postorder(1) + postorder(6) + [3]
-        postorder(6) = postorder(4) + postorder(7) + [6]
     """
+    
 
-    bst = BinarySearchTree()
-    values = [8, 3, 10, 1, 6, 14, 4, 7, 13]
+# ---------------------------------------------
+# DFS Traversal Algorithms
+# ---------------------------------------------
 
-    for v in values:
-        bst.insert(v)
+def preorder(root):
+    """ 
+    Preaorder DFS: 
+    Root -> Left -> Right
+    """
+    if root is None:
+        return []
+    
+    return (
+        [root.info]
+        + preorder(root.left)
+        + preorder(root.right)
+    )
 
-    print("Preorder Traversal:")
-    print(preorder(bst.root))       # [8, 3, 1, 6, 4, 7, 10, 14, 13]
+def inorder(root):  
+    """ 
+    Inorder DFS: 
+    Left -> Root -> Right 
+    """
+    if root is None:
+        return []
 
-    print("Inorder Traversal:")
-    print(inorder(bst.root))        # [1, 3, 4, 6, 7, 8, 10, 13, 14]
+    return (
+        inorder(root.left)
+        + [root.info] 
+        + inorder(root.right)
+    )
 
-    print("Postorder Traversal:")
-    print(postorder(bst.root))      # [3, 1, 6, 4, 7, 10, 14, 13, 8]
+def postorder(root):
+    """
+    Postorder DFS:
+    Left -> Right -> Root
+    """
+    if root is None:
+        return []
+    
+    return (
+        postorder(root.left) 
+        + postorder(root.right) 
+        + [root.info]
+    )
+    
+
+# ---------------------------------------------
+# TESTS
+# ----------------------------------------------
+
+"""
+Preorder:
+    preorder(3) = [3] + preorder(1) + preorder(6)
+    preorder(6) = [6] + preorder(4) + preorder(7)
+    
+Inorder:
+    inorder(4) = inorder(2) + [4] + inorder(6)
+    inorder(2) = inorder(1) + [2] + inorder(3)
+
+Postorder:
+    postorder(3) = postorder(1) + postorder(6) + [3]
+    postorder(6) = postorder(4) + postorder(7) + [6]
+"""
+
+print("Preorder Traversal:")
+print(preorder(bst.root))       # [8, 3, 1, 6, 4, 7, 10, 14, 13]
+
+print("Inorder Traversal:")
+print(inorder(bst.root))        # [1, 3, 4, 6, 7, 8, 10, 13, 14]
+
+print("Postorder Traversal:")
+print(postorder(bst.root))      # [3, 1, 6, 4, 7, 10, 14, 13, 8]
