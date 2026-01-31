@@ -2,7 +2,7 @@
 # ----------------------------------
 # Concept:
 #   - Depth-First Search explores a tree by going as deep
-#       as possible along each branch before backtracking.
+#     as possible along each branch before backtracking.
 # 
 # Variants:
 #   - For Binary Trees, DFS commonly appears in three variants:
