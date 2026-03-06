@@ -1,4 +1,4 @@
-# READING LISTS - O(n)
+# READING LISTS - O(1)
 # --------------------
 # Reading from a list takes exactly 1 step.
 
