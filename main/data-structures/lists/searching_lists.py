@@ -1,22 +1,23 @@
-# SEARCHING LISTS - O(n)
-# ----------------------
-# Linear search from a list takes maximum n steps.
+""" SEARCHING LISTS - O(n)
+--------------------------
+Linear search from a list takes maximum n steps.
 
-# Concept:
-#   Check each item one by one until you find the target (or reach the end).
-#   In the worst case, you look at every element - N steps for N items.
-#
-# Real-life analogy:
-#   Looking for "oranges" in a grocery receipt by reaching each line from top to bottom.
-#
-# When to use:
-#   - The list is unsorted.
-#   - Simplicity is preferred over performance.
-#   - The list is small, so the overhead is negligible.
-#
-# Time complexity:
-#   Worst case: O(N) | Best case: O(1) is the first item matched
-# ---------------------------------------
+Check each item one by one until you find the target (or reach the end).
+In the worst case, you look at every element - N steps for N items.
+
+It's like looking for "oranges" in a grocery receipt by 
+reading each line from top to bottom.
+
+Time complexity:
+- Worst case: O(N) - last item matched
+- Best case: O(1) - first item matched
+
+When to use:
+- The list is unsorted.
+- Simplicity is preferred over performance.
+- The list is small, so the overhead is negligible.
+--------------------------------------------------- 
+"""
 
 fruits = ["apples", "bananas", "oranges"]
 
