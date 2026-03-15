@@ -1,15 +1,16 @@
-# COLLECTIONS - DEQUE
-# -------------------
-# Features:
-#   - Similar performance as custom stack implementation.
-#   - Better for queues
-#   - Also used as stack sometimes
-#
-# No custom class needed most of the time.
-# 
-# ----------------------------
-# BROWSER HISTORY STACK (deque)
-# -----------------------------
+""" COLLECTIONS - DEQUE
+-----------------------
+Features:
+  - Similar performance as custom stack implementation.
+  - Better for queues
+  - Also used as stack sometimes
+
+No custom class needed most of the time.
+
+Example:
+ - Browser History Stack (deque)
+--------------------------------
+"""
 
 from collections import deque
 

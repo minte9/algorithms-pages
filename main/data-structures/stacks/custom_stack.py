@@ -1,21 +1,22 @@
-# CUSTOM STACK - TYPE
-#--------------------
-# Most languages do not provide stacks, so we create our own.
-# This is good for enforcing rules and readability.
-#
-# With a raw list, this is posible:
-#   stack = [1, 2, 3]
-#   stack.insert(0, 99)  # breaks stack rules
-#   stack[1] = 42        # breaks stack rules 
-# 
-# With a Stack class:
-#   stack.push(1)
-#   stack.push(2)
-#   stack.push(3)       # no way to touch the middle
-# 
-# Example:
-#   - Undo functionality
-# ----------------------
+""" CUSTOM STACK - TYPE
+-----------------------
+Most languages do not provide stacks, so we create our own.
+This is good for enforcing rules and readability.
+
+With a raw list, this is posible:
+  stack = [1, 2, 3]
+  stack.insert(0, 99)  - breaks stack rules
+  stack[1] = 42        - breaks stack rules 
+
+With a Stack class:
+  stack.push(1)
+  stack.push(2)
+  stack.push(3)       - no way to touch the middle
+
+Example:
+  - Undo functionality
+----------------------
+"""
 
 class Stack:
     def __init__(self):
