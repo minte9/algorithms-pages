@@ -1,23 +1,24 @@
-# BUBBLE SORT - O(n^2)
-# --------------------
-# Concept:
-#   Swap adjiacent elements (repeatedly) if they are not sorted.
-# 
-# Why O(n^2)?
-#   - One loop scans the list
-#   - Another loop repeats the scan many times
-#   -> Nested loops = quadratic growth
-# 
-# Analogy:
-#   Sorting cards by repeatedly comparing neighbors,
-#   over and over, until everything is in order.
-# 
-# Base case:
-#   O(n) - already sorted, with optimization (keep track of right)
-# 
-# Worst case:
-#   O(n^2) - reverse order 
-# ------------------------------------
+""" BUBBLE SORT - O(n^2)
+--------------------
+Swap adjiacent elements (repeatedly) if they are not sorted.
+
+Why O(n^2)?
+- One loop scans the list
+- Another loop repeats the scan many times
+-> Nested loops = quadratic growth
+
+Analogy:
+Sorting cards by repeatedly comparing neighbors,
+over and over, until everything is in order.
+
+Time Complexity - O(n^2)
+ - Base case:
+   O(n) - already sorted, with optimization (keep track of right)
+   
+ - Worst case:
+   O(n^2) - reverse order 
+------------------------------------
+"""
 
 def bubble_sort(items):
     sorted = False

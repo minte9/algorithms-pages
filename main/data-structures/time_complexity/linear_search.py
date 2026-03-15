@@ -1,22 +1,15 @@
-# LINEAR SEARCH - O(n)
-# --------------------
-# Concept:
-#   Check each element one by one until the target is found.
-# 
-# Why O(N)?
-#   In the worst case, every element must be checked.
-#   Steps grow directly with the number of elements.
-# 
-# Analogy: 
-#   Looking for a name in an unsorted contact list
-#   by scanning from top to bottom.
-# 
-# Best case: 
-#   O(1) -> item is first
-# 
-# Worst case:
-#   O(n) -> item is last or missing
-# -------------------------------------------------
+""" LINEAR SEARCH - O(n)
+------------------------
+Check each element one by one until the target is found.
+
+It's like looking for a name in an unsorted contact list
+by scanning from top to bottom.
+
+Time Complexity O(n):
+O(1) - searched item is first (best case)
+O(n) - searched item is last or missing (worst case)
+----------------------------------------------------
+"""
 
 contacts = ['Alice', 'Bob', 'Carol', 'Dave', 'Eve']
 

@@ -1,20 +1,20 @@
-# NODES - Building Blocks of a Linked List
-# ----------------------------------------
-#
-# A Node is a small container that holds:
-#   - data (the actual value)
-#   - nextNode (a reference to the next node in memory)
-#
-# Important:
-#   - nodes are NOT stored next to each other in memory
-#   - each node only knows where the NEXT node is
-#   - this is why we must follow the links step by step
-# 
-# Real-life analogy:
-# A treasure hunt clue that less you:
-#   - the message
-#   - where the next clue is
-# --------------------------
+""" LINKED LIST - NODES
+-----------------------
+A Node is a small container that holds:
+ - data (the actual value)
+ - nextNode (a reference to the next node in memory)
+
+Important:
+ - nodes are NOT stored next to each other in memory
+ - each node only knows where the NEXT node is
+ - we must follow the links step by step
+
+Real-life analogy:
+A treasure hunt clue that tells you:
+ - the message
+ - where the next clue is
+-------------------------
+"""
 
 class Node:
     def __init__(self, data):

@@ -1,20 +1,20 @@
-# LINKED LIST - INSERT AT TAIL
-# ----------------------------
-#
-# Concept:
-#   - We only store a reference to the FIRST node (head)
-#   - Nodes know ONLY about the next node
-#   - To insert at the tail, we must traverse the list
-# 
-# Key Insights:
-#   - Assigning `current = self.head` does NOT copy the node
-#   - `current` and `self.head point` to the SAME object
-#   - Moving `current` does not move `self.head`
-#   - Modifying the `current.next` MUTTATES the list itself (!)
-# 
-# Time Complexity:
-#   - Insert at tail: O(n)
-# # ----------------------
+""" LINKED LIST - INSERT AT TAIL
+--------------------------------
+Concept:
+ - We only store a reference to the FIRST node (head)
+ - Nodes know ONLY about the next node
+ - To insert at the tail, we must traverse the list
+
+Key Insights:
+ - Assigning `current = self.head` does NOT copy the node
+ - `current` and `self.head point` to the SAME object
+ - Moving `current` does not move `self.head`
+ - Modifying the `current.next` MUTTATES the list itself (!)
+
+Time Complexity:
+ - Insert at tail: O(n)
+-----------------------
+"""
 
 class Node:
     def __init__(self, data):

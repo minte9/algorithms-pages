@@ -1,19 +1,19 @@
-# LINKED LIST - Structure & Operations
-# ------------------------------------
-#
-# Concept:
-#   - Keep track ONLY of the first node
-#   - Traverses nodes by following next references
-#   - Has no direct access by index (unlike arrays)
-#
-# Time Complexity:
-#   - Read (by index): O(n)
-#   - Insert at beggining: O(1)
-#   - Insert elsewhere: O(n)
-#
-# Below:
-#   - Linked list that stores a reference to the first node.
-# ----------------------------------------------------------
+""" LINKED LIST - OPERATIONS
+----------------------------
+Concept:
+- Keep track ONLY of the first node
+- Traverses nodes by following next references
+- Has no direct access by index (unlike arrays)
+
+Time Complexity:
+- Read (by index): O(n)
+- Insert at beggining: O(1)
+- Insert elsewhere: O(n)
+
+Below:
+- Linked list that stores a reference to the first node.
+--------------------------------------------------------
+"""
 
 class Node:
     def __init__(self, data):
