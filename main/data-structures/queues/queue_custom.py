@@ -1,9 +1,12 @@
-# CUSTOM QUEUE
-#-------------
-# Queue isn't implemented in many programming language.
-# We create a queue to see how it works internally.
-# (Educational purpose)
-# ---------------------
+""" CUSTOM QUEUE
+----------------
+Queue isn't implemented in many programming language.
+
+Example:
+ - We create a queue to see how it works internally.
+ - This is for educational purpose
+----------------------------------
+"""
 
 class Queue:
     def __init__(self):
